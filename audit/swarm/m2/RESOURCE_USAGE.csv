@@ -1,0 +1,11 @@
+division,agent_count,active_cores_capped,openmp_threads,blas_threads,peak_memory_mb,execution_mode
+Division A (Theory),8,1,1,1,150,Deterministic Serial
+Division B (Simulators),12,4,1,1,320,Bounded Concurrency
+Division C (Data Integrity),12,2,1,1,210,Isolated Sandbox
+Division D (Algorithms),16,4,1,1,850,Bounded Concurrency
+Division E (Symbolic Algebra),10,2,1,1,280,Bounded Concurrency
+Division F (Evaluation & Benchmarks),12,4,1,1,640,Bounded Concurrency
+Division G (Testing & Red Team),10,2,1,1,410,Adversarial Suite
+Division H (Infrastructure & Profiling),8,1,1,1,180,Telemetry Throttling
+Division I (Independent Peer Review),6,1,1,1,160,Read-Only Inspection
+Division J (Integration & Certification),6,1,1,1,190,Serial Commit Gate

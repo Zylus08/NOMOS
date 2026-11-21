@@ -1,0 +1,3194 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "A",
+    "specialty": "Open-ended symbolic identifiability theory",
+    "assigned_task": "Formalize identifiability bounds for arbitrary expression tree spaces beyond fixed linear dictionaries",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "A",
+    "specialty": "Grammar expressivity & halting bounds",
+    "assigned_task": "Derive expression tree depth, arity bounds, and combinatorial complexity growth rates",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "A",
+    "specialty": "Protected operators & mathematical domains",
+    "assigned_task": "Define domain-safe extensions for division, powers, logs, and inverse functions with documented hypothesis classes",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "A",
+    "specialty": "Neural surrogate approximation theory",
+    "assigned_task": "Formulate universal approximation and Sobolev derivative bounds for neural ODEs / derivative surrogates",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/NEURAL_SURROGATE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/NEURAL_SURROGATE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "A",
+    "specialty": "Neural guidance information theory",
+    "assigned_task": "Formulate information-gain criterion and sensitivity-guided search prioritization",
+    "dependency_ids": [
+      "A02",
+      "A04"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "A",
+    "specialty": "Multi-objective Pareto optimality",
+    "assigned_task": "Derive Pareto dominance conditions balancing accuracy, structural complexity, and Lyapunov stability",
+    "dependency_ids": [
+      "A01",
+      "A02"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "A",
+    "specialty": "Epistemic uncertainty & non-uniqueness",
+    "assigned_task": "Formalize criteria for INSUFFICIENT EVIDENCE and MULTIPLE PLAUSIBLE LAWS detection",
+    "dependency_ids": [
+      "A01",
+      "A06"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/UNCERTAINTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/UNCERTAINTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "A",
+    "specialty": "M2 Literature review & novelty boundary",
+    "assigned_task": "Audit AI Feynman, PySR, DSR, and Neural ODE symbolic discovery literature and formulate novelty matrix",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_a",
+    "owned_files": [
+      "audit/m2/SCIENTIFIC_LITERATURE_REVIEW.md",
+      "audit/m2/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/SCIENTIFIC_LITERATURE_REVIEW.md",
+      "audit/m2/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "B",
+    "specialty": "Duffing oscillator simulator",
+    "assigned_task": "Implement cubic restoring force oscillator with double-well potential and bifurcation regimes",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/duffing.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/duffing.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "B",
+    "specialty": "Van der Pol oscillator simulator",
+    "assigned_task": "Implement nonlinear limit cycle relaxation oscillator (dx/dt = v, dv/dt = mu*(1-x^2)*v - x)",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/vanderpol.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/vanderpol.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "B",
+    "specialty": "Damped nonlinear pendulum simulator",
+    "assigned_task": "Implement damped gravity pendulum with viscous dissipation and large-amplitude orbits",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/damped_pendulum.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/damped_pendulum.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "B",
+    "specialty": "Coupled oscillator simulator",
+    "assigned_task": "Implement coupled non-identical oscillator system with energy exchange",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/coupled_oscillators.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "B",
+    "specialty": "Rational dynamics simulator",
+    "assigned_task": "Implement dynamical system containing rational Hill/Michaelis-Menten kinetic terms",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/rational_system.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/rational_system.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "B",
+    "specialty": "Extended chaotic dynamics simulator",
+    "assigned_task": "Implement R\u00f6ssler chaotic attractor with phase-space folding",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/roessler.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/roessler.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "B",
+    "specialty": "M1 benchmark regression suite",
+    "assigned_task": "Package Harmonic, Damped, Pendulum, Lotka-Volterra, and Lorenz-63 into M2 validation harness",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "B",
+    "specialty": "Multi-regime trajectory synthesis",
+    "assigned_task": "Generate trajectories across varying parameter regimes (e.g. limit cycles to chaos)",
+    "dependency_ids": [
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "B",
+    "specialty": "Dimensional units specification",
+    "assigned_task": "Assign physical dimensions [L, M, T] to all state variables and benchmark parameters",
+    "dependency_ids": [
+      "B07"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "B",
+    "specialty": "Non-polynomial test case design",
+    "assigned_task": "Create benchmark split where true equations require trigonometric, rational, or exponential terms",
+    "dependency_ids": [
+      "B03",
+      "B05"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B11": {
+    "agent_id": "B11",
+    "division": "B",
+    "specialty": "Anonymized variable benchmark split",
+    "assigned_task": "Create semantic-blind benchmark where variable names and metadata are masked to prevent semantic leakage",
+    "dependency_ids": [
+      "B07"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/data/anonymized.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "B12": {
+    "agent_id": "B12",
+    "division": "B",
+    "specialty": "M2 unified benchmark registry",
+    "assigned_task": "Consolidate 10 total dynamical systems into unified M2 benchmark suite factory",
+    "dependency_ids": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07"
+    ],
+    "worktree_or_workspace": "m2_workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/benchmarks_m2.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "C",
+    "specialty": "M2 Trajectory dataset schema",
+    "assigned_task": "Extend schema to support external controls, unit mappings, and anonymized states",
+    "dependency_ids": [
+      "B09",
+      "B12"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/schema_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "C",
+    "specialty": "Extrapolation & out-of-distribution sampling",
+    "assigned_task": "Implement phase-space extrapolation sampling bounds (evaluating outside training bounds)",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/sampling_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "C",
+    "specialty": "Sparse & irregular sampling simulation",
+    "assigned_task": "Simulate highly irregular non-uniform timestamps with Poisson arrivals",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/corruption_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "C",
+    "specialty": "Burst missing-observation simulation",
+    "assigned_task": "Simulate observational blackout windows and missing state channels",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/corruption_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "C",
+    "specialty": "High noise regime generation",
+    "assigned_task": "Generate 15% and 20% noise stress test datasets for breakdown analysis",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/corruption_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "C",
+    "specialty": "Trajectory-disjoint train/val/test splits",
+    "assigned_task": "Enforce strict disjoint splitting across all 10 benchmarks with zero state overlap",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/splits_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "C",
+    "specialty": "Learner sandbox & isolation v2",
+    "assigned_task": "Ensure neural surrogate and symbolic search operate purely on noisy observations",
+    "dependency_ids": [
+      "C06"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/isolation_m2.py",
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "C",
+    "specialty": "Cryptographic dataset verification",
+    "assigned_task": "Maintain SHA-256 integrity signatures across all M2 generated benchmark datasets",
+    "dependency_ids": [
+      "C01",
+      "C06"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "C",
+    "specialty": "Evaluation-only oracle derivative sandbox",
+    "assigned_task": "Maintain strictly isolated oracle continuous derivatives for upper-bound ablation experiments",
+    "dependency_ids": [
+      "C07"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "nomos/data/isolation_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "C",
+    "specialty": "Dataset leakage red-team audit",
+    "assigned_task": "Adversarial inspection verifying no semantic tokens or true equations in candidate generators",
+    "dependency_ids": [
+      "C07",
+      "C09"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C11": {
+    "agent_id": "C11",
+    "division": "C",
+    "specialty": "Data quality & conditioning assurance",
+    "assigned_task": "Audit trajectory matrices for numerical conditioning, overflow, and stationarity",
+    "dependency_ids": [
+      "C01",
+      "C10"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "C12": {
+    "agent_id": "C12",
+    "division": "C",
+    "specialty": "Dataset manifest & provenance export",
+    "assigned_task": "Export machine-readable provenance manifests linking all M2 raw datasets to seeds",
+    "dependency_ids": [
+      "C08",
+      "C11"
+    ],
+    "worktree_or_workspace": "m2_workspace_c",
+    "owned_files": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "D",
+    "specialty": "Expression-tree AST infrastructure",
+    "assigned_task": "Build typed ExpressionNode and ExpressionTree system supporting arbitrary primitives",
+    "dependency_ids": [
+      "A02",
+      "A03"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "D",
+    "specialty": "Protected operators implementation",
+    "assigned_task": "Implement domain-safe protected division, sqrt, log, pow with gradient-friendly limits",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/symbolic/primitives.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/primitives.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "D",
+    "specialty": "Evolutionary symbolic regression engine",
+    "assigned_task": "Implement genetic programming search with tournament selection, crossover, and point mutation",
+    "dependency_ids": [
+      "D01",
+      "D02"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/genetic.py",
+      "audit/m2/EVOLUTIONARY_SEARCH.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/genetic.py",
+      "audit/m2/EVOLUTIONARY_SEARCH.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "D",
+    "specialty": "Population diversity & bloat control",
+    "assigned_task": "Implement parsimony pressure, subtree replacement, and fitness sharing in GP",
+    "dependency_ids": [
+      "D03"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/genetic.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/genetic.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "D",
+    "specialty": "Structured enumeration & beam search",
+    "assigned_task": "Implement grammar-based structured beam search with complexity budgets and deduplication",
+    "dependency_ids": [
+      "D01",
+      "D02"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "audit/m2/STRUCTURED_ENUMERATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "audit/m2/STRUCTURED_ENUMERATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "D",
+    "specialty": "Canonical expression deduplication",
+    "assigned_task": "Implement expression hashing and algebraic normalization to prune redundant beam candidates",
+    "dependency_ids": [
+      "D05"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "D",
+    "specialty": "PyTorch neural dynamics surrogate",
+    "assigned_task": "Build modular MLP dynamics surrogate network approximating dx/dt = f_theta(x, u)",
+    "dependency_ids": [
+      "A04"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/neural/surrogate.py",
+      "audit/m2/NEURAL_SURROGATE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/neural/surrogate.py",
+      "audit/m2/NEURAL_SURROGATE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "D",
+    "specialty": "Surrogate derivative supervision trainer",
+    "assigned_task": "Train neural surrogate on estimated derivatives with early stopping and validation loss",
+    "dependency_ids": [
+      "D07"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/neural/trainer.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/neural/trainer.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "D",
+    "specialty": "Surrogate Jacobian & sensitivity extraction",
+    "assigned_task": "Compute state gradients and Jacobian feature importance to guide search",
+    "dependency_ids": [
+      "D07",
+      "D08"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/neural/guidance.py",
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/neural/guidance.py",
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "D",
+    "specialty": "Residual-guided operator selection",
+    "assigned_task": "Analyze surrogate residual errors to prioritize nonlinear operators (sin, cos, rational)",
+    "dependency_ids": [
+      "D09"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/neural/guidance.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/neural/guidance.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D11": {
+    "agent_id": "D11",
+    "division": "D",
+    "specialty": "Neural-guided hybrid search engine",
+    "assigned_task": "Integrate neural guidance into beam search and GP mutation/crossover probabilities",
+    "dependency_ids": [
+      "D03",
+      "D05",
+      "D09",
+      "D10"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/hybrid.py",
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/hybrid.py",
+      "audit/m2/NEURAL_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D12": {
+    "agent_id": "D12",
+    "division": "D",
+    "specialty": "Continuous coefficient optimizer",
+    "assigned_task": "Implement non-linear least squares (Scipy L-BFGS-B / Nelder-Mead) for constants in trees",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/optimizer.py",
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/optimizer.py",
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D13": {
+    "agent_id": "D13",
+    "division": "D",
+    "specialty": "Trajectory & integral-form fitting",
+    "assigned_task": "Implement rollout-based loss objective comparing simulated vs observed trajectories",
+    "dependency_ids": [
+      "D12"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/optimizer.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/optimizer.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D14": {
+    "agent_id": "D14",
+    "division": "D",
+    "specialty": "Pareto multi-objective frontier tracker",
+    "assigned_task": "Maintain non-dominated Pareto archive balancing derivative RMSE, complexity, and rollout error",
+    "dependency_ids": [
+      "A06",
+      "D12"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/search/pareto.py",
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/pareto.py",
+      "audit/m2/COEFFICIENT_OPTIMIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D15": {
+    "agent_id": "D15",
+    "division": "D",
+    "specialty": "Unified M2 discovery pipeline orchestrator",
+    "assigned_task": "Tie together data, surrogate training, neural guidance, search strategies, and evaluation",
+    "dependency_ids": [
+      "D03",
+      "D05",
+      "D11",
+      "D12",
+      "D14"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/pipeline/m2_pipeline.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pipeline/m2_pipeline.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "D16": {
+    "agent_id": "D16",
+    "division": "D",
+    "specialty": "Discovery engine CLI & configuration parser",
+    "assigned_task": "Update nomos CLI to support --method {gp, beam, neural_guided, sindy}",
+    "dependency_ids": [
+      "D15"
+    ],
+    "worktree_or_workspace": "m2_workspace_d",
+    "owned_files": [
+      "nomos/cli.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "E",
+    "specialty": "AST to SymPy analytical converter",
+    "assigned_task": "Convert ExpressionTree nodes into exact analytical SymPy symbolic expressions",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "E",
+    "specialty": "SymPy to AST parser",
+    "assigned_task": "Parse arbitrary SymPy expressions back into typed ExpressionTree ASTs",
+    "dependency_ids": [
+      "E01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "E",
+    "specialty": "Algebraic simplification & rationalization",
+    "assigned_task": "Simplify expression trees via SymPy rational arithmetic and constant folding",
+    "dependency_ids": [
+      "E01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/simplification_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "E",
+    "specialty": "Structural equation equivalence testing",
+    "assigned_task": "Check algebraic zero difference (simplify(disc - true) == 0) for open-ended expressions",
+    "dependency_ids": [
+      "E03"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/comparison_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "E",
+    "specialty": "Tree complexity & Kolmogorov metrics",
+    "assigned_task": "Compute formal node count, operation count, maximum depth, and constant count",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/complexity_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "E",
+    "specialty": "Physical dimensional validation",
+    "assigned_task": "Verify dimensional homogeneity across all nodes in open-ended expression trees",
+    "dependency_ids": [
+      "B09",
+      "D01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/dimensional_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "E",
+    "specialty": "Vectorized numerical tree evaluation",
+    "assigned_task": "Evaluate expression tree directly on numpy arrays using compiled lambda functions",
+    "dependency_ids": [
+      "D01",
+      "D02"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "E",
+    "specialty": "Symbolic Jacobian & gradient computation",
+    "assigned_task": "Differentiate expression trees with respect to state variables and parameters",
+    "dependency_ids": [
+      "E01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "E",
+    "specialty": "Expression grammar serialization",
+    "assigned_task": "Serialize expression trees to JSON, LaTeX, and callable Python functions",
+    "dependency_ids": [
+      "D01",
+      "E01"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "nomos/symbolic/trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/symbolic/trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "E",
+    "specialty": "Grammar ablation analyzer",
+    "assigned_task": "Audit impact of removing specific primitives (e.g. sin, cos, division) on recovery",
+    "dependency_ids": [
+      "D05",
+      "E09"
+    ],
+    "worktree_or_workspace": "m2_workspace_e",
+    "owned_files": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "F",
+    "specialty": "Derivative prediction metrics v2",
+    "assigned_task": "Compute derivative RMSE, MAE, R2 on held-out test sets across M2 systems",
+    "dependency_ids": [
+      "D15"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/metrics_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "F",
+    "specialty": "Closed-loop rollout stability evaluation",
+    "assigned_task": "Simulate discovered expression trees forward and audit stability and blow-up rates",
+    "dependency_ids": [
+      "D15"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/rollout_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/rollout_m2.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "F",
+    "specialty": "Extrapolation horizon analysis",
+    "assigned_task": "Evaluate error growth outside training time intervals (long-horizon forecasting)",
+    "dependency_ids": [
+      "F02"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/rollout_m2.py",
+      "audit/m2/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/rollout_m2.py",
+      "audit/m2/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "F",
+    "specialty": "Out-of-distribution state generalization",
+    "assigned_task": "Evaluate discovered equations on unobserved phase-space initial conditions",
+    "dependency_ids": [
+      "F02"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/rollout_m2.py",
+      "audit/m2/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/rollout_m2.py",
+      "audit/m2/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "F",
+    "specialty": "Exact structural recovery scoring",
+    "assigned_task": "Audit whether discovered expressions are mathematically equivalent to true laws",
+    "dependency_ids": [
+      "E04"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/structural.py",
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "F",
+    "specialty": "Coefficient relative error auditing",
+    "assigned_task": "Compute parameter recovery errors against true physical coefficients",
+    "dependency_ids": [
+      "D12"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/structural.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "F",
+    "specialty": "PySINDy baseline adapter v2",
+    "assigned_task": "Run PySINDy baseline on all 10 benchmarks under equal compute and data splits",
+    "dependency_ids": [
+      "B12"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines_m2.py",
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "F",
+    "specialty": "Pure genetic programming baseline",
+    "assigned_task": "Run unguided evolutionary search under identical evaluation budgets",
+    "dependency_ids": [
+      "D03"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines_m2.py",
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "F",
+    "specialty": "Pure structured beam search baseline",
+    "assigned_task": "Run unguided beam search under identical evaluation budgets",
+    "dependency_ids": [
+      "D05"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines_m2.py",
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "F",
+    "specialty": "Neural dynamics surrogate alone baseline",
+    "assigned_task": "Evaluate black-box neural ODE / MLP trajectory prediction without symbolic extraction",
+    "dependency_ids": [
+      "D07",
+      "D08"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines_m2.py",
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F11": {
+    "agent_id": "F11",
+    "division": "F",
+    "specialty": "PySR / external SR baseline adapter",
+    "assigned_task": "Implement independent baseline interface to external symbolic regression frameworks",
+    "dependency_ids": [
+      "B12"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines_m2.py",
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "F12": {
+    "agent_id": "F12",
+    "division": "F",
+    "specialty": "Multi-seed statistical aggregator v2",
+    "assigned_task": "Aggregate performance across seeds with confidence intervals and hypothesis tests",
+    "dependency_ids": [
+      "F01",
+      "F05",
+      "F06"
+    ],
+    "worktree_or_workspace": "m2_workspace_f",
+    "owned_files": [
+      "nomos/evaluation/aggregation_m2.py",
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/SCIENTIFIC_RECOVERY.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "G",
+    "specialty": "M2 Unit-test suite design",
+    "assigned_task": "Construct modular pytest suite for expression trees, GP, beam search, and neural surrogate",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_trees.py",
+      "tests/m2/test_search.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_trees.py",
+      "tests/m2/test_search.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "G",
+    "specialty": "Protected operators & edge-case stress test",
+    "assigned_task": "Verify no division-by-zero, log-of-negative, or NaN crashes across millions of evaluations",
+    "dependency_ids": [
+      "D02",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_trees.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_trees.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "G",
+    "specialty": "Continuous parameter optimization test",
+    "assigned_task": "Verify L-BFGS-B recovers true continuous parameters on synthetic expression trees",
+    "dependency_ids": [
+      "D12",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_search.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_search.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "G",
+    "specialty": "Neural surrogate gradient verification",
+    "assigned_task": "Test surrogate training stability, Jacobian accuracy, and overfitting checks",
+    "dependency_ids": [
+      "D07",
+      "D08",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_neural.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_neural.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "G",
+    "specialty": "Neural guidance ablation stress test",
+    "assigned_task": "Verify neural guidance operates strictly within budget and check ablation mechanics",
+    "dependency_ids": [
+      "D11",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_neural.py",
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_neural.py",
+      "audit/m2/ABLATION_STUDY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "G",
+    "specialty": "Adversarial identifiability failure constructor",
+    "assigned_task": "Construct non-identifiable test problems and verify system outputs MULTIPLE PLAUSIBLE LAWS",
+    "dependency_ids": [
+      "A07",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_identifiability.py",
+      "audit/m2/IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_identifiability.py",
+      "audit/m2/IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "G",
+    "specialty": "Insufficient excitation detector test",
+    "assigned_task": "Test that system alerts INSUFFICIENT EVIDENCE when trajectories lack orbital coverage",
+    "dependency_ids": [
+      "A07",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_identifiability.py",
+      "audit/m2/UNCERTAINTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2/test_identifiability.py",
+      "audit/m2/UNCERTAINTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "G",
+    "specialty": "Data leakage adversarial inspection",
+    "assigned_task": "Verify zero secret parameter or ground truth expression leakage to any search agent",
+    "dependency_ids": [
+      "C07",
+      "C10",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_leakage_m2.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G09": {
+    "agent_id": "G09",
+    "division": "G",
+    "specialty": "Falsification of optimistic recovery claims",
+    "assigned_task": "Search for false positives where models match training points but extrapolate to garbage",
+    "dependency_ids": [
+      "F03",
+      "F04",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "tests/m2/test_falsification.py",
+      "audit/m2/LIMITATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/LIMITATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "G10": {
+    "agent_id": "G10",
+    "division": "G",
+    "specialty": "M2 Red-team final audit report",
+    "assigned_task": "Author adversarial audit cataloging all failed discoveries, pitfalls, and breakdown limits",
+    "dependency_ids": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "worktree_or_workspace": "m2_workspace_g",
+    "owned_files": [
+      "audit/swarm/m2/FAILED_TASKS.md",
+      "audit/m2/LIMITATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/FAILED_TASKS.md",
+      "audit/m2/LIMITATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "H",
+    "specialty": "M2 Environment & package config",
+    "assigned_task": "Update pyproject.toml with torch and search dependencies, verify Python 3.12 compatibility",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "pyproject.toml",
+      "audit/m2/STARTING_M1_AUDIT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "pyproject.toml",
+      "audit/m2/STARTING_M1_AUDIT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "H",
+    "specialty": "Compute budget & candidate evaluation tracker",
+    "assigned_task": "Track total candidate evaluations, forward passes, wall-clock time, and memory usage",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "nomos/utils/budget.py",
+      "audit/m2/COMPUTE_BUDGET.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/COMPUTE_BUDGET.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "H",
+    "specialty": "Swarm execution event logger",
+    "assigned_task": "Maintain append-only JSONL event stream of all agent spawns, evaluations, and results",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "audit/swarm/m2/EXECUTION_EVENTS.jsonl"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/EXECUTION_EVENTS.jsonl"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "H",
+    "specialty": "Hardware resource telemetry logger",
+    "assigned_task": "Record CPU usage, RAM utilization, and thread limits during heavy search phases",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "audit/swarm/m2/RESOURCE_USAGE.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/RESOURCE_USAGE.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "H",
+    "specialty": "Reproducible experiment manifest engine v2",
+    "assigned_task": "Record full configuration, seeds, git SHA, and metrics for every M2 experiment",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "experiments/m2/manifests.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "H",
+    "specialty": "Bounded worker pool manager v2",
+    "assigned_task": "Cap concurrent worker processes to 8 workers with single-threaded BLAS to prevent oversubscription",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "nomos/utils/parallel.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/utils/parallel.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "H",
+    "specialty": "CI automated test runner v2",
+    "assigned_task": "Automate execution of both M1 (33 tests) and M2 test suites with unified exit code",
+    "dependency_ids": [
+      "H01",
+      "G01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "tests/run_all_tests_m2.py",
+      "audit/m2/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "H",
+    "specialty": "Repository hygiene & branch guard",
+    "assigned_task": "Enforce worktree hygiene, prevent untracked file clutter, audit clean git commits",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "m2_workspace_h",
+    "owned_files": [
+      "audit/swarm/m2/WORKTREE_OWNERSHIP.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/WORKTREE_OWNERSHIP.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "I",
+    "specialty": "Mathematics & grammar reviewer",
+    "assigned_task": "Independent audit of expression tree typing, protected operations, and equivalence proofs",
+    "dependency_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "D01",
+      "E04"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "I",
+    "specialty": "Neural & numerical reviewer",
+    "assigned_task": "Audit neural surrogate training, gradient extraction, continuous coefficient optimization",
+    "dependency_ids": [
+      "A04",
+      "D07",
+      "D08",
+      "D12"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "I",
+    "specialty": "Benchmark & experimental design reviewer",
+    "assigned_task": "Audit 10 dynamical systems, parameter regimes, and anonymized benchmark split",
+    "dependency_ids": [
+      "B12",
+      "C02",
+      "C06"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "I",
+    "specialty": "Data integrity & isolation reviewer",
+    "assigned_task": "Verify absence of ground truth leakage to neural models or symbolic search engines",
+    "dependency_ids": [
+      "C07",
+      "C10",
+      "G08"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "I",
+    "specialty": "Statistical validity & baseline reviewer",
+    "assigned_task": "Verify equal compute budgets, PySINDy/PySR fair comparisons, multi-seed aggregation",
+    "dependency_ids": [
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F12"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "I",
+    "specialty": "Research novelty & publication reviewer",
+    "assigned_task": "Critique neural-guidance claims, evaluate novelty matrix, and assess M2 scientific readiness",
+    "dependency_ids": [
+      "A08",
+      "D11",
+      "G10"
+    ],
+    "worktree_or_workspace": "m2_workspace_i",
+    "owned_files": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md",
+      "audit/m2/NOVELTY_MATRIX.md",
+      "audit/m2/M2_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INDEPENDENT_REVIEW.md",
+      "audit/m2/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "J",
+    "specialty": "Architecture integration lead",
+    "assigned_task": "Review and integrate neural, search, symbolic, and physics modules into nomos package",
+    "dependency_ids": [
+      "H01",
+      "D15"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "nomos/__init__.py",
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/__init__.py",
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "J",
+    "specialty": "API contract & interface enforcement",
+    "assigned_task": "Enforce unified SearchStrategy and DynamicsSurrogate contracts across discovery algorithms",
+    "dependency_ids": [
+      "J01"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "J",
+    "specialty": "Git commit & release engineer",
+    "assigned_task": "Manage incremental atomic commits under Saksham Mishra identity without history rewriting",
+    "dependency_ids": [
+      "J01",
+      "J02"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "J",
+    "specialty": "Full verification test orchestrator",
+    "assigned_task": "Run entire test suite (M1 + M2), verify zero regressions and complete test ledger",
+    "dependency_ids": [
+      "J03",
+      "H07"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "audit/m2/TEST_RESULTS.txt",
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2/TEST_RESULTS.txt",
+      "audit/swarm/m2/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "J",
+    "specialty": "Evidence & audit compiler",
+    "assigned_task": "Compile all 21 M2 markdown/CSV artifacts and cross-reference all empirical findings",
+    "dependency_ids": [
+      "J04",
+      "F12",
+      "G10",
+      "I06"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "audit/swarm/m2/FINAL_SWARM_REPORT.md",
+      "audit/m2/M2_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/FINAL_SWARM_REPORT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "J",
+    "specialty": "Five-gate scientific certification lead",
+    "assigned_task": "Evaluate Engineering, Structure Discovery, Generalization, Neural Contribution, and Novelty gates",
+    "dependency_ids": [
+      "J05",
+      "I01",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06"
+    ],
+    "worktree_or_workspace": "m2_workspace_j",
+    "owned_files": [
+      "audit/m2/M2_FINAL_REPORT.md",
+      "audit/swarm/m2/FINAL_SWARM_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/swarm/m2/FINAL_SWARM_REPORT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 45,
+      "passed": 45,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": []
+  }
+}

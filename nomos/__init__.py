@@ -3,7 +3,10 @@ NOMOS: Neural & Symbolic Discovery of Physical Laws
 M1 Scientific Discovery Foundation
 """
 
-__version__ = "0.1.0"
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+__version__ = "0.2.0"
 __author__ = "Saksham Mishra <mishrasaksham080705@gmail.com>"
 
 from nomos.core.system import DynamicalSystem, SystemMetadata
