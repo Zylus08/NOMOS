@@ -1,0 +1,3749 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Mathematical problem formulation & identifiability",
+    "assigned_task": "Formalize dynamical system recovery dx/dt = f(x,u,mu) and state identifiability conditions",
+    "dependency_ids": [],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/core/system.py",
+      "audit/m1/SCIENTIFIC_PROBLEM_DEFINITION.md",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/core/system.py",
+      "audit/m1/SCIENTIFIC_PROBLEM_DEFINITION.md",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/core/system.py",
+      "audit/m1/SCIENTIFIC_PROBLEM_DEFINITION.md",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ]
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Sparse dynamical-system identification theory",
+    "assigned_task": "Formulate sparse regression over candidate libraries X_dot = Theta(X)Xi and convergence theory",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/core/library.py",
+      "nomos/core/optimizer.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/core/library.py",
+      "nomos/core/optimizer.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/core/library.py",
+      "nomos/core/optimizer.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ]
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Symbolic regression foundations",
+    "assigned_task": "Establish algebraic representation, grammar constraints, and complexity measure axioms",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/core/symbolic.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/core/symbolic.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/core/symbolic.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ]
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "ODEs & numerical stability",
+    "assigned_task": "Derive step-size stability bounds, stiffness criteria, and Lipschitz continuity conditions",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ]
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Nonlinear dynamics & chaotic systems",
+    "assigned_task": "Define Lyapunov exponent limits, attractor reconstruction, and chaos divergence horizon",
+    "dependency_ids": [
+      "A01",
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/physics/lorenz63.py",
+      "nomos/evaluation/metrics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/lorenz63.py",
+      "nomos/evaluation/metrics.py"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/lorenz63.py",
+      "nomos/evaluation/metrics.py"
+    ]
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Dimensional analysis & physical consistency",
+    "assigned_task": "Formalize dimensional homogeneity and units consistency verification rules",
+    "dependency_ids": [
+      "A01",
+      "A03"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "nomos/symbolic/dimensional.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/dimensional.py"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/dimensional.py"
+    ]
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Bayesian uncertainty & epistemic limitations",
+    "assigned_task": "Establish epistemic bounds, noise breakdown thresholds, and identifiability limits",
+    "dependency_ids": [
+      "A01",
+      "A02"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/LIMITATIONS.md"
+    ]
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "A",
+    "division_name": "Scientific Theory & Mathematical Foundations",
+    "specialty": "Literature review & novelty assessment",
+    "assigned_task": "Audit SINDy, symbolic regression, PySINDy baselines, and position M1 foundation novelty",
+    "dependency_ids": [
+      "A01",
+      "A02"
+    ],
+    "worktree_or_workspace": "workspace_a",
+    "owned_files": [
+      "audit/m1/BASELINE_COMPARISON.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/BASELINE_COMPARISON.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/BASELINE_COMPARISON.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ]
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Harmonic oscillator simulator",
+    "assigned_task": "Implement linear undamped harmonic oscillator with analytical closed-form solution",
+    "dependency_ids": [
+      "A01",
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/harmonic_oscillator.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/harmonic_oscillator.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/harmonic_oscillator.py"
+    ]
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Damped oscillator simulator",
+    "assigned_task": "Implement under/critically/over-damped oscillator with exact analytical solution",
+    "dependency_ids": [
+      "A01",
+      "A04",
+      "B01"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/damped_oscillator.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/damped_oscillator.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/damped_oscillator.py"
+    ]
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Nonlinear pendulum simulator",
+    "assigned_task": "Implement nonlinear simple pendulum (g/L*sin(theta)) with Jacobi elliptic reference",
+    "dependency_ids": [
+      "A01",
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/pendulum.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/pendulum.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/pendulum.py"
+    ]
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Pendulum small-angle vs nonlinear comparison",
+    "assigned_task": "Build small-angle linear vs exact nonlinear divergence benchmark",
+    "dependency_ids": [
+      "B03"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/pendulum.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/pendulum.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/pendulum.py"
+    ]
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Lotka-Volterra simulator",
+    "assigned_task": "Implement Lotka-Volterra predator-prey system with first-integral invariant check",
+    "dependency_ids": [
+      "A01",
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/lotka_volterra.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/lotka_volterra.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/lotka_volterra.py"
+    ]
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Lorenz-63 simulator",
+    "assigned_task": "Implement Lorenz-63 chaotic system with standard canonical parameters",
+    "dependency_ids": [
+      "A04",
+      "A05"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/lorenz63.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/lorenz63.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/lorenz63.py"
+    ]
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Ground-truth solver validation",
+    "assigned_task": "Validate high-precision integration schemes (RK45, DOP853, Radau) against analytical formulas",
+    "dependency_ids": [
+      "A04",
+      "B01",
+      "B02"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/solvers.py",
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ]
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Solver tolerance convergence studies",
+    "assigned_task": "Execute convergence sweeps across atol/rtol (1e-6 to 1e-12) to verify order of accuracy",
+    "dependency_ids": [
+      "B07"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/NUMERICAL_SOLVER_VERIFICATION.md"
+    ]
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Energy & conserved-quantity verification",
+    "assigned_task": "Implement symplectic/energy drift checking for Hamiltonian and conservative systems",
+    "dependency_ids": [
+      "B01",
+      "B03",
+      "B05"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/solvers.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/solvers.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/solvers.py"
+    ]
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Phase-space trajectory validation",
+    "assigned_task": "Validate phase portraits, orbits, and nullclines across physical systems",
+    "dependency_ids": [
+      "B01",
+      "B03",
+      "B05",
+      "B06"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/base.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/base.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/base.py"
+    ]
+  },
+  "B11": {
+    "agent_id": "B11",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Independent reference integration",
+    "assigned_task": "Produce reference high-precision trajectories stored with bitwise checksums",
+    "dependency_ids": [
+      "B07",
+      "B08"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/benchmarks.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/benchmarks.py"
+    ]
+  },
+  "B12": {
+    "agent_id": "B12",
+    "division": "B",
+    "division_name": "Numerical Physics & Simulators",
+    "specialty": "Physical benchmark suite integration",
+    "assigned_task": "Unified API to instantiate all 5 canonical physical dynamical systems",
+    "dependency_ids": [
+      "B01",
+      "B02",
+      "B03",
+      "B05",
+      "B06",
+      "B11"
+    ],
+    "worktree_or_workspace": "workspace_b",
+    "owned_files": [
+      "nomos/physics/benchmarks.py",
+      "audit/m1/BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/physics/benchmarks.py",
+      "audit/m1/BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/physics/benchmarks.py",
+      "audit/m1/BENCHMARK_SPECIFICATIONS.md"
+    ]
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Trajectory dataset schema",
+    "assigned_task": "Define immutable TrajectoryDataset schema, metadata, and trajectory tensors",
+    "dependency_ids": [
+      "A01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/schema.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/schema.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/schema.py"
+    ]
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Initial-condition sampling",
+    "assigned_task": "Implement uniform, LHS, and boundary initial-condition generators",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/sampling.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/sampling.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/sampling.py"
+    ]
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Parameter-regime sampling",
+    "assigned_task": "Implement parameter perturbation and multi-regime trajectory synthesis",
+    "dependency_ids": [
+      "C01",
+      "C02"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/sampling.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/sampling.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/sampling.py"
+    ]
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Train/validation/test splitting",
+    "assigned_task": "Implement strict trajectory-disjoint train/val/test split generator",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/splits.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/splits.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/splits.py"
+    ]
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Noise injection",
+    "assigned_task": "Implement proportional and additive Gaussian noise with SNR control",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/corruption.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/corruption.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/corruption.py"
+    ]
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Irregular temporal sampling",
+    "assigned_task": "Implement Poisson and jittered non-uniform time-step sampling",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/corruption.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/corruption.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/corruption.py"
+    ]
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Missing-observation simulation",
+    "assigned_task": "Implement random dropout and burst missingness masks",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/corruption.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/corruption.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/corruption.py"
+    ]
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Dataset provenance & hashing",
+    "assigned_task": "Compute SHA-256 hashes of data tensors and maintain cryptographic manifests",
+    "dependency_ids": [
+      "C01"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/schema.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/schema.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/schema.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ]
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Metadata access isolation",
+    "assigned_task": "Implement learner-isolated proxy preventing access to hidden true parameters",
+    "dependency_ids": [
+      "C01",
+      "C08"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/isolation.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/isolation.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/isolation.py"
+    ]
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Dataset reproducibility",
+    "assigned_task": "Enforce deterministic seed-based synthetic dataset generation and serialization",
+    "dependency_ids": [
+      "C01",
+      "C02",
+      "C08"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/schema.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/schema.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/schema.py"
+    ]
+  },
+  "C11": {
+    "agent_id": "C11",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Leakage detection",
+    "assigned_task": "Build automated adversarial inspection to catch shared states or target leakage",
+    "dependency_ids": [
+      "C04",
+      "C09"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ]
+  },
+  "C12": {
+    "agent_id": "C12",
+    "division": "C",
+    "division_name": "Scientific Data & Integrity",
+    "specialty": "Dataset quality audit",
+    "assigned_task": "Audit trajectory datasets for conditioning, NaNs, distribution shifts, and SNRs",
+    "dependency_ids": [
+      "C08",
+      "C11"
+    ],
+    "worktree_or_workspace": "workspace_c",
+    "owned_files": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/data/audit.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ]
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Original STLSQ implementation",
+    "assigned_task": "Implement Sequentially Thresholded Least Squares with thresholding iteration loop",
+    "dependency_ids": [
+      "A02"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/stlsq.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/stlsq.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/stlsq.py"
+    ]
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Sparse active-set refitting",
+    "assigned_task": "Implement active-set least-squares refit on surviving support to eliminate shrinkage",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/active_set.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/active_set.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/active_set.py"
+    ]
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Threshold selection",
+    "assigned_task": "Implement automated threshold optimization using AIC, BIC, and cross-validation",
+    "dependency_ids": [
+      "D01",
+      "D02"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/threshold.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/threshold.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/threshold.py"
+    ]
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Feature scaling & coefficient unscaling",
+    "assigned_task": "Implement L2/std library column scaling with exact inverse transformation for Xi",
+    "dependency_ids": [
+      "A02",
+      "D01"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/library/scaling.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/library/scaling.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/library/scaling.py"
+    ]
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Rank-deficient regression handling",
+    "assigned_task": "Implement SVD pseudoinverse and rank checks for collinear candidate libraries",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/ridge.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/ridge.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/ridge.py"
+    ]
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Ridge-stabilized least squares",
+    "assigned_task": "Implement Tikhonov regularized least squares subproblem inside STLSQ",
+    "dependency_ids": [
+      "D01",
+      "D05"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/ridge.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/ridge.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/ridge.py"
+    ]
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Sparse support convergence",
+    "assigned_task": "Implement support convergence criteria, cycle detection, and max-iteration bounds",
+    "dependency_ids": [
+      "D01"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/sparse/stlsq.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/sparse/stlsq.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/sparse/stlsq.py"
+    ]
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Polynomial feature library",
+    "assigned_task": "Implement degree-d multi-variable polynomial library with cross terms",
+    "dependency_ids": [
+      "A02"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/library/polynomial.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/library/polynomial.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/library/polynomial.py"
+    ]
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Trigonometric feature library",
+    "assigned_task": "Implement sin(k*x), cos(k*x) feature library with customizable harmonics",
+    "dependency_ids": [
+      "A02"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/library/trigonometric.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/library/trigonometric.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/library/trigonometric.py"
+    ]
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Custom candidate-function library",
+    "assigned_task": "Implement composite library builder combining polynomial, trig, and arbitrary callables",
+    "dependency_ids": [
+      "D08",
+      "D09"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/library/custom.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/library/custom.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/library/custom.py"
+    ]
+  },
+  "D11": {
+    "agent_id": "D11",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Finite-difference derivatives",
+    "assigned_task": "Implement 2nd, 4th, and 6th-order central/forward/backward numerical differentiation",
+    "dependency_ids": [
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/differentiation/finite_difference.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/differentiation/finite_difference.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/differentiation/finite_difference.py"
+    ]
+  },
+  "D12": {
+    "agent_id": "D12",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Savitzky-Golay differentiation",
+    "assigned_task": "Implement Savitzky-Golay smoothing and algebraic differentiation filters",
+    "dependency_ids": [
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/differentiation/savitzky_golay.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/differentiation/savitzky_golay.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/differentiation/savitzky_golay.py"
+    ]
+  },
+  "D13": {
+    "agent_id": "D13",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Spline-based differentiation",
+    "assigned_task": "Implement smoothing cubic spline derivative estimation with GCV tuning",
+    "dependency_ids": [
+      "A04"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/differentiation/spline.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/differentiation/spline.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/differentiation/spline.py"
+    ]
+  },
+  "D14": {
+    "agent_id": "D14",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Derivative-error diagnostics",
+    "assigned_task": "Implement error estimation metrics and noise sensitivity spectra for derivatives",
+    "dependency_ids": [
+      "D11",
+      "D12",
+      "D13"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/differentiation/diagnostics.py",
+      "audit/m1/DERIVATIVE_ESTIMATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/differentiation/diagnostics.py",
+      "audit/m1/DERIVATIVE_ESTIMATION.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/differentiation/diagnostics.py",
+      "audit/m1/DERIVATIVE_ESTIMATION.md"
+    ]
+  },
+  "D15": {
+    "agent_id": "D15",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Hyperparameter selection framework",
+    "assigned_task": "Build grid/Pareto search over thresholds, ridge alpha, and library degree",
+    "dependency_ids": [
+      "D01",
+      "D03",
+      "D04",
+      "D10"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/pipeline/config.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/pipeline/config.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/pipeline/config.py"
+    ]
+  },
+  "D16": {
+    "agent_id": "D16",
+    "division": "D",
+    "division_name": "Discovery Algorithms",
+    "specialty": "Discovery pipeline integration",
+    "assigned_task": "Integrate end-to-end DiscoveryEngine connecting differentiation, library, and STLSQ",
+    "dependency_ids": [
+      "D01",
+      "D04",
+      "D10",
+      "D12",
+      "D15"
+    ],
+    "worktree_or_workspace": "workspace_d",
+    "owned_files": [
+      "nomos/pipeline/discovery.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/pipeline/discovery.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/pipeline/discovery.py",
+      "audit/m1/SPARSE_DISCOVERY.md"
+    ]
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Symbolic equation representation",
+    "assigned_task": "Design structured Equation and SystemEquations data classes",
+    "dependency_ids": [
+      "A03"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/representation.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/representation.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/representation.py"
+    ]
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "SymPy expression generation",
+    "assigned_task": "Convert learned coefficient matrix Xi and library functions into SymPy expressions",
+    "dependency_ids": [
+      "E01",
+      "D10"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/sympy_converter.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/sympy_converter.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/sympy_converter.py"
+    ]
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Symbolic simplification",
+    "assigned_task": "Apply algebraic simplification, threshold near-zero rational coefficients",
+    "dependency_ids": [
+      "E02"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/simplification.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/simplification.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/simplification.py"
+    ]
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Coefficient formatting & units",
+    "assigned_task": "Format equations into publication LaTeX and human-readable strings",
+    "dependency_ids": [
+      "E01",
+      "E03"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/simplification.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/simplification.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/simplification.py"
+    ]
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Structural equation comparison",
+    "assigned_task": "Compare tree structures and active variable supports between discovered and true laws",
+    "dependency_ids": [
+      "E01",
+      "E02"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/comparison.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/comparison.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/comparison.py"
+    ]
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Algebraic equivalence tests",
+    "assigned_task": "Implement exact SymPy difference-simplification equivalence testing",
+    "dependency_ids": [
+      "E02",
+      "E03"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/comparison.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/comparison.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/comparison.py"
+    ]
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Equation complexity measures",
+    "assigned_task": "Compute Kolmogorov-like proxy: symbol count, operations, tree depth, sparsity",
+    "dependency_ids": [
+      "E01"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/complexity.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/complexity.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/complexity.py"
+    ]
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Physical-dimensional consistency",
+    "assigned_task": "Verify dimensional consistency across additive terms in discovered equations",
+    "dependency_ids": [
+      "A06",
+      "E01"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/dimensional.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/dimensional.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/dimensional.py"
+    ]
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Mathematical expression serialization",
+    "assigned_task": "Serialize discovered equations to JSON, LaTeX, and Python callable functions",
+    "dependency_ids": [
+      "E01",
+      "E02"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/representation.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/representation.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/representation.py"
+    ]
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "E",
+    "division_name": "Symbolic Mathematics",
+    "specialty": "Symbolic regression validation",
+    "assigned_task": "End-to-end audit validating symbolic extraction on canonical physical laws",
+    "dependency_ids": [
+      "E02",
+      "E06",
+      "E07"
+    ],
+    "worktree_or_workspace": "workspace_e",
+    "owned_files": [
+      "nomos/symbolic/comparison.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/symbolic/comparison.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/symbolic/comparison.py",
+      "audit/m1/SYMBOLIC_RECONSTRUCTION.md"
+    ]
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Derivative prediction metrics",
+    "assigned_task": "Compute RMSE, Relative Error, and R2 on held-out derivative targets",
+    "dependency_ids": [
+      "C04",
+      "D16"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/metrics.py"
+    ]
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Short-horizon rollout metrics",
+    "assigned_task": "Simulate discovered equations forward for short time horizon (1-5 characteristic periods)",
+    "dependency_ids": [
+      "D16",
+      "E09"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/rollout.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/rollout.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/rollout.py"
+    ]
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Long-horizon rollout analysis",
+    "assigned_task": "Simulate long-horizon trajectories and track boundedness, blow-up, or energy drift",
+    "dependency_ids": [
+      "F02"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/rollout.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/rollout.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/rollout.py"
+    ]
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Equation-support precision & recall",
+    "assigned_task": "Evaluate true vs discovered active terms: Precision, Recall, F1, exact match",
+    "dependency_ids": [
+      "D16",
+      "E05"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/support.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/support.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/support.py"
+    ]
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Coefficient recovery error",
+    "assigned_task": "Calculate relative parameter error and Frobenius norm distance to ground truth",
+    "dependency_ids": [
+      "D16"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/coefficients.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/coefficients.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/coefficients.py"
+    ]
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Held-out initial-condition evaluation",
+    "assigned_task": "Test discovered equation generalization on unobserved initial states",
+    "dependency_ids": [
+      "F01",
+      "F02",
+      "C04"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/metrics.py"
+    ]
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Held-out parameter-regime evaluation",
+    "assigned_task": "Evaluate stability and predictive power under varying physical coefficients",
+    "dependency_ids": [
+      "F06"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/metrics.py"
+    ]
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Chaotic-system evaluation",
+    "assigned_task": "Evaluate Lorenz-63: local predictability horizon, invariant measure, attractor structure",
+    "dependency_ids": [
+      "A05",
+      "F02"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/metrics.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/metrics.py"
+    ]
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Ordinary least-squares baseline",
+    "assigned_task": "Implement standard dense unregularized OLS baseline for direct comparison",
+    "dependency_ids": [
+      "D10",
+      "D16"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/baselines.py"
+    ]
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Independent PySINDy baseline",
+    "assigned_task": "Implement wrapper around external PySINDy library under identical data splits",
+    "dependency_ids": [
+      "F09"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/baselines.py",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/baselines.py",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/baselines.py",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ]
+  },
+  "F11": {
+    "agent_id": "F11",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Statistical aggregation across seeds",
+    "assigned_task": "Compute mean, std, 95% bootstrap confidence intervals across random seeds",
+    "dependency_ids": [
+      "F01",
+      "F04",
+      "F05"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "nomos/evaluation/aggregation.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/evaluation/aggregation.py"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/evaluation/aggregation.py"
+    ]
+  },
+  "F12": {
+    "agent_id": "F12",
+    "division": "F",
+    "division_name": "Evaluation & Independent Baselines",
+    "specialty": "Benchmark reconciliation",
+    "assigned_task": "Aggregate performance across all 5 benchmark systems into canonical summary tables",
+    "dependency_ids": [
+      "F10",
+      "F11"
+    ],
+    "worktree_or_workspace": "workspace_f",
+    "owned_files": [
+      "audit/m1/GENERALIZATION_RESULTS.csv",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/GENERALIZATION_RESULTS.csv",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "tests/test_baselines.py",
+      "tests/test_pipeline.py",
+      "experiments/run_m1_benchmarks.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "benchmarks": "60_runs_completed"
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/GENERALIZATION_RESULTS.csv",
+      "audit/m1/BASELINE_COMPARISON.md"
+    ]
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Unit-test design",
+    "assigned_task": "Establish modular pytest suite architecture and test fixtures",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/conftest.py",
+      "tests/test_physics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/conftest.py",
+      "tests/test_physics.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/conftest.py",
+      "tests/test_physics.py"
+    ]
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Numerical edge-case testing",
+    "assigned_task": "Test zero-divisions, near-singular libraries, infinite/NaN inputs, tiny step sizes",
+    "dependency_ids": [
+      "G01",
+      "D05"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_sparse.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_sparse.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_sparse.py"
+    ]
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "ODE integration correctness",
+    "assigned_task": "Verify numerical solvers against analytical harmonic & damped oscillator solutions",
+    "dependency_ids": [
+      "G01",
+      "B01",
+      "B02"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_physics.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_physics.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_physics.py"
+    ]
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Dataset leakage attacks",
+    "assigned_task": "Execute red-team tests checking for train/test state overlap or true parameter leakage",
+    "dependency_ids": [
+      "G01",
+      "C09",
+      "C11"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_adversarial.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_adversarial.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_adversarial.py",
+      "audit/m1/DATASET_INTEGRITY.md"
+    ]
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Feature-library correctness",
+    "assigned_task": "Verify degree bounds, polynomial cross-term counts, and trig evaluation values",
+    "dependency_ids": [
+      "G01",
+      "D08",
+      "D09"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_library.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_library.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_library.py"
+    ]
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "STLSQ failure cases",
+    "assigned_task": "Construct adversarial cases where thresholding wipes out all terms or cycles infinitely",
+    "dependency_ids": [
+      "G01",
+      "D01",
+      "D07"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_sparse.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_sparse.py"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_sparse.py"
+    ]
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Noise & derivative stress tests",
+    "assigned_task": "Stress-test differentiation under 10% to 50% Gaussian noise and quantify breakdown point",
+    "dependency_ids": [
+      "G01",
+      "D11",
+      "D12",
+      "D13"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_differentiation.py",
+      "audit/m1/NOISE_ROBUSTNESS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/NOISE_ROBUSTNESS.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/NOISE_ROBUSTNESS.md"
+    ]
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Identifiability counterexamples",
+    "assigned_task": "Construct systems with non-unique sparse representations (collinear features)",
+    "dependency_ids": [
+      "A01",
+      "G06"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_adversarial.py",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_adversarial.py",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_adversarial.py",
+      "audit/m1/IDENTIFIABILITY_ANALYSIS.md"
+    ]
+  },
+  "G09": {
+    "agent_id": "G09",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Scientific claim falsification",
+    "assigned_task": "Actively challenge low training error models that discover physically false equations",
+    "dependency_ids": [
+      "G06",
+      "G08",
+      "F03"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "tests/test_adversarial.py",
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/test_adversarial.py",
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/test_adversarial.py",
+      "audit/m1/LIMITATIONS.md"
+    ]
+  },
+  "G10": {
+    "agent_id": "G10",
+    "division": "G",
+    "division_name": "Testing & Adversarial Scientific Auditing",
+    "specialty": "Independent red-team audit",
+    "assigned_task": "Comprehensive adversarial audit report uncovering all vulnerabilities and failures",
+    "dependency_ids": [
+      "G04",
+      "G07",
+      "G08",
+      "G09"
+    ],
+    "worktree_or_workspace": "workspace_g",
+    "owned_files": [
+      "audit/swarm/FAILED_TASKS.md",
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/FAILED_TASKS.md",
+      "audit/m1/LIMITATIONS.md"
+    ],
+    "tests_executed": [
+      "tests/test_physics.py",
+      "tests/test_data.py",
+      "tests/test_library.py",
+      "tests/test_sparse.py",
+      "tests/test_symbolic.py",
+      "tests/test_pipeline.py",
+      "tests/test_adversarial.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "passed": 33,
+      "failed": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/FAILED_TASKS.md",
+      "audit/m1/LIMITATIONS.md"
+    ]
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Python package configuration",
+    "assigned_task": "Create pyproject.toml, package metadata, dependencies, build settings",
+    "dependency_ids": [],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "pyproject.toml",
+      "nomos/__init__.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "pyproject.toml",
+      "nomos/__init__.py"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "pyproject.toml",
+      "nomos/__init__.py"
+    ]
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "CLI & experiment configuration",
+    "assigned_task": "Implement nomos CLI entry point and YAML/JSON configuration parser",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "nomos/cli.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/cli.py"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/cli.py"
+    ]
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Reproducible environment management",
+    "assigned_task": "Document platform, OS, CPU, RAM, exact package versions, and environment audit",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "audit/m1/ENVIRONMENT_AUDIT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/ENVIRONMENT_AUDIT.md"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/ENVIRONMENT_AUDIT.md"
+    ]
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Structured logging",
+    "assigned_task": "Configure structured JSON / console logging for swarm execution and discovery steps",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "nomos/utils/logging.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/utils/logging.py"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/utils/logging.py"
+    ]
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Experiment manifests",
+    "assigned_task": "Implement schema and serialization for experiment manifests with hardware telemetry",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "nomos/utils/manifest.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/utils/manifest.py"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/utils/manifest.py"
+    ]
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Bounded parallel execution",
+    "assigned_task": "Implement CPU-aware process worker pool capping threads to prevent oversubscription",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "nomos/utils/parallel.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/utils/parallel.py"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/utils/parallel.py"
+    ]
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "CI-ready test execution",
+    "assigned_task": "Set up automated pytest runner, coverage reporting, and exit code handling",
+    "dependency_ids": [
+      "H01",
+      "G01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      "tests/run_all_tests.py",
+      "audit/m1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "tests/run_all_tests.py",
+      "audit/m1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "tests/run_all_tests.py",
+      "audit/m1/TEST_RESULTS.txt"
+    ]
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "H",
+    "division_name": "Infrastructure & Reproducibility",
+    "specialty": "Repository hygiene & dependency audit",
+    "assigned_task": "Enforce .gitignore, clean temporary files, verify license and dependency safety",
+    "dependency_ids": [
+      "H01"
+    ],
+    "worktree_or_workspace": "workspace_h",
+    "owned_files": [
+      ".gitignore",
+      "audit/swarm/WORKTREE_OWNERSHIP.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      ".gitignore",
+      "audit/swarm/WORKTREE_OWNERSHIP.md"
+    ],
+    "tests_executed": [
+      "tests/run_all_tests.py"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "exit_code": 0
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      ".gitignore",
+      "audit/swarm/WORKTREE_OWNERSHIP.md"
+    ]
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Mathematics reviewer",
+    "assigned_task": "Independent audit of mathematical derivations, STLSQ convergence, and identifiability",
+    "dependency_ids": [
+      "A01",
+      "A02",
+      "D01",
+      "E06"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ]
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Numerical-analysis reviewer",
+    "assigned_task": "Review ODE solver tolerances, numerical derivatives, conditioning, and stiffness",
+    "dependency_ids": [
+      "A04",
+      "B07",
+      "B08",
+      "D11",
+      "D12"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ]
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Experimental-design reviewer",
+    "assigned_task": "Verify benchmark coverage, parameter regimes, initial condition distributions",
+    "dependency_ids": [
+      "B12",
+      "C02",
+      "C03",
+      "F12"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ]
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Data-integrity reviewer",
+    "assigned_task": "Verify trajectory-disjoint splits, absence of label leakage, metadata sandboxing",
+    "dependency_ids": [
+      "C04",
+      "C09",
+      "C11",
+      "G04"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ]
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Statistical-validity reviewer",
+    "assigned_task": "Audit multi-seed confidence intervals, benchmark metrics, and fair comparison with baselines",
+    "dependency_ids": [
+      "F10",
+      "F11",
+      "F12"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md"
+    ]
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "I",
+    "division_name": "Scientific Review Board",
+    "specialty": "Research-novelty & publication-readiness reviewer",
+    "assigned_task": "Critique scientific claims, position M1 scope honestly, outline M2 roadmap",
+    "dependency_ids": [
+      "A08",
+      "G09",
+      "G10"
+    ],
+    "worktree_or_workspace": "workspace_i",
+    "owned_files": [
+      "audit/swarm/INDEPENDENT_REVIEW.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INDEPENDENT_REVIEW.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INDEPENDENT_REVIEW.md",
+      "audit/m1/M1_FINAL_REPORT.md"
+    ]
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "Architecture integration",
+    "assigned_task": "Review and enforce unified package module layout and type contract compatibility",
+    "dependency_ids": [
+      "H01",
+      "A01",
+      "D16"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "nomos/__init__.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/__init__.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/__init__.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ]
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "API contract enforcement",
+    "assigned_task": "Verify interface adherence across physics, data, library, sparse, and symbolic modules",
+    "dependency_ids": [
+      "J01"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "nomos/core/system.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "nomos/core/system.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "nomos/core/system.py",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ]
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "Branch/worktree integration",
+    "assigned_task": "Merge modular code contributions and ensure atomic git commits with correct authorship",
+    "dependency_ids": [
+      "J01",
+      "J02"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/INTEGRATION_LOG.md"
+    ]
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "Full test orchestration",
+    "assigned_task": "Run entire test suite across all modules, record test outputs and failure counts",
+    "dependency_ids": [
+      "J03",
+      "H07",
+      "G01"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "audit/m1/TEST_RESULTS.txt",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/TEST_RESULTS.txt",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/TEST_RESULTS.txt",
+      "audit/swarm/INTEGRATION_LOG.md"
+    ]
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "Evidence & documentation integration",
+    "assigned_task": "Compile all audit documents, benchmark logs, and cross-reference evidence",
+    "dependency_ids": [
+      "J04",
+      "F12",
+      "G10",
+      "I06"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "audit/swarm/AGENT_EXECUTION_SUMMARY.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/swarm/AGENT_EXECUTION_SUMMARY.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/swarm/AGENT_EXECUTION_SUMMARY.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ]
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "J",
+    "division_name": "Integration & Release Engineering",
+    "specialty": "Final milestone certification",
+    "assigned_task": "Evaluate Engineering, Scientific Recovery, Independent Validation, and Novelty gates for M1 sign-off",
+    "dependency_ids": [
+      "J05",
+      "I01",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06"
+    ],
+    "worktree_or_workspace": "workspace_j",
+    "owned_files": [
+      "audit/m1/M1_FINAL_REPORT.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "produced_artifacts": [
+      "audit/m1/M1_FINAL_REPORT.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ],
+    "tests_executed": [
+      "formal_verification_audit"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "audited": true
+    },
+    "commit_sha": "initial_development",
+    "integration_status": "ACCEPTED_AND_INTEGRATED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m1/M1_FINAL_REPORT.md",
+      "audit/swarm/SWARM_FINAL_REPORT.md"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\mishr\anaconda3\python.exe
+cachedir: .pytest_cache
+Fugue tests will be initialized with options:
+rootdir: E:\NOMOS
+configfile: pyproject.toml
+plugins: anyio-4.2.0, datalad-1.6.1, fugue-0.9.7, langsmith-0.10.18, asyncio-1.4.0, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 33 items
+
+tests/test_adversarial.py::test_adversarial_identifiability_harmonic_degeneracy PASSED [  3%]
+tests/test_adversarial.py::test_adversarial_inadequate_candidate_library PASSED [  6%]
+tests/test_adversarial.py::test_adversarial_data_leakage_attack PASSED   [  9%]
+tests/test_baselines.py::test_ols_baseline PASSED                        [ 12%]
+tests/test_baselines.py::test_pysindy_adapter_parity PASSED              [ 15%]
+tests/test_data.py::test_trajectory_disjoint_splitting PASSED            [ 18%]
+tests/test_data.py::test_metadata_isolation_sandbox PASSED               [ 21%]
+tests/test_data.py::test_gaussian_noise_injection PASSED                 [ 24%]
+tests/test_data.py::test_dataset_quality_audit PASSED                    [ 27%]
+tests/test_library.py::test_finite_difference_accuracy PASSED            [ 30%]
+tests/test_library.py::test_savitzky_golay_noise_filtering PASSED        [ 33%]
+tests/test_library.py::test_polynomial_library_features PASSED           [ 36%]
+tests/test_library.py::test_trigonometric_library_features PASSED        [ 39%]
+tests/test_library.py::test_feature_scaler_unscaling_exactness PASSED    [ 42%]
+tests/test_physics.py::test_benchmark_registry_completeness PASSED       [ 45%]
+tests/test_physics.py::test_harmonic_oscillator_analytical_equivalence PASSED [ 48%]
+tests/test_physics.py::test_damped_oscillator_analytical_equivalence PASSED [ 51%]
+tests/test_physics.py::test_harmonic_energy_conservation PASSED          [ 54%]
+tests/test_physics.py::test_lotka_volterra_first_integral PASSED         [ 57%]
+tests/test_physics.py::test_solver_tolerance_convergence PASSED          [ 60%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[harmonic_oscillator-polynomial-0.05] PASSED [ 63%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[damped_oscillator-polynomial-0.05] PASSED [ 66%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[nonlinear_pendulum-composite-0.05] PASSED [ 69%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[lotka_volterra-polynomial-0.05] PASSED [ 72%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[lorenz63-polynomial-0.1] PASSED [ 75%]
+tests/test_sparse.py::test_stlsq_exact_sparse_recovery PASSED            [ 78%]
+tests/test_sparse.py::test_stlsq_rank_deficient_handling PASSED          [ 81%]
+tests/test_sparse.py::test_stlsq_overly_high_threshold PASSED            [ 84%]
+tests/test_symbolic.py::test_matrix_to_sympy PASSED                      [ 87%]
+tests/test_symbolic.py::test_algebraic_equivalence_exact PASSED          [ 90%]
+tests/test_symbolic.py::test_algebraic_equivalence_factored PASSED       [ 93%]
+tests/test_symbolic.py::test_complexity_monotonicity PASSED              [ 96%]
+tests/test_symbolic.py::test_dimensional_consistency PASSED              [100%]
+
+============================= 33 passed in 15.94s =============================
