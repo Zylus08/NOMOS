@@ -1,0 +1,45 @@
+{
+  "manifest_id": "lorenz63_noise0.05_seed101",
+  "benchmark_name": "lorenz63",
+  "noise_level": 0.05,
+  "seed": 101,
+  "start_time": 1795284772.223191,
+  "end_time": 1795284780.5111518,
+  "duration_seconds": 8.287960767745972,
+  "telemetry": {
+    "cpu_cores_physical": 10,
+    "cpu_cores_logical": 16,
+    "total_ram_gb": 15.675769805908203,
+    "platform_name": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.8"
+  },
+  "metrics": {
+    "nomos_deriv_rmse": 5.777529137707234,
+    "nomos_deriv_r2": 0.9914571986387207,
+    "nomos_rollout_rmse": 10.859756551721663,
+    "nomos_rollout_rel_rmse": 0.6784107729300128,
+    "nomos_supp_precision": 0.7,
+    "nomos_supp_recall": 1.0,
+    "nomos_supp_f1": 0.8235294117647058,
+    "nomos_exact_match": false,
+    "nomos_coef_rel_err": 0.21816439531288404,
+    "nomos_active_coef_err": 0.06655677766119462,
+    "ols_coef_rel_err": 0.13458266833502497,
+    "ols_rollout_rmse": 11.717031402808297,
+    "ols_supp_f1": 0.37837837837837834,
+    "pysindy_coef_rel_err": 0.2372305949762231,
+    "pysindy_supp_f1": 0.75,
+    "pysindy_exact_match": false,
+    "pysindy_rollout_rmse": 10.516157260060671
+  },
+  "discovered_equations": {
+    "x": "-9.7036*x + 9.7297*y",
+    "y": "-0.9448*x*z + 26.0046*x - 0.6041*y - 0.2663",
+    "z": "0.1126*x**2 + 0.8992*x*y - 2.9688*z + 6.5443"
+  },
+  "ground_truth_equations": {
+    "x": "-10*x + 10*y",
+    "y": "28*x - y - x*z",
+    "z": "x*y - 2.667*z"
+  }
+}

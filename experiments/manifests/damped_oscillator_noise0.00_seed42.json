@@ -1,0 +1,43 @@
+{
+  "manifest_id": "damped_oscillator_noise0.00_seed42",
+  "benchmark_name": "damped_oscillator",
+  "noise_level": 0.0,
+  "seed": 42,
+  "start_time": 1795284608.277183,
+  "end_time": 1795284610.9845347,
+  "duration_seconds": 2.7073516845703125,
+  "telemetry": {
+    "cpu_cores_physical": 10,
+    "cpu_cores_logical": 16,
+    "total_ram_gb": 15.675769805908203,
+    "platform_name": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.8"
+  },
+  "metrics": {
+    "nomos_deriv_rmse": 6.440821189564623e-08,
+    "nomos_deriv_r2": 0.9999999999999973,
+    "nomos_rollout_rmse": 2.2758752005260667e-07,
+    "nomos_rollout_rel_rmse": 1.7779855477657027e-07,
+    "nomos_supp_precision": 1.0,
+    "nomos_supp_recall": 1.0,
+    "nomos_supp_f1": 1.0,
+    "nomos_exact_match": true,
+    "nomos_coef_rel_err": 5.2363384595917246e-08,
+    "nomos_active_coef_err": 5.2363384595917246e-08,
+    "ols_coef_rel_err": 1.0854863274268248e-07,
+    "ols_rollout_rmse": 2.945383668079181e-07,
+    "ols_supp_f1": 0.4,
+    "pysindy_coef_rel_err": 5.236338544445417e-08,
+    "pysindy_supp_f1": 1.0,
+    "pysindy_exact_match": true,
+    "pysindy_rollout_rmse": 2.275875251071135e-07
+  },
+  "discovered_equations": {
+    "x": "1.0*v",
+    "v": "-0.2*v - 1.0*x"
+  },
+  "ground_truth_equations": {
+    "x": "v",
+    "v": "-1*x + -0.2*v"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "manifest_id": "lotka_volterra_noise0.01_seed777",
+  "benchmark_name": "lotka_volterra",
+  "noise_level": 0.01,
+  "seed": 777,
+  "start_time": 1795284689.8790221,
+  "end_time": 1795284692.832816,
+  "duration_seconds": 2.95379376411438,
+  "telemetry": {
+    "cpu_cores_physical": 10,
+    "cpu_cores_logical": 16,
+    "total_ram_gb": 15.675769805908203,
+    "platform_name": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.8"
+  },
+  "metrics": {
+    "nomos_deriv_rmse": 0.06273362072012635,
+    "nomos_deriv_r2": 0.9998282593221525,
+    "nomos_rollout_rmse": 0.0014230344328510676,
+    "nomos_rollout_rel_rmse": 0.00048690757563826743,
+    "nomos_supp_precision": 1.0,
+    "nomos_supp_recall": 1.0,
+    "nomos_supp_f1": 1.0,
+    "nomos_exact_match": true,
+    "nomos_coef_rel_err": 0.0003812049970569425,
+    "nomos_active_coef_err": 0.0003812049970569425,
+    "ols_coef_rel_err": 0.0031752405649763706,
+    "ols_rollout_rmse": 0.029632501369829263,
+    "ols_supp_f1": 0.5,
+    "pysindy_coef_rel_err": 0.000381204997056943,
+    "pysindy_supp_f1": 1.0,
+    "pysindy_exact_match": true,
+    "pysindy_rollout_rmse": 0.001423034432817141
+  },
+  "discovered_equations": {
+    "x": "x*(1.4997 - 0.9997*y)",
+    "y": "y*(1.0005*x - 3.0012)"
+  },
+  "ground_truth_equations": {
+    "x": "1.5*x - 1*x*y",
+    "y": "1*x*y - 3*y"
+  }
+}
