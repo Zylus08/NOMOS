@@ -1,0 +1,3426 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "Division A",
+    "specialty": "Mathematical PDE Theory & Identifiability Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment A08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_a",
+    "owned_files": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/IDENTIFIABILITY.md",
+      "audit/m3/PDE_BENCHMARK_SPECIFICATIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B11": {
+    "agent_id": "B11",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #11",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "B12": {
+    "agent_id": "B12",
+    "division": "Division B",
+    "specialty": "Numerical PDE Simulators & Solvers Specialist #12",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment B12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/benchmarks.py",
+      "audit/m3/NUMERICAL_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C11": {
+    "agent_id": "C11",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #11",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "C12": {
+    "agent_id": "C12",
+    "division": "Division C",
+    "specialty": "Spatial Operators & Stencils Specialist #12",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment C12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m3/SPATIAL_DERIVATIVE_VERIFICATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D11": {
+    "agent_id": "D11",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #11",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D12": {
+    "agent_id": "D12",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #12",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D13": {
+    "agent_id": "D13",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #13",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D13",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D14": {
+    "agent_id": "D14",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #14",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D14",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D15": {
+    "agent_id": "D15",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #15",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D15",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "D16": {
+    "agent_id": "D16",
+    "division": "Division D",
+    "specialty": "Weak-Form WSINDy & Integral Derivations Specialist #16",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment D16",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form.py",
+      "audit/m3/WEAK_FORM_DISCOVERY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "Division E",
+    "specialty": "Differential AST Grammar & Semantics Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment E10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m3/DIFFERENTIAL_EXPRESSION_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F11": {
+    "agent_id": "F11",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #11",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "F12": {
+    "agent_id": "F12",
+    "division": "Division F",
+    "specialty": "Baselines & Empirical Benchmarking Specialist #12",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment F12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_f",
+    "owned_files": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/strong_form.py",
+      "audit/m3/STRONG_FORM_DISCOVERY.md",
+      "audit/m3/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G09": {
+    "agent_id": "G09",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #9",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "G10": {
+    "agent_id": "G10",
+    "division": "Division G",
+    "specialty": "Neural Dynamics Surrogates & Guidance Specialist #10",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment G10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_g",
+    "owned_files": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/neural_surrogate.py",
+      "audit/m3/NEURAL_PDE_GUIDANCE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #7",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "Division H",
+    "specialty": "Noise Robustness & Error Propagation Specialist #8",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment H08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_h",
+    "owned_files": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/NOISE_ROBUSTNESS.md",
+      "audit/m3/GENERALIZATION_RESULTS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment I06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_i",
+    "owned_files": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/SCIENTIFIC_NOVELTY.md",
+      "audit/m3/M2_1_ERRATA_CLOSURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #1",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #2",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #3",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #4",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #5",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "Division J",
+    "specialty": "Integration & Certification Specialist #6",
+    "assigned_task": "Milestone M3 spatiotemporal PDE research assignment J06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m3_workspace_j",
+    "owned_files": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m3/M3_FINAL_REPORT.md",
+      "audit/m3/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m3/RAW_EXPERIMENTS.csv",
+      "audit/m3/TEST_RESULTS.txt"
+    ]
+  }
+}
