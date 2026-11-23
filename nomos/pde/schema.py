@@ -40,6 +40,54 @@ class Grid1D:
 
 
 @dataclass
+class Grid2D:
+    """Uniform 2D spatial grid description."""
+    x: np.ndarray  # Shape: (Nx,)
+    y: np.ndarray  # Shape: (Ny,)
+    num_points_x: int
+    num_points_y: int
+    dx: float
+    dy: float
+    domain_x: Tuple[float, float]
+    domain_y: Tuple[float, float]
+
+    @classmethod
+    def create(
+        cls,
+        domain_x: Tuple[float, float],
+        domain_y: Tuple[float, float],
+        num_points_x: int,
+        num_points_y: int,
+        periodic: bool = True,
+    ) -> "Grid2D":
+        if periodic:
+            x = np.linspace(domain_x[0], domain_x[1], num_points_x, endpoint=False)
+            y = np.linspace(domain_y[0], domain_y[1], num_points_y, endpoint=False)
+            dx = float((domain_x[1] - domain_x[0]) / num_points_x)
+            dy = float((domain_y[1] - domain_y[0]) / num_points_y)
+        else:
+            x = np.linspace(domain_x[0], domain_x[1], num_points_x, endpoint=True)
+            y = np.linspace(domain_y[0], domain_y[1], num_points_y, endpoint=True)
+            dx = float(x[1] - x[0]) if num_points_x > 1 else 0.0
+            dy = float(y[1] - y[0]) if num_points_y > 1 else 0.0
+        return cls(
+            x=x,
+            y=y,
+            num_points_x=num_points_x,
+            num_points_y=num_points_y,
+            dx=dx,
+            dy=dy,
+            domain_x=domain_x,
+            domain_y=domain_y,
+        )
+
+    @property
+    def meshgrid(self) -> Tuple[np.ndarray, np.ndarray]:
+        """Return 2D coordinate meshgrids (X, Y) with indexing='ij'."""
+        return np.meshgrid(self.x, self.y, indexing="ij")
+
+
+@dataclass
 class TimeGrid:
     """Temporal integration grid description."""
     t: np.ndarray  # Shape: (M,)
@@ -58,13 +106,14 @@ class TimeGrid:
 class SpatiotemporalField:
     """
     Standard spatiotemporal field observation instance.
-    Represents continuous or discretized scalar or multi-channel fields over space and time.
+    Represents continuous or discretized scalar or multi-channel fields over 1D/2D space and time.
     """
     id: str
     pde_name: str
-    x: np.ndarray                         # Shape: (N,) spatial coordinates
+    x: np.ndarray                         # Shape: (Nx,) spatial coordinates
     t: np.ndarray                         # Shape: (M,) temporal coordinates
-    u: np.ndarray                         # Observed field, Shape: (M, N) or (M, N, C)
+    u: np.ndarray                         # Observed field, Shape: (M, Nx), (M, Nx, C), (M, Nx, Ny), or (M, Nx, Ny, C)
+    y: Optional[np.ndarray] = None        # Shape: (Ny,) spatial coordinates for 2D fields
     channel_names: List[str] = field(default_factory=lambda: ["u"])
     boundary_condition: BoundaryConditionType = BoundaryConditionType.PERIODIC
     spatial_dim: int = 1
@@ -75,7 +124,7 @@ class SpatiotemporalField:
     u_t_true: Optional[np.ndarray] = None # Shape: identical to u, true temporal derivative
     true_parameters: Optional[Dict[str, float]] = None # Evaluator only
     
-    observation_mask: Optional[np.ndarray] = None # Shape: (M, N), boolean mask
+    observation_mask: Optional[np.ndarray] = None # Boolean mask
     noise_level: float = 0.0              # Relative measurement noise injected
     provenance: Dict[str, Any] = field(default_factory=dict)
 
@@ -83,8 +132,12 @@ class SpatiotemporalField:
         self.x = np.asarray(self.x, dtype=np.float64)
         self.t = np.asarray(self.t, dtype=np.float64)
         self.u = np.asarray(self.u, dtype=np.float64)
-        if self.spatial_dim != 1:
-            raise NotImplementedError("Phase 1 currently enforces 1D uniform grids strictly.")
+        if self.spatial_dim not in (1, 2):
+            raise NotImplementedError(f"SpatiotemporalField supports spatial_dim 1 or 2, got {self.spatial_dim}")
+        if self.spatial_dim == 2:
+            if self.y is None:
+                raise ValueError("SpatiotemporalField with spatial_dim=2 requires non-None 'y' array.")
+            self.y = np.asarray(self.y, dtype=np.float64)
 
     @property
     def num_time_steps(self) -> int:
@@ -92,21 +145,57 @@ class SpatiotemporalField:
 
     @property
     def num_spatial_points(self) -> int:
+        if self.spatial_dim == 1:
+            return len(self.x)
+        return len(self.x) * len(self.y)
+
+    @property
+    def num_spatial_points_x(self) -> int:
         return len(self.x)
+
+    @property
+    def num_spatial_points_y(self) -> int:
+        return len(self.y) if self.y is not None else 0
 
     @property
     def dx(self) -> float:
         return float(self.x[1] - self.x[0]) if len(self.x) > 1 else 0.0
 
     @property
+    def dy(self) -> float:
+        if self.y is not None and len(self.y) > 1:
+            return float(self.y[1] - self.y[0])
+        return 0.0
+
+    @property
     def dt(self) -> float:
         return float(self.t[1] - self.t[0]) if len(self.t) > 1 else 0.0
+
+    def get_channel(self, channel: Any) -> np.ndarray:
+        """Extract a single channel as an array (M, Nx) or (M, Nx, Ny)."""
+        if isinstance(channel, str):
+            if channel not in self.channel_names:
+                raise KeyError(f"Channel '{channel}' not found in {self.channel_names}")
+            idx = self.channel_names.index(channel)
+        else:
+            idx = int(channel)
+
+        if self.spatial_dim == 1:
+            if self.u.ndim == 2:
+                return self.u
+            return self.u[..., idx]
+        else:
+            if self.u.ndim == 3:
+                return self.u
+            return self.u[..., idx]
 
     def compute_sha256(self) -> str:
         """Compute cryptographic hash of spatiotemporal grid and observations."""
         hasher = hashlib.sha256()
         hasher.update(self.pde_name.encode("utf-8"))
         hasher.update(self.x.tobytes())
+        if self.y is not None:
+            hasher.update(self.y.tobytes())
         hasher.update(self.t.tobytes())
         hasher.update(self.u.tobytes())
         return hasher.hexdigest()

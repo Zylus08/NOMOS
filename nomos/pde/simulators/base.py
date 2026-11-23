@@ -66,3 +66,51 @@ class BasePDESimulator(ABC):
     def compute_invariant(self, u: np.ndarray, dx: float) -> Optional[float]:
         """Compute conserved quantity (mass, energy, momentum) for stability verification."""
         return None
+
+
+class BasePDE2DSimulator(ABC):
+    """
+    Abstract base class for high-precision 2D spatiotemporal PDE simulators.
+    Enforces clean separation between ground-truth physics and learner interfaces.
+    """
+
+    def __init__(
+        self,
+        name: str,
+        parameters: Dict[str, float],
+        boundary_condition: BoundaryConditionType = BoundaryConditionType.PERIODIC,
+        domain_x: Tuple[float, float] = (0.0, 2.0 * np.pi),
+        domain_y: Tuple[float, float] = (0.0, 2.0 * np.pi),
+    ):
+        self.name = name
+        self.parameters = dict(parameters)
+        self.boundary_condition = boundary_condition
+        self.domain_x = domain_x
+        self.domain_y = domain_y
+
+    @abstractmethod
+    def rhs_spatial(self, u: np.ndarray, x: np.ndarray, y: np.ndarray) -> np.ndarray:
+        """
+        Compute true spatial right-hand side f(u, grad u, laplacian u, ...) such that u_t = f.
+        Input u shape: (Nx, Ny) or (Nx, Ny, C). Output shape: identical.
+        """
+        pass
+
+    @abstractmethod
+    def simulate(
+        self,
+        u0: np.ndarray,
+        grid: Any,
+        time_grid: TimeGrid,
+        noise_level: float = 0.0,
+        random_seed: Optional[int] = None,
+    ) -> SpatiotemporalField:
+        """
+        Execute high-precision 2D numerical time integration.
+        Returns SpatiotemporalField complete with evaluator metadata and true derivatives.
+        """
+        pass
+
+    def compute_invariant(self, u: np.ndarray, dx: float, dy: float) -> Optional[float]:
+        """Compute conserved quantity (mass, energy, circulation) for stability verification."""
+        return None

@@ -1,0 +1,3594 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "Division A",
+    "specialty": "Coupled PDE Theory & Mathematical Identifiability Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment A08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_a",
+    "owned_files": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md",
+      "audit/m4/NONLINEAR_SEARCH_FAILURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #9",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #10",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B11": {
+    "agent_id": "B11",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #11",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B12": {
+    "agent_id": "B12",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #12",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B13": {
+    "agent_id": "B13",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #13",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B13",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "B14": {
+    "agent_id": "B14",
+    "division": "Division B",
+    "specialty": "2D Reaction-Diffusion & Navier-Stokes Simulators Specialist #14",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment B14",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_b",
+    "owned_files": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/simulators/gray_scott.py",
+      "nomos/pde/simulators/fitzhugh_nagumo.py",
+      "nomos/pde/simulators/navier_stokes_2d.py",
+      "audit/m4/2D_SOLVER_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #9",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #10",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C11": {
+    "agent_id": "C11",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #11",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "C12": {
+    "agent_id": "C12",
+    "division": "Division C",
+    "specialty": "2D Spatial Operators & Spectral De-aliasing Specialist #12",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment C12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_c",
+    "owned_files": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/operators.py",
+      "audit/m4/NAVIER_STOKES_VALIDATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #9",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #10",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D11": {
+    "agent_id": "D11",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #11",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D12": {
+    "agent_id": "D12",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #12",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D13": {
+    "agent_id": "D13",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #13",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D13",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D14": {
+    "agent_id": "D14",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #14",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D14",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D15": {
+    "agent_id": "D15",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #15",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D15",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "D16": {
+    "agent_id": "D16",
+    "division": "Division D",
+    "specialty": "2D Multichannel Weak-Form WSINDy Specialist #16",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment D16",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_d",
+    "owned_files": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/weak_form_2d.py",
+      "audit/m4/MULTICHANNEL_WEAK_FORM.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #9",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "Division E",
+    "specialty": "Coupled Differential AST Grammar Specialist #10",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment E10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_e",
+    "owned_files": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/grammar.py",
+      "audit/m4/COUPLED_AST_GRAMMAR.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #9",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #10",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F11": {
+    "agent_id": "F11",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #11",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "F12": {
+    "agent_id": "F12",
+    "division": "Division F",
+    "specialty": "Empirical Benchmarking & Baselines Specialist #12",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment F12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_f",
+    "owned_files": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m4/run_m4_experiments.py",
+      "audit/m4/BASELINE_COMPARISON.md",
+      "audit/m4/RAW_EXPERIMENTS.csv"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "Division G",
+    "specialty": "Neural Guidance Ablation & Compute Budgets Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment G08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_g",
+    "owned_files": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/symbolic_search.py",
+      "audit/m4/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #7",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "Division H",
+    "specialty": "Active Experiment Selection & Design Specialist #8",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment H08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_h",
+    "owned_files": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/pde/active_identifiability.py",
+      "audit/m4/ACTIVE_EXPERIMENT_DESIGN.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "Division I",
+    "specialty": "Non-Parametric Statistical Testing & Forensics Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment I06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_i",
+    "owned_files": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/STATISTICAL_ANALYSIS.md",
+      "audit/m4/LIMITATIONS.md",
+      "audit/m4/SCIENTIFIC_NOVELTY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #1",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #2",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #3",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #4",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #5",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "Division J",
+    "specialty": "Integration, Test Suite Expansion & Certification Specialist #6",
+    "assigned_task": "Milestone M4 coupled/2D spatiotemporal PDE assignment J06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m4_workspace_j",
+    "owned_files": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m4/M4_FINAL_REPORT.md",
+      "audit/m4/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m4/RAW_EXPERIMENTS.csv",
+      "audit/m4/TEST_RESULTS.txt",
+      "audit/m4/M4_FINAL_REPORT.md"
+    ]
+  }
+}

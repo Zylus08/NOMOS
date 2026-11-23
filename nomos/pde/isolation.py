@@ -21,6 +21,7 @@ def create_learner_field_observation(field: SpatiotemporalField) -> Spatiotempor
         id=f"learner_obs_{field.id}",
         pde_name=field.pde_name,
         x=field.x.copy(),
+        y=field.y.copy() if field.y is not None else None,
         t=field.t.copy(),
         u=field.u.copy(),
         channel_names=copy.deepcopy(field.channel_names),

@@ -25,7 +25,8 @@ class DifferentialBeamSearch:
         self,
         beam_width: int = 16,
         max_depth: int = 3,
-        complexity_penalty: float = 0.01,
+        complexity_penalty: float = 1e-4,
+        scoring_mode: str = "adaptive",
         use_neural_guidance: bool = False,
         surrogate_epochs: int = 40,
         random_seed: int = 42,
@@ -33,6 +34,7 @@ class DifferentialBeamSearch:
         self.beam_width = int(beam_width)
         self.max_depth = int(max_depth)
         self.complexity_penalty = float(complexity_penalty)
+        self.scoring_mode = str(scoring_mode)
         self.use_neural_guidance = bool(use_neural_guidance)
         self.surrogate_epochs = int(surrogate_epochs)
         self.random_seed = int(random_seed)
@@ -101,13 +103,24 @@ class DifferentialBeamSearch:
             val = node.evaluate(u_dict, dx=dx, periodic=periodic, method="fd")
             evaluated_bases.append((label, val, node))
 
-        # Evaluate 2-term combinations: e.g. -u*u_x + nu*u_xx or -6*u*u_x - u_xxx
-        # Solve least-squares coefficients for single and dual terms
+        # Solve least-squares coefficients for single, dual, and triple terms
         target_flat = u_t_target.flatten()
+        var_target = float(np.var(target_flat)) + 1e-12
+        n_samples = len(target_flat)
+        best_score = float("inf")
         best_mse = float("inf")
         best_eq = "0.0"
         best_coefs: Dict[str, float] = {}
         eval_count = 0
+
+        def calc_score(mse_val: float, comp_nodes: int, prior_val: float) -> float:
+            if self.scoring_mode == "bic":
+                return float(n_samples * np.log(mse_val + 1e-12) + (comp_nodes / prior_val) * np.log(n_samples))
+            elif self.scoring_mode == "fixed":
+                return float(mse_val + self.complexity_penalty * comp_nodes / prior_val)
+            else:  # "adaptive" (default)
+                norm_mse = mse_val / var_target
+                return float(norm_mse + self.complexity_penalty * comp_nodes / prior_val)
 
         # Test single bases
         for label, val, node in evaluated_bases:
@@ -117,11 +130,11 @@ class DifferentialBeamSearch:
             c = float(np.dot(feat_flat, target_flat) / denom)
             pred = c * feat_flat
             mse = float(np.mean((target_flat - pred) ** 2))
-            penalty = self.complexity_penalty * node.count_nodes() / get_prior(label)
-            score = mse + penalty
+            score = calc_score(mse, node.count_nodes(), get_prior(label))
 
-            if score < best_mse:
-                best_mse = score
+            if score < best_score:
+                best_score = score
+                best_mse = mse
                 best_coefs = {label: c}
                 best_eq = f"u_t = {c:+.4f}*{label}"
 
@@ -139,11 +152,11 @@ class DifferentialBeamSearch:
                 mse = float(np.mean((target_flat - pred) ** 2))
                 comp = (n1.count_nodes() + n2.count_nodes())
                 prior_weight = 0.5 * (get_prior(l1) + get_prior(l2))
-                penalty = self.complexity_penalty * comp / prior_weight
-                score = mse + penalty
+                score = calc_score(mse, comp, prior_weight)
 
-                if score < best_mse:
-                    best_mse = score
+                if score < best_score:
+                    best_score = score
+                    best_mse = mse
                     best_coefs = {l1: float(c_pair[0]), l2: float(c_pair[1])}
                     best_eq = f"u_t = {c_pair[0]:+.4f}*{l1} {c_pair[1]:+.4f}*{l2}"
 
@@ -162,13 +175,13 @@ class DifferentialBeamSearch:
                     mse = float(np.mean((target_flat - pred) ** 2))
                     comp = (n1.count_nodes() + n2.count_nodes() + n3.count_nodes())
                     prior_weight = (get_prior(l1) + get_prior(l2) + get_prior(l3)) / 3.0
-                    penalty = self.complexity_penalty * comp / prior_weight
-                    score = mse + penalty
+                    score = calc_score(mse, comp, prior_weight)
 
-                    if score < best_mse:
-                        best_mse = score
+                    if score < best_score:
+                        best_score = score
+                        best_mse = mse
                         best_coefs = {l1: float(c_trip[0]), l2: float(c_trip[1]), l3: float(c_trip[2])}
-                        best_eq = f"u_t = {c_trip[0]:+.4f}*{l1} {c_trip[1]:+.4f}*{l2} {c_trip[3]:+.4f}*{l3}" if len(c_trip) > 3 else f"u_t = {c_trip[0]:+.4f}*{l1} {c_trip[1]:+.4f}*{l2} {c_trip[2]:+.4f}*{l3}"
+                        best_eq = f"u_t = {c_trip[0]:+.4f}*{l1} {c_trip[1]:+.4f}*{l2} {c_trip[2]:+.4f}*{l3}"
 
         duration = time.time() - t0 + surrogate_time
 

@@ -38,6 +38,11 @@ def spectral_derivative_1d(
     if order % 2 != 0 and N % 2 == 0:
         symbol[N // 2] = 0.0
 
+    # Reshape symbol for proper multi-dimensional broadcasting along target axis
+    shape = [1] * u.ndim
+    shape[axis] = N
+    symbol = symbol.reshape(shape)
+
     u_hat = fft(u, axis=axis)
     u_deriv = np.real(ifft(symbol * u_hat, axis=axis))
     return u_deriv
@@ -180,6 +185,7 @@ def compute_derivative(
     periodic: bool = True,
     filter_window: Optional[int] = None,
     filter_poly: int = 3,
+    axis: int = -1,
 ) -> np.ndarray:
     """
     Unified entry point for spatial and temporal numerical differentiation.
@@ -191,13 +197,13 @@ def compute_derivative(
         # Enforce odd window length
         if filter_window % 2 == 0:
             filter_window += 1
-        if filter_window <= u_work.shape[-1]:
-            u_work = savgol_filter(u_work, window_length=filter_window, polyorder=filter_poly, axis=-1)
+        if filter_window <= u_work.shape[axis]:
+            u_work = savgol_filter(u_work, window_length=filter_window, polyorder=filter_poly, axis=axis)
 
     if method == "spectral":
-        return spectral_derivative_1d(u_work, dx=dx, order=order, periodic=periodic)
+        return spectral_derivative_1d(u_work, dx=dx, order=order, periodic=periodic, axis=axis)
     elif method == "fd":
-        return finite_difference_1d(u_work, dx=dx, order=order, accuracy=accuracy, periodic=periodic)
+        return finite_difference_1d(u_work, dx=dx, order=order, accuracy=accuracy, periodic=periodic, axis=axis)
     else:
         raise ValueError(f"Unknown derivative method '{method}'. Choose 'fd' or 'spectral'.")
 
