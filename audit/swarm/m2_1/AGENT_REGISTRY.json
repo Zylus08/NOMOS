@@ -1,0 +1,3368 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "Division A",
+    "specialty": "Identifiability Theory",
+    "assigned_task": "Energy manifold identifiability bounds & collinearity proof",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/HARMONIC_BASELINE_FORENSICS.md",
+      "audit/m2_1/IDENTIFIABILITY_AND_EXTRAPOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/HARMONIC_BASELINE_FORENSICS.md",
+      "audit/m2_1/IDENTIFIABILITY_AND_EXTRAPOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "Division A",
+    "specialty": "Rational Kinetics Asymptotics",
+    "assigned_task": "Michaelis-Menten asymptotic regime and domain analysis",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "Division A",
+    "specialty": "Symbolic Algebra Foundations",
+    "assigned_task": "SymPy canonical reduction and equivalence criteria",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/SYMBOLIC_RECOVERY_CLASSIFIER.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/SYMBOLIC_RECOVERY_CLASSIFIER.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "Division A",
+    "specialty": "ODE Numerical Stability",
+    "assigned_task": "Trajectory rollout divergence under frequency and phase drift",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/HARMONIC_BASELINE_FORENSICS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/HARMONIC_BASELINE_FORENSICS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "Division A",
+    "specialty": "Chaotic Attractor Dynamics",
+    "assigned_task": "Lyapunov horizon limitations on point-wise RMSE",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "Division A",
+    "specialty": "Dimensional Analysis",
+    "assigned_task": "Physical units and dimensional consistency verification",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "Division A",
+    "specialty": "Epistemic Uncertainty",
+    "assigned_task": "State space domain bounds and singularity detection",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/IDENTIFIABILITY_AND_EXTRAPOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/IDENTIFIABILITY_AND_EXTRAPOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "Division A",
+    "specialty": "Literature & Novelty",
+    "assigned_task": "SINDy, PySR, AI Feynman comparative state-of-the-art audit",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_a",
+    "owned_files": [
+      "audit/m2_1/SCIENTIFIC_NOVELTY_REASSESSMENT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/SCIENTIFIC_NOVELTY_REASSESSMENT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "Division B",
+    "specialty": "Harmonic Oscillator Verification",
+    "assigned_task": "Harmonic oscillator energy surface and multi-orbit data",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/harmonic_oscillator.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/harmonic_oscillator.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "Division B",
+    "specialty": "Damped Oscillator Verification",
+    "assigned_task": "Damped oscillator dissipation rate verification",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/damped_oscillator.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/damped_oscillator.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "Division B",
+    "specialty": "Pendulum Dynamics",
+    "assigned_task": "Nonlinear pendulum Hamiltonian conservation",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/pendulum.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/pendulum.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "Division B",
+    "specialty": "Lotka-Volterra Invariants",
+    "assigned_task": "Predator-prey first-integral invariant verification",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/lotka_volterra.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/lotka_volterra.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "Division B",
+    "specialty": "Lorenz-63 Verification",
+    "assigned_task": "Strange attractor dissipation and Lyapunov time",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/lorenz63.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/lorenz63.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "Division B",
+    "specialty": "Duffing Oscillator Verification",
+    "assigned_task": "Cubic potential and multi-orbit excitation",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/duffing.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/duffing.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "Division B",
+    "specialty": "Van der Pol Dynamics",
+    "assigned_task": "Limit cycle stability and relaxation oscillations",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/vanderpol.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/vanderpol.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "Division B",
+    "specialty": "Damped Pendulum Verification",
+    "assigned_task": "Dissipative nonlinear pendulum verification",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/damped_pendulum.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/damped_pendulum.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "Division B",
+    "specialty": "Rational Kinetics Generator",
+    "assigned_task": "Michaelis-Menten dynamics generator & domain bounds",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/rational_system.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/rational_system.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "Division B",
+    "specialty": "R\u00f6ssler Attractor Verification",
+    "assigned_task": "3D chaotic attractor numerical integration",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/roessler.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/roessler.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B11": {
+    "agent_id": "B11",
+    "division": "Division B",
+    "specialty": "Solver Precision Audit",
+    "assigned_task": "DOP853 8th-order Runge-Kutta convergence audit",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "nomos/physics/solvers.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/physics/solvers.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "B12": {
+    "agent_id": "B12",
+    "division": "Division B",
+    "specialty": "Physical Domain Verification",
+    "assigned_task": "Domain boundary and singularity avoidance checks",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_b",
+    "owned_files": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/GROUND_TRUTH_INTEGRITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #9",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 9",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #10",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C11": {
+    "agent_id": "C11",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #11",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "C12": {
+    "agent_id": "C12",
+    "division": "Division C",
+    "specialty": "Data Integrity & Experimental Design Specialist #12",
+    "assigned_task": "M2.1 verification and audit for Data Integrity & Experimental Design unit 12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_c",
+    "owned_files": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/STATISTICAL_REANALYSIS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #9",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 9",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #10",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D11": {
+    "agent_id": "D11",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #11",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D12": {
+    "agent_id": "D12",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #12",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D13": {
+    "agent_id": "D13",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #13",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 13",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D14": {
+    "agent_id": "D14",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #14",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 14",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D15": {
+    "agent_id": "D15",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #15",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 15",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "D16": {
+    "agent_id": "D16",
+    "division": "Division D",
+    "specialty": "Symbolic & Neural Search Algorithms Specialist #16",
+    "assigned_task": "M2.1 verification and audit for Symbolic & Neural Search Algorithms unit 16",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_d",
+    "owned_files": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/search/beam.py",
+      "nomos/search/genetic.py",
+      "nomos/neural/surrogate.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #9",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 9",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "Division E",
+    "specialty": "Symbolic Algebra & Classification Specialist #10",
+    "assigned_task": "M2.1 verification and audit for Symbolic Algebra & Classification unit 10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_e",
+    "owned_files": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/evaluation/symbolic_classifier.py",
+      "tests/m2_1/test_symbolic_classifier.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #9",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 9",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #10",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F11": {
+    "agent_id": "F11",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #11",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 11",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "F12": {
+    "agent_id": "F12",
+    "division": "Division F",
+    "specialty": "Baseline Calibration & Parity Specialist #12",
+    "assigned_task": "M2.1 verification and audit for Baseline Calibration & Parity unit 12",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_f",
+    "owned_files": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FAIR_BASELINE_COMPARISON.md",
+      "nomos/evaluation/baselines.py"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G09": {
+    "agent_id": "G09",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #9",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 9",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "G10": {
+    "agent_id": "G10",
+    "division": "Division G",
+    "specialty": "Adversarial Falsification & Red-Team Specialist #10",
+    "assigned_task": "M2.1 verification and audit for Adversarial Falsification & Red-Team unit 10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_g",
+    "owned_files": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/RATIONAL_KINETICS_FORENSICS.md",
+      "audit/m2_1/CLAIM_CORRECTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #7",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 7",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "Division H",
+    "specialty": "Infrastructure & Compute Accounting Specialist #8",
+    "assigned_task": "M2.1 verification and audit for Infrastructure & Compute Accounting unit 8",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_h",
+    "owned_files": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/NEURAL_GUIDANCE_ABLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "Division I",
+    "specialty": "Independent Scientific Peer Review Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Independent Scientific Peer Review unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_i",
+    "owned_files": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m2_1/FINAL_SCIENTIFIC_VERDICT.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #1",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 1",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #2",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 2",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #3",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 3",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #4",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 4",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #5",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 5",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "Division J",
+    "specialty": "Certification & Regression Defense Specialist #6",
+    "assigned_task": "M2.1 verification and audit for Certification & Regression Defense unit 6",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m2_1_workspace_j",
+    "owned_files": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "tests/m2_1/test_regression_m2_1.py",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 60,
+      "passed": 60,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m2_1/CORRECTED_RESULTS.csv",
+      "audit/m2_1/TEST_RESULTS.txt"
+    ]
+  }
+}

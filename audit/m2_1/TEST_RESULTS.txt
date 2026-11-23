@@ -1,0 +1,80 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\mishr\anaconda3\python.exe
+cachedir: .pytest_cache
+Fugue tests will be initialized with options:
+rootdir: E:\NOMOS
+configfile: pyproject.toml
+plugins: anyio-4.2.0, datalad-1.6.1, fugue-0.9.7, langsmith-0.10.18, asyncio-1.4.0, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 60 items
+
+tests/m2/test_identifiability.py::test_insufficient_excitation_detector PASSED [  1%]
+tests/m2/test_identifiability.py::test_multiple_plausible_laws_detector PASSED [  3%]
+tests/m2/test_neural.py::test_neural_surrogate_training_and_jacobian PASSED [  5%]
+tests/m2/test_neural.py::test_neural_guidance_nonlinearity_detection PASSED [  6%]
+tests/m2/test_search.py::test_continuous_coefficient_optimization PASSED [  8%]
+tests/m2/test_search.py::test_pareto_frontier_dominance PASSED           [ 10%]
+tests/m2/test_search.py::test_structured_beam_search_recovery PASSED     [ 11%]
+tests/m2/test_search.py::test_genetic_programming_search PASSED          [ 13%]
+tests/m2/test_trees.py::test_protected_operators_no_crashes PASSED       [ 15%]
+tests/m2/test_trees.py::test_expression_tree_construction_and_eval PASSED [ 16%]
+tests/m2/test_trees.py::test_expression_tree_sympy_roundtrip PASSED      [ 18%]
+tests/m2/test_trees.py::test_expression_tree_serialization PASSED        [ 20%]
+tests/m2_1/test_regression_m2_1.py::TestRationalKineticsVerification::test_rational_spurious_rejection PASSED [ 21%]
+tests/m2_1/test_regression_m2_1.py::TestRationalKineticsVerification::test_rational_exact_symbolic PASSED [ 23%]
+tests/m2_1/test_regression_m2_1.py::TestRationalKineticsVerification::test_rational_algebraic_equivalent PASSED [ 25%]
+tests/m2_1/test_regression_m2_1.py::TestHarmonicBaselineParity::test_harmonic_fair_multi_orbit_recovery PASSED [ 26%]
+tests/m2_1/test_regression_m2_1.py::TestHarmonicBaselineParity::test_harmonic_single_orbit_d3_collinearity PASSED [ 28%]
+tests/m2_1/test_regression_m2_1.py::TestDomainSingularityDetection::test_internal_singularity_detection PASSED [ 30%]
+tests/m2_1/test_regression_m2_1.py::TestSearchDeterminism::test_pure_beam_determinism PASSED [ 31%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_exact_symbolic PASSED [ 33%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_algebraically_equivalent PASSED [ 35%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_correct_support_approximate_coefficients PASSED [ 36%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_approximate_vector_field PASSED [ 38%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_rational_kinetics_rollout_only_match PASSED [ 40%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_incorrect PASSED [ 41%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_unidentifiable PASSED [ 43%]
+tests/m2_1/test_symbolic_classifier.py::test_classifier_invalid_expression PASSED [ 45%]
+tests/test_adversarial.py::test_adversarial_identifiability_harmonic_degeneracy PASSED [ 46%]
+tests/test_adversarial.py::test_adversarial_inadequate_candidate_library PASSED [ 48%]
+tests/test_adversarial.py::test_adversarial_data_leakage_attack PASSED   [ 50%]
+tests/test_baselines.py::test_ols_baseline PASSED                        [ 51%]
+tests/test_baselines.py::test_pysindy_adapter_parity PASSED              [ 53%]
+tests/test_data.py::test_trajectory_disjoint_splitting PASSED            [ 55%]
+tests/test_data.py::test_metadata_isolation_sandbox PASSED               [ 56%]
+tests/test_data.py::test_gaussian_noise_injection PASSED                 [ 58%]
+tests/test_data.py::test_dataset_quality_audit PASSED                    [ 60%]
+tests/test_library.py::test_finite_difference_accuracy PASSED            [ 61%]
+tests/test_library.py::test_savitzky_golay_noise_filtering PASSED        [ 63%]
+tests/test_library.py::test_polynomial_library_features PASSED           [ 65%]
+tests/test_library.py::test_trigonometric_library_features PASSED        [ 66%]
+tests/test_library.py::test_feature_scaler_unscaling_exactness PASSED    [ 68%]
+tests/test_physics.py::test_benchmark_registry_completeness PASSED       [ 70%]
+tests/test_physics.py::test_harmonic_oscillator_analytical_equivalence PASSED [ 71%]
+tests/test_physics.py::test_damped_oscillator_analytical_equivalence PASSED [ 73%]
+tests/test_physics.py::test_harmonic_energy_conservation PASSED          [ 75%]
+tests/test_physics.py::test_lotka_volterra_first_integral PASSED         [ 76%]
+tests/test_physics.py::test_solver_tolerance_convergence PASSED          [ 78%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[harmonic_oscillator-polynomial-0.05] PASSED [ 80%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[damped_oscillator-polynomial-0.05] PASSED [ 81%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[nonlinear_pendulum-composite-0.05] PASSED [ 83%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[lotka_volterra-polynomial-0.05] PASSED [ 85%]
+tests/test_pipeline.py::test_pipeline_noiseless_recovery[lorenz63-polynomial-0.1] PASSED [ 86%]
+tests/test_sparse.py::test_stlsq_exact_sparse_recovery PASSED            [ 88%]
+tests/test_sparse.py::test_stlsq_rank_deficient_handling PASSED          [ 90%]
+tests/test_sparse.py::test_stlsq_overly_high_threshold PASSED            [ 91%]
+tests/test_symbolic.py::test_matrix_to_sympy PASSED                      [ 93%]
+tests/test_symbolic.py::test_algebraic_equivalence_exact PASSED          [ 95%]
+tests/test_symbolic.py::test_algebraic_equivalence_factored PASSED       [ 96%]
+tests/test_symbolic.py::test_complexity_monotonicity PASSED              [ 98%]
+tests/test_symbolic.py::test_dimensional_consistency PASSED              [100%]
+
+============================== warnings summary ===============================
+tests/m2_1/test_regression_m2_1.py::TestDomainSingularityDetection::test_internal_singularity_detection
+  <lambdifygenerated-7>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/m2_1/test_symbolic_classifier.py::test_classifier_invalid_expression
+  <lambdifygenerated-25>:2: RuntimeWarning: divide by zero encountered in divide
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 60 passed, 2 warnings in 23.36s =======================
