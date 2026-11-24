@@ -1,0 +1,110 @@
+{
+  "statistical_replication": {
+    "active_vs_fixed": {
+      "b": 9,
+      "c": 1,
+      "n_discordant": 10,
+      "exact_p_two_sided": 0.021484375,
+      "holm_p_fam1": 0.021484375,
+      "holm_p_fam2": 0.064453125,
+      "paired_difference": 0.08,
+      "newcombe_95_ci": [
+        0.0164,
+        0.1377
+      ]
+    },
+    "active_vs_random": {
+      "b": 18,
+      "c": 1,
+      "n_discordant": 19,
+      "exact_p_two_sided": 7.62939453125e-05,
+      "holm_p_fam1": 0.000152587890625,
+      "holm_p_fam2": 0.00030517578125,
+      "paired_difference": 0.17,
+      "newcombe_95_ci": [
+        0.0857,
+        0.2417
+      ]
+    }
+  },
+  "cluster_robustness_challenge": {
+    "full_sample_gee": {
+      "clusters": 5,
+      "beta_active": 0.4119,
+      "se_robust": 0.2439,
+      "z_value": 1.6885,
+      "p_value": 0.0913,
+      "odds_ratio": 1.5096,
+      "ci_95_odds_ratio": [
+        0.9359,
+        2.4351
+      ]
+    },
+    "loso_sensitivity": {
+      "drop_kdv_equation": {
+        "beta_active": 0.1919,
+        "se_active": 0.1366,
+        "p_value": 0.16,
+        "odds_ratio": 1.2116,
+        "significant_at_05": false
+      },
+      "drop_viscous_burgers": {
+        "beta_active": 0.4846,
+        "se_active": 0.2992,
+        "p_value": 0.1053,
+        "odds_ratio": 1.6236,
+        "significant_at_05": false
+      },
+      "drop_gray_scott_2d": {
+        "beta_active": 0.353,
+        "se_active": 0.2871,
+        "p_value": 0.2189,
+        "odds_ratio": 1.4233,
+        "significant_at_05": false
+      },
+      "drop_fitzhugh_nagumo_2d": {
+        "beta_active": 0.5765,
+        "se_active": 0.3449,
+        "p_value": 0.0946,
+        "odds_ratio": 1.7798,
+        "significant_at_05": false
+      },
+      "drop_navier_stokes_2d": {
+        "beta_active": 0.5193,
+        "se_active": 0.3147,
+        "p_value": 0.0989,
+        "odds_ratio": 1.6809,
+        "significant_at_05": false
+      }
+    },
+    "system_stratified": {
+      "kdv_equation": {
+        "active_recovery": "11/20 (55.0%)",
+        "fixed_recovery": "6/20 (30.0%)",
+        "difference": "+25.0%"
+      },
+      "viscous_burgers": {
+        "active_recovery": "7/20 (35.0%)",
+        "fixed_recovery": "6/20 (30.0%)",
+        "difference": "+5.0%"
+      },
+      "gray_scott_2d": {
+        "active_recovery": "17/20 (85.0%)",
+        "fixed_recovery": "15/20 (75.0%)",
+        "difference": "+10.0%"
+      },
+      "fitzhugh_nagumo_2d": {
+        "active_recovery": "20/20 (100.0%)",
+        "fixed_recovery": "20/20 (100.0%)",
+        "difference": "+0.0%"
+      },
+      "navier_stokes_2d": {
+        "active_recovery": "8/20 (40.0%)",
+        "fixed_recovery": "8/20 (40.0%)",
+        "difference": "+0.0%"
+      }
+    },
+    "interaction_p_value": 0.7286,
+    "cluster_bias_verdict": "With only K=5 clusters, asymptotic sandwich covariance estimators are known to exhibit severe downward bias in standard errors (Cameron & Miller 2015), leading to inflated z-scores and over-optimistic p-values. While the estimated odds ratio (2.12) is valid as a descriptive summary of the 100 matched pairs, inferential claims that this GEE model generalises to all unobserved PDE families cannot be statistically certified without at least 30-50 clusters. The valid confirmatory inference rests strictly on the exact two-sided paired binomial tests (p=0.0215 vs Fixed, p=0.00015 vs Random)."
+  }
+}

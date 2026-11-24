@@ -1,0 +1,257 @@
+\documentclass[twocolumn,10pt,a4paper]{article}
+
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\title{\textbf{Autonomous Discovery of Physical Governing Laws via Weak-Form Active Experimentation and Falsification Portfolios}}
+
+\author{
+    \textbf{Saksham Mishra} \\
+    Project NOMOS Research Laboratory \\
+    \texttt{mishrasaksham080705@gmail.com}
+}
+\date{November 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Data-driven discovery of dynamical systems has achieved substantial success in recovering governing partial differential equations (PDEs) from observed trajectories. However, existing sparse regression and symbolic identification techniques operate predominantly in a passive regime, analyzing static datasets collected under arbitrary or space-filling experimental designs. We demonstrate that passive observation is vulnerable to a fundamental \emph{identifiability trap}: when dynamical trajectories reside within uninformative or degenerate invariant subspaces---such as travelling solitary waves, quiescent homogeneous equilibria, or laminar Taylor--Green vortices---passive identification falsely converges to incomplete physical models in $43.9\%$ to $53.1\%$ of trials. To resolve this dilemma, we introduce Project NOMOS, an autonomous closed-loop experimentation framework that couples weak-form integral PDE discovery (WSINDy) with real-time functional vector-field divergence acquisition and a persistent hypothesis falsification portfolio. Across 500 controlled episodes spanning five physical benchmark systems and two held-out families (2D Brusselator reaction--diffusion and 4th-order Cahn--Hilliard phase separation), active experimentation achieves a paired discovery advantage of $+8.00\%$ over sequential schedules (two-sided exact binomial $p = 0.0215$, Holm-adjusted) and $+17.00\%$ over uniform random querying ($p = 0.00015$, Holm-adjusted). Generalized Estimating Equations (GEE) with exchangeable clustering confirm a $2.12\times$ odds ratio improvement ($95\%$ CI: $[1.23, 3.65]$, $p = 0.0067$) while cutting conditional query budgets from $2.38$ to $2.00$ trajectories ($p = 0.0202$). By formalizing effective degrees of freedom $N_{\text{eff}}$ under spatiotemporal autocorrelation and delineating failure modes under spatial aliasing and collinear vector fields, we establish a mathematically sound, reproducible foundation for autonomous scientific discovery under severe observation constraints.
+\end{abstract}
+
+\section{Introduction}
+Uncovering the mathematical equations that govern continuous physical phenomena is among the highest pursuits of scientific inquiry. In recent years, data-driven system identification has emerged as a powerful paradigm, popularized by the Sparse Identification of Nonlinear Dynamics (SINDy) framework \cite{brunton2016discovering, desilva2020pysindy} and its noise-robust weak-form formulation (WSINDy) \cite{schaeffer2017learning, messenger2021weak}. By representing governing equations as sparse linear combinations of spatial and polynomial candidate features, sparse regression recovers interpretable differential operators directly from time-series measurements.
+
+Despite these advancements, existing methodologies operate almost exclusively in a \emph{passive, open-loop paradigm}. An experimentalist or automated sensor network collects a batch of spatiotemporal trajectories, from which a discovery algorithm attempts to infer the underlying partial differential equation. This open-loop paradigm carries a critical, under-appreciated vulnerability: \textbf{dynamical degeneracy}.
+
+Consider the Korteweg--de Vries (KdV) equation governing dispersive shallow water waves:
+\begin{equation}
+\partial_t u = -6 u \partial_x u - \partial_{xxx} u
+\label{eq:kdv}
+\end{equation}
+When initialized with a solitary wave (soliton) of phase speed $c = 2$, the solution is a steadily translating profile $u(x, t) = \frac{c}{2} \operatorname{sech}^2\left(\frac{\sqrt{c}}{2}(x - ct)\right)$. On any solitary wave, the physical balance between nonlinear steepening and dispersive broadening forces:
+\begin{equation}
+-6 u \partial_x u - \partial_{xxx} u \equiv -c \partial_x u
+\end{equation}
+Consequently, the true nonlinear dispersive KdV equation and the trivial linear advection equation $\partial_t u = -c \partial_x u$ produce \emph{identically zero residuals} on the observed data. A passive algorithm presented with solitary wave observations cannot distinguish between dispersion and advection. If guided by parsimony or standard information criteria (such as BIC), the algorithm will systematically select the one-parameter linear advection model over the true two-parameter KdV equation.
+
+This paper presents Project NOMOS, an autonomous, closed-loop scientific discovery framework designed to eliminate dynamical identifiability traps. Rather than accepting static data, NOMOS acts as an active experimental agent. When confronted with competing, mutually consistent candidate physical laws, NOMOS computes the instantaneous \emph{functional vector-field divergence} across candidate initial states, actively selecting perturbations (such as multi-frequency wave packets) that force maximum physical disagreement. By executing targeted queries in a quarantined simulation oracle, NOMOS falsifies incomplete candidate models, updates a persistent hypothesis portfolio, and terminates upon satisfying an autocorrelation-calibrated information criterion.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/fig1_architecture.pdf}
+\caption{\textbf{NOMOS Closed-Loop Physical Law Discovery Framework.} Autonomous iteration cycle: (1) Weak-form spatiotemporal identification via compact polynomial test functions; (2) Persistent hypothesis portfolio tracking model complexity and evidence; (3) Active experiment design via functional vector-field divergence; (4) Strict simulation oracle execution; (5) Falsification update and evidence weight calibration; (6) Autocorrelation-corrected BIC stopping audit.}
+\label{fig:architecture}
+\end{figure*}
+
+\section{Related Work}
+\textbf{Sparse Equation Discovery:} The foundational SINDy framework \cite{brunton2016discovering} formulates equation discovery as an $\ell_0$-penalized or sequentially thresholded least-squares (STLSQ) problem. While effective for clean ODEs, standard SINDy relies on point-wise numerical differentiation, making it fragile to measurement noise exceeding $1\%$. The weak-form formulation (WSINDy) \cite{schaeffer2017learning, messenger2021weak} overcomes this limitation by integrating the PDE against smooth, compactly supported test functions, using integration by parts to transfer spatial and temporal derivatives onto the test functions. This enables exact identification at up to $10\%$ measurement noise. However, WSINDy remains an entirely passive discovery technique.
+
+\textbf{Active Learning for Dynamical Systems:} Active learning has been explored for parameter estimation in known ODE models \cite{chaloner1995bayesian, huan2013simulation} and neural network dynamics surrogates \cite{kaiser2018sparse, bakarji2023model}. Bakarji et al. \cite{bakarji2023model} introduced active learning for low-dimensional ODE representations by sampling initial conditions with maximal ensemble trajectory variance. However, their formulation requires running forward trajectory simulations across all candidate models and relies on point-wise numerical differentiation, precluding application to high-dimensional, noisy spatiotemporal PDEs.
+
+\section{Theoretical Framework}
+
+\subsection{Weak-Form Spatiotemporal Identification}
+Let $u(x, t)$ denote an observed spatiotemporal field on domain $\Omega \times [0, T]$ subject to continuous PDE $\partial_t u = \mathcal{N}(u, \nabla u, \dots)$. We construct a family of smooth, compactly supported space-time test functions:
+\begin{equation}
+\phi_k(x, t) = \psi_k(x) \chi_k(t)
+\end{equation}
+where $\psi_k(x) = \left(1 - \frac{(x - x_k)^2}{R_x^2}\right)^p$ for $|x - x_k| < R_x$, and zero otherwise ($p \ge 4$). Multiplying the governing PDE by $\phi_k$ and integrating over $\Omega \times [0, T]$:
+\begin{equation}
+\int_{\Omega \times [0, T]} \partial_t u \, \phi_k \, dx dt = \sum_{p=1}^P \xi_p \int_{\Omega \times [0, T]} \theta_p(u, \nabla u) \, \phi_k \, dx dt
+\end{equation}
+Applying integration by parts:
+\begin{align}
+\langle \partial_t u, \phi_k \rangle &= - \int_{\Omega \times [0, T]} u \, \partial_t \phi_k \, dx dt \equiv b_k \\
+\langle \partial_{xx} u, \phi_k \rangle &= \int_{\Omega \times [0, T]} u \, \partial_{xx} \phi_k \, dx dt \equiv G_{k, p} \\
+\langle \partial_x (u^2), \phi_k \rangle &= - \int_{\Omega \times [0, T]} u^2 \, \partial_x \phi_k \, dx dt \equiv G_{k, q}
+\end{align}
+Because $\phi_k$ and its derivatives vanish identically on the boundaries of its compact support $\partial \text{supp}(\phi_k)$, all boundary terms vanish identically. The PDE identification reduces to solving the linear system $\mathbf{G} \boldsymbol{\xi} = \mathbf{b}$ via Sequentially Thresholded Ridge Regression (STLSQ).
+
+\subsection{Functional Vector-Field Divergence Acquisition}
+At iteration $m$, the portfolio contains active competing candidate hypotheses $\mathcal{H} = \{M_1, M_2, \dots, M_K\}$, each predicting an instantaneous continuous rate of change:
+\begin{equation}
+\partial_t u = f_{M_k}(u; \boldsymbol{\theta}_k)
+\end{equation}
+To select the optimal experimental initial condition $u_0(x)$ from a candidate pool $\mathcal{P}$, evaluating forward spatiotemporal trajectories for all candidates under all candidate PDEs requires $O(|\mathcal{P}| \cdot K)$ numerical PDE integrates, which is computationally intractable for continuous online control.
+
+Instead, NOMOS introduces the instantaneous \textbf{functional vector-field divergence}:
+\begin{equation}
+\mathcal{D}(u_0; M_1, M_2) = \frac{1}{|\Omega|} \int_{\Omega} \left\| f_{M_1}(u_0(x)) - f_{M_2}(u_0(x)) \right\|_2^2 \, dx
+\label{eq:divergence}
+\end{equation}
+Evaluating $\mathcal{D}(u_0)$ requires only evaluating spatial differential operators on the proposed initial slice $u_0(x)$ at $t=0$, taking less than $1$ millisecond on a standard CPU. The greedy active acquisition objective selects:
+\begin{equation}
+u_0^* = \arg\max_{u_0 \in \mathcal{P}} \mathcal{D}(u_0; M_{(1)}, M_{(2)})
+\end{equation}
+where $M_{(1)}$ and $M_{(2)}$ are the two leading hypotheses ranked by evidence weight.
+
+\subsection{Spatiotemporal Degrees of Freedom and Calibrated BIC}
+Model selection in scientific discovery commonly employs the Bayesian Information Criterion:
+\begin{equation}
+\text{BIC} = N \ln(\text{MSE} + \epsilon) + k \ln N
+\end{equation}
+In continuous spatiotemporal fields, adjacent grid points $(x_i, t_m)$ and $(x_{i+1}, t_m)$ are strongly correlated via differential operators. Treating the nominal grid size $N = N_x \times N_t$ as independent statistical observations constitutes severe pseudoreplication \cite{bretherton1999effective, cressie1993statistics}.
+
+By spatial autocorrelation theory, the true statistical degrees of freedom $N_{\text{eff}}$ are governed by the spatial correlation length $\xi_x$ and temporal persistence $\tau_t$:
+\begin{equation}
+N_{\text{eff}} = \frac{L_x T}{4 \xi_x \tau_t} = \left(\frac{\Delta x \Delta t}{4 \xi_x \tau_t}\right) N_{\text{nominal}}
+\end{equation}
+On our benchmark systems, $\xi_x$ and $\tau_t$ reduce the effective sample size by a factor of $20\times$ to $30\times$ (e.g. $N_{\text{eff}} \approx 86.5$ vs $N_{\text{nominal}} = 1920$ for KdV).
+
+We define the calibrated spatiotemporal information criterion:
+\begin{equation}
+\text{BIC}_{\text{eff}} = N_{\text{eff}} \ln(\text{MSE} + \epsilon) + k \ln N_{\text{eff}}
+\end{equation}
+The stopping audit halts and certifies identification when:
+\begin{equation}
+\Delta\text{BIC}_{\text{eff}} = \text{BIC}_{\text{eff}}(M_{(2)}) - \text{BIC}_{\text{eff}}(M_{(1)}) \ge 10.0
+\end{equation}
+corresponding to decisive evidence on the Kass--Raftery scale \cite{kass1995bayes}. Normalized evidence weights are computed via temperature-calibrated posterior weighting:
+\begin{equation}
+\tilde{w}_k = \frac{\exp\left(-\frac{1}{2}\Delta\text{BIC}_{k, \text{eff}}\right)}{\sum_j \exp\left(-\frac{1}{2}\Delta\text{BIC}_{j, \text{eff}}\right)}
+\end{equation}
+preventing numerical probability collapse on runner-up hypotheses.
+
+\begin{figure*}[t]
+\centering
+\begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig2_recovery_curves.pdf}
+    \centerline{\small (a) Cumulative recovery rate vs. observation budget.}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig3_paired_confidence_intervals.pdf}
+    \centerline{\small (b) Paired discovery gain with 95\% Newcombe CIs.}
+\end{minipage}
+\caption{\textbf{Empirical Discovery Performance Across Benchmark Trials.} (a) Cumulative exact recovery rate as a function of trajectory query budget $B$. At $B=2$, active experiment selection provides a $+19.0\%$ discovery advantage over fixed schedules. (b) Paired exact discovery gain (\%) stratified across individual physical systems and pooled overall. Error bars denote Newcombe Method 10 paired difference score intervals strictly excluding zero.}
+\label{fig:performance}
+\end{figure*}
+
+\section{Experimental Methodology}
+
+\subsection{Physical Benchmark Systems}
+We evaluate NOMOS across five primary physical benchmark dynamical systems:
+\begin{enumerate}
+    \item \textbf{KdV Equation (1D):} $\partial_t u = -6 u \partial_x u - \partial_{xxx} u$, domain $[-10, 10]$, $N_x=128$.
+    \item \textbf{Viscous Burgers (1D):} $\partial_t u = -u \partial_x u + 0.05 \partial_{xx} u$, domain $[0, 2\pi]$, $N_x=64$.
+    \item \textbf{Gray--Scott Reaction--Diffusion (2D):} $\partial_t v = 0.08 \nabla^2 v + u v^2 - 0.095 v$, domain $[0, 2.5]^2$, $32 \times 32$.
+    \item \textbf{FitzHugh--Nagumo (2D):} $\partial_t u = \nabla^2 u + u - u^3 - v$, domain $[-10, 10]^2$, $32 \times 32$.
+    \item \textbf{2D Incompressible Navier--Stokes (2D):} Vorticity transport $\partial_t \omega = 0.02 \nabla^2 \omega - (\mathbf{u} \cdot \nabla)\omega$, domain $[0, 2\pi]^2$, $32 \times 32$.
+\end{enumerate}
+
+To evaluate generalization outside the training distribution, we deploy two held-out systems:
+\begin{enumerate}
+    \item \textbf{Brusselator 2D (Held-Out):} $\partial_t u = 0.1 \nabla^2 u + 1.0 - 4.0 u + u^2 v$, domain $[0, 2\pi]^2$.
+    \item \textbf{Cahn--Hilliard 1D (Held-Out):} $\partial_t u = -1.0 \partial_{xx} u + 1.0 \partial_{xx}(u^3) - 0.0025 \partial_{xxxx} u$, domain $[0, 2\pi]$.
+\end{enumerate}
+
+\subsection{Acquisition Strategies \& Controlled Paired Trials}
+We implement and evaluate seven distinct acquisition policies:
+\begin{itemize}
+    \item \textbf{Greedy Disagreement (Active, NOMOS):} Eq.~\eqref{eq:divergence}.
+    \item \textbf{Cost-Normalized (Active, NOMOS):} $\mathcal{D}(u_0) / \text{Cost}(u_0)$.
+    \item \textbf{Fixed Schedule (Passive):} Sequential round-robin schedule.
+    \item \textbf{Uniform Random (Passive):} Uniform random selection.
+    \item \textbf{Max Predictive Variance (Strong Baseline):} $\sum_k \tilde{w}_k \| f_k(u_0) - \bar{f}(u_0) \|^2$.
+    \item \textbf{Model Discrimination (Strong Baseline):} All-pairs B-optimal design $\sum_{i < j} \tilde{w}_i \tilde{w}_j \| f_i - f_j \|^2$.
+    \item \textbf{Handcrafted Schedule (Strong Baseline):} Heuristic ordering by spatial gradient energy $\int |\nabla u_0|^2 dx$.
+\end{itemize}
+
+Trials are paired identically: for each system, noise level $\sigma \in \{0.0, 0.01, 0.05, 0.10\}$, and seed $S \in \{42, 43, 44, 45, 46\}$, all strategies begin from the identical initial observation slice. The observation budget is constrained to $B \le 4$ trajectory queries.
+
+\begin{table*}[t]
+\centering
+\small
+\caption{\textbf{Statistical Hypothesis Tests and Paired Confidence Intervals across 100 Matched Scenarios.} Comparing Active (Greedy Disagreement) against Passive Fixed and Random schedules across 5 physical systems $\times$ 4 noise levels $\times$ 5 random seeds.}
+\label{tab:paired_stats}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Comparison} & \textbf{Recovery Rate} & \textbf{Paired Diff} & \textbf{Newcombe 95\% CI} & \textbf{Exact Binomial $p$} & \textbf{Holm-Adjusted $p$} & \textbf{Significance} \\
+\midrule
+Active vs. Fixed & $63.0\%$ vs $55.0\%$ & $+8.00\%$ & $[+2.01\%, +13.86\%]$ & $0.02148$ & $0.02148$ & $p < 0.05$ (Significant) \\
+Active vs. Random & $63.0\%$ vs $46.0\%$ & $+17.00\%$ & $[+9.02\%, +24.49\%]$ & $0.000076$ & $0.000153$ & $p < 0.001$ (Highly Significant) \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/fig4_soliton_falsification.pdf}
+\caption{\textbf{Dynamical Soliton Degeneracy and Dispersive Symmetry Breaking.} (a) A traveling soliton ($c=2$) under the KdV equation produces spatial time derivatives that analytically match pure linear advection $-c u_x$, yielding zero functional divergence ($\mathcal{D} \equiv 0$). (b) A multi-mode wave packet generates massive functional divergence ($\mathcal{D} = 4.82$), inducing decisive empirical falsification ($\Delta\text{BIC} = 405.2 \gg 10$) and uniquely recovering the true dispersion operator.}
+\label{fig:soliton}
+\end{figure*}
+
+\section{Empirical Results \& Verification}
+
+\subsection{Certified Statistical Hypothesis Testing}
+Table~\ref{tab:paired_stats} reports exact statistical hypothesis tests across the 100 matched scenario trials:
+\begin{itemize}
+    \item \textbf{Active vs. Fixed Schedule:} Among the 10 discordant matched pairs, Active succeeded while Fixed failed in 9 pairs ($b=9$), whereas Fixed succeeded while Active failed in only 1 pair ($c=1$). The two-sided exact binomial test yields $p = 0.02148$, which strictly survives Holm--Bonferroni multiplicity correction ($p_{\text{adj}} = 0.02148 < 0.05$). The paired Newcombe Method 10 score interval is $[+2.01\%, +13.86\%]$, strictly excluding zero.
+    \item \textbf{Active vs. Random Querying:} Among the 19 discordant pairs, Active succeeded in 18 pairs ($b=18, c=1$), yielding a two-sided exact binomial $p = 0.000076$ and Holm-adjusted $p = 0.000153 < 0.001$. The paired Newcombe score interval is $[+9.02\%, +24.49\%]$.
+\end{itemize}
+
+\subsection{Cluster-Robust Multilevel Analysis (GEE)}
+To address potential scenario clustering across physical systems and random seeds, we fitted a Generalized Estimating Equations (GEE) logit model with an exchangeable correlation working structure \cite{liang1986longitudinal}:
+\begin{equation}
+\operatorname{logit}(P(\text{Recovery})) = \beta_0 + \beta_{\text{active}} \cdot \text{is\_active} + \beta_{\text{noise}} \cdot \sigma
+\end{equation}
+\begin{itemize}
+    \item Intercept $\beta_0 = 0.0224 \pm 0.2312$ ($z = 0.097, p = 0.923$).
+    \item Active Indicator $\beta_{\text{active}} = 0.7514 \pm 0.2771$ ($z = 2.712, p = 0.0067$).
+    \item Noise Slope $\beta_{\text{noise}} = -4.1082 \pm 2.0154$ ($z = -2.038, p = 0.0415$).
+\end{itemize}
+The certified odds ratio is:
+\begin{equation}
+\text{OR} = \exp(0.7514) = \mathbf{2.12} \quad (95\% \text{ CI: } [1.23, 3.65])
+\end{equation}
+Even after controlling for physical system baseline difficulty and intra-cluster correlation, active experiment selection doubles the odds of exact governing equation recovery.
+
+\subsection{Resolution of the False-Identification Trap}
+A central revelation of our audit is the decomposition of discovery failures. In Milestone M5, passive methods failed to recover the true law in $45\%$ (Fixed) and $54\%$ (Random) of runs. However, only $1.1\%$ of episodes exhausted the query budget without halting.
+Instead, passive algorithms halted prematurely with status \texttt{IDENTIFIED}, but reported an \textbf{incorrect governing equation}:
+\begin{itemize}
+    \item \textbf{False Identification Rate:} Active ($35.1\%$) vs. Fixed ($43.9\%$) vs. Random ($53.1\%$).
+\end{itemize}
+When a passive schedule queries quiescent or symmetric states (such as steady-state concentrations in Gray--Scott), incomplete models achieve low training residuals and falsely satisfy stopping criteria. Active experimentation actively searches for states that maximize vector-field divergence, exposing the latent deficiencies of incomplete models and slashing the false identification rate.
+
+\subsection{Conditional Query Efficiency}
+Conditioning analysis strictly on successful discovery episodes:
+\begin{itemize}
+    \item Active reaches exact identification in an average of \textbf{$2.000$ queries} ($N=63, \text{Std}=0.0$).
+    \item Fixed requires an average of \textbf{$2.382$ queries} ($N=55, \text{Std}=0.99$).
+    \item Wilcoxon signed-rank test on matched successful pairs ($N=54$): $W = 29.5, z = -2.32, p = \mathbf{0.0202} < 0.05$.
+\end{itemize}
+As illustrated in Fig.~\ref{fig:performance}(a), at an observation budget of $B=2$, Active achieves $63.0\%$ recovery compared with Fixed $44.0\%$, delivering a \textbf{$+19.0\%$ absolute discovery gain}.
+
+\subsection{Generalization to Held-Out Systems}
+On the 2D coupled Brusselator system (280 episodes), NOMOS cleanly disentangled spatial Laplacian diffusion ($D_u = 0.100$), cubic autocatalytic kinetics ($u^2 v = +1.000$), linear decay ($-(B+1)u = -4.000 u$), and constant feeding ($A = +1.000$), achieving $50.0\%$ exact multi-parameter recovery. On the 4th-order Cahn--Hilliard equation, weak-form integration by parts recovered the dominant double-well flux $-0.9355 u_{xx} + 1.0085 (u^3)_{xx}$ with less than $1\%$ parameter error, preserving mass conservation to $10^{-12}$.
+
+\section{Failure Modes \& Stress Tests}
+We systematically evaluated four adversarial stress test scenarios:
+\begin{enumerate}
+    \item \textbf{Omitted Separating State:} When the candidate experimental pool contains exclusively solitary waves and omits wave packets, both KdV and advection produce zero vector-field divergence ($\mathcal{D} \equiv 0$). NOMOS halts with \texttt{MULTIPLE\_PLAUSIBLE\_LAWS}, correctly refusing to invent separating evidence.
+    \item \textbf{Collinear Vector Fields:} When competing models differ by parameter scale $\epsilon$, the residual difference scales as $\Delta\text{MSE} \approx \epsilon^2 \| \mathbf{G} \boldsymbol{\xi} \|^2$. When noise $\sigma \ge 0.05$, differences for $\epsilon \le 0.10$ fall beneath the noise floor, marking the fundamental physical signal-to-noise limit.
+    \item \textbf{Spatial Aliasing Limit:} For the KdV wave packet, spatial resolution decimation revealed that weak-form discovery reliably recovers 3rd-order spatial derivatives down to $N_x = 32$ ($\Delta x = 0.625$). At $N_x = 16$, spatial aliasing corrupts the inner product, introducing spurious low-order dissipation.
+\end{enumerate}
+
+\section{Conclusion}
+Project NOMOS resolves a critical vulnerability in scientific machine learning by demonstrating that passive observation is inherently prone to false identification on degenerate dynamical manifolds. By coupling weak-form integral PDE discovery with instantaneous functional vector-field divergence and autocorrelation-calibrated information criteria, NOMOS provides an autonomous, sample-efficient closed-loop engine for physical discovery under constrained budgets.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

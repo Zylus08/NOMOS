@@ -67,3 +67,10 @@ venv.bak/
 # Project scratch data
 scratch/
 *.tmp
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz

@@ -1,0 +1,49 @@
+{
+  "query_efficiency_audit": {
+    "active_total_episodes": 100,
+    "active_recoveries": 63,
+    "active_failures": 37,
+    "active_recovery_query_mean": 2.0,
+    "active_recovery_query_std": 0.0,
+    "active_failure_query_mean": 2.27027027027027,
+    "active_failure_query_std": 0.8268680292312623,
+    "fixed_recovery_query_mean": 2.381818181818182,
+    "fixed_recovery_query_std": 0.8840178749922344,
+    "fixed_all_query_mean": 2.28,
+    "random_recovery_query_mean": 2.1956521739130435,
+    "mutual_success_count": 54,
+    "wilcoxon_conditional_pval": 0.001275640308222464,
+    "wilcoxon_unconditional_pval": 0.040447621850016297,
+    "active_query_distribution_rec": {
+      "2": 63
+    },
+    "active_query_distribution_nonrec": {
+      "2": 33,
+      "5": 3,
+      "3": 1
+    },
+    "status_distribution_active": {
+      "IDENTIFIED": 97,
+      "MULTIPLE_PLAUSIBLE_LAWS": 3
+    }
+  },
+  "cahn_hilliard_audit": {
+    "true_equation": "u_t = -1.0 * u_xx + 1.0 * (u^3)_xx - 0.0025 * u_xxxx",
+    "default_threshold": 0.045,
+    "default_equation": "u_t = -1.0408*u_xx +1.0613*(u^3)_xx",
+    "default_parameters": {
+      "u_xx": -1.0407870180970313,
+      "(u^3)_xx": 1.0613330777430316
+    },
+    "sensitive_threshold": 0.001,
+    "sensitive_equation": "u_t = -0.0051*u -0.9984*u_xx -0.0019*u_xxxx +0.0014*u^2 +0.0144*u^3 +1.0043*(u^3)_xx",
+    "sensitive_parameters": {
+      "u": -0.005115710934361756,
+      "u_xx": -0.9984092812857126,
+      "u_xxxx": -0.001898219791268696,
+      "u^2": 0.0014349602362182245,
+      "u^3": 0.014396325142730648,
+      "(u^3)_xx": 1.0042796975749917
+    }
+  }
+}
