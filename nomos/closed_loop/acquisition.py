@@ -17,6 +17,8 @@ class AcquisitionStrategy(str, Enum):
     GREEDY_DISAGREEMENT = "greedy_disagreement"
     COST_NORMALIZED = "cost_normalized"
     UNCERTAINTY_AWARE = "uncertainty_aware"
+    MODEL_DISCRIMINATION = "model_discrimination"
+    HANDCRAFTED_SCHEDULE = "handcrafted_schedule"
 
 
 class ExperimentAcquisitionEngine:
@@ -82,9 +84,16 @@ class ExperimentAcquisitionEngine:
                 f_pred = f_pred + coef * (u_chan**2)
             elif term == "u^3":
                 f_pred = f_pred + coef * (u_chan**3)
+            elif term in ("(u^3)_xx", "d2_u3_dx2", "lap_u3"):
+                axis = 1 if is_2d else -1
+                du3_xx = compute_derivative(u_chan**3, dx=dx, order=2, method="spectral" if periodic else "fd", periodic=periodic, axis=axis)
+                f_pred = f_pred + coef * du3_xx
             elif term == "u*v^2":
                 if v_chan is not None:
                     f_pred = f_pred + coef * (u_chan * (v_chan**2))
+            elif term in ("u^2*v", "u^2_v"):
+                if v_chan is not None:
+                    f_pred = f_pred + coef * ((u_chan**2) * v_chan)
             elif term in ("lap_u", "lap_v", "lap_omega"):
                 arr = v_chan if (term == "lap_v" and v_chan is not None) else u_chan
                 if is_2d:
@@ -251,6 +260,44 @@ class ExperimentAcquisitionEngine:
                     best_score = var
                     best_tuple = (lbl, u0, _)
             return best_tuple[0], best_tuple[1], best_score, scores
+
+        elif self.strategy == AcquisitionStrategy.MODEL_DISCRIMINATION:
+            # Multi-hypothesis Bayesian B-optimal design: weighted pairwise divergence
+            best_score = -1.0
+            best_tuple = candidate_pool[0]
+            portfolio.compute_evidence_weights()
+            weights = np.array([h.evidence_score for h in active])
+            if np.sum(weights) < 1e-12:
+                weights = np.ones(len(active)) / len(active)
+            else:
+                weights = weights / np.sum(weights)
+
+            for lbl, u0, _ in candidate_pool:
+                fields = [self.evaluate_model_vector_field(h, u0, dx, dy, periodic) for h in active]
+                disc_score = 0.0
+                for i in range(len(active)):
+                    for j in range(i + 1, len(active)):
+                        div = float(np.mean((fields[i] - fields[j]) ** 2))
+                        disc_score += weights[i] * weights[j] * div
+                scores[lbl] = disc_score
+                if disc_score > best_score:
+                    best_score = disc_score
+                    best_tuple = (lbl, u0, _)
+            return best_tuple[0], best_tuple[1], best_score, scores
+
+        elif self.strategy == AcquisitionStrategy.HANDCRAFTED_SCHEDULE:
+            # Domain-expert heuristic: rank candidates by spatial complexity / gradient energy
+            def gradient_energy(arr: np.ndarray) -> float:
+                u_c = arr[..., 0] if arr.ndim >= 2 else arr
+                gx = compute_derivative(u_c, dx=dx, order=1, method="spectral" if periodic else "fd", periodic=periodic, axis=-1)
+                return float(np.mean(gx**2) + np.var(u_c))
+
+            ranked_pool = sorted(candidate_pool, key=lambda t: gradient_energy(t[1]), reverse=True)
+            chosen_idx = iteration_index % len(ranked_pool)
+            chosen_lbl, chosen_u0, _ = ranked_pool[chosen_idx]
+            for lbl, u0, _ in candidate_pool:
+                scores[lbl] = gradient_energy(u0)
+            return chosen_lbl, chosen_u0, scores[chosen_lbl], scores
 
         else:
             raise ValueError(f"Unsupported acquisition strategy: {self.strategy}")

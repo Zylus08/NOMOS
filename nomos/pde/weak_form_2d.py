@@ -234,6 +234,10 @@ class WeakForm2DPDEDiscovery:
                 elif cand == "u^3":
                     u_sub = channel_data["u"][np.ix_(it, ix, iy)]
                     val_k = float(np.sum((u_sub**3) * tf["phi"]) * dV)
+                elif cand in ("u^2*v", "u^2_v"):
+                    u_sub = channel_data["u"][np.ix_(it, ix, iy)]
+                    v_sub = channel_data["v"][np.ix_(it, ix, iy)]
+                    val_k = float(np.sum((u_sub**2) * v_sub * tf["phi"]) * dV)
                 elif cand == "advection_omega":
                     om_sub = channel_data["omega"][np.ix_(it, ix, iy)]
                     u_sub = channel_data["u"][np.ix_(it, ix, iy)]

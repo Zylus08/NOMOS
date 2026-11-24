@@ -259,6 +259,19 @@ class ClosedLoopController:
                         bic=0.0,
                     )
                     self.portfolio.register(h_diff)
+                elif "cahn_hilliard" in field.pde_name:
+                    h_diff = ScientificHypothesis(
+                        id="hyp_ch_biharmonic_damping_impostor",
+                        equation_str="u_t = -0.0100*u_xxxx",
+                        features=["u_xxxx"],
+                        parameters={"u_xxxx": -0.01},
+                        complexity=2,
+                        origin="competing_physical_prior",
+                        train_mse=0.001,
+                        val_mse=0.001,
+                        bic=0.0,
+                    )
+                    self.portfolio.register(h_diff)
 
         else:
             # 2D Field Hypothesis Generation via WSINDy-2D
@@ -319,6 +332,19 @@ class ClosedLoopController:
                         bic=0.0,
                     )
                     self.portfolio.register(h_stokes)
+                elif "brusselator" in field.pde_name:
+                    h_diff = ScientificHypothesis(
+                        id="hyp_brusselator_diffusion_impostor",
+                        equation_str="u_t = +0.1000*lap_u",
+                        features=["lap_u"],
+                        parameters={"lap_u": 0.1},
+                        complexity=2,
+                        origin="competing_physical_prior",
+                        train_mse=0.001,
+                        val_mse=0.001,
+                        bic=0.0,
+                    )
+                    self.portfolio.register(h_diff)
 
     def _update_and_validate_hypotheses(
         self, new_field: SpatiotemporalField, experiment_id: str, iteration: int = 1

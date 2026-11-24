@@ -1,0 +1,178 @@
+{
+  "stress_test_1_omitted_state": {
+    "test": "omitted_separating_state",
+    "pool_type": "solitons_only",
+    "final_status": "MULTIPLE_PLAUSIBLE_LAWS",
+    "queries_used": 5,
+    "advection_falsified": false,
+    "verdict": "FAILED_TO_DISCRIMINATE",
+    "explanation": "Without dispersive initial states, solitary waves remain simultaneously compatible with both KdV and pure advection."
+  },
+  "stress_test_2_collinear_fields": {
+    "test": "collinear_field_discrimination",
+    "results_by_noise": {
+      "noise_0.0": {
+        "eps_0.001": {
+          "mse_true": 0.0,
+          "mse_pert": 0.0,
+          "delta_mse": 0.0,
+          "discernible": false
+        },
+        "eps_0.01": {
+          "mse_true": 0.0,
+          "mse_pert": 0.0,
+          "delta_mse": 0.0,
+          "discernible": false
+        },
+        "eps_0.05": {
+          "mse_true": 0.0,
+          "mse_pert": 2e-06,
+          "delta_mse": 2e-06,
+          "discernible": true
+        },
+        "eps_0.1": {
+          "mse_true": 0.0,
+          "mse_pert": 9e-06,
+          "delta_mse": 8e-06,
+          "discernible": true
+        },
+        "eps_0.5": {
+          "mse_true": 0.0,
+          "mse_pert": 0.0002,
+          "delta_mse": 0.0002,
+          "discernible": true
+        }
+      },
+      "noise_0.01": {
+        "eps_0.001": {
+          "mse_true": 1e-06,
+          "mse_pert": 1e-06,
+          "delta_mse": 0.0,
+          "discernible": false
+        },
+        "eps_0.01": {
+          "mse_true": 1e-06,
+          "mse_pert": 2e-06,
+          "delta_mse": 0.0,
+          "discernible": false
+        },
+        "eps_0.05": {
+          "mse_true": 1e-06,
+          "mse_pert": 4e-06,
+          "delta_mse": 2e-06,
+          "discernible": false
+        },
+        "eps_0.1": {
+          "mse_true": 1e-06,
+          "mse_pert": 1e-05,
+          "delta_mse": 8e-06,
+          "discernible": false
+        },
+        "eps_0.5": {
+          "mse_true": 1e-06,
+          "mse_pert": 0.0002,
+          "delta_mse": 0.000199,
+          "discernible": true
+        }
+      },
+      "noise_0.05": {
+        "eps_0.001": {
+          "mse_true": 3e-05,
+          "mse_pert": 3e-05,
+          "delta_mse": -0.0,
+          "discernible": false
+        },
+        "eps_0.01": {
+          "mse_true": 3e-05,
+          "mse_pert": 3e-05,
+          "delta_mse": 0.0,
+          "discernible": false
+        },
+        "eps_0.05": {
+          "mse_true": 3e-05,
+          "mse_pert": 3.2e-05,
+          "delta_mse": 2e-06,
+          "discernible": false
+        },
+        "eps_0.1": {
+          "mse_true": 3e-05,
+          "mse_pert": 3.7e-05,
+          "delta_mse": 7e-06,
+          "discernible": false
+        },
+        "eps_0.5": {
+          "mse_true": 3e-05,
+          "mse_pert": 0.000224,
+          "delta_mse": 0.000194,
+          "discernible": false
+        }
+      },
+      "noise_0.1": {
+        "eps_0.001": {
+          "mse_true": 0.000118,
+          "mse_pert": 0.000118,
+          "delta_mse": -0.0,
+          "discernible": false
+        },
+        "eps_0.01": {
+          "mse_true": 0.000118,
+          "mse_pert": 0.000118,
+          "delta_mse": -0.0,
+          "discernible": false
+        },
+        "eps_0.05": {
+          "mse_true": 0.000118,
+          "mse_pert": 0.00012,
+          "delta_mse": 1e-06,
+          "discernible": false
+        },
+        "eps_0.1": {
+          "mse_true": 0.000118,
+          "mse_pert": 0.000125,
+          "delta_mse": 6e-06,
+          "discernible": false
+        },
+        "eps_0.5": {
+          "mse_true": 0.000118,
+          "mse_pert": 0.000305,
+          "delta_mse": 0.000187,
+          "discernible": false
+        }
+      }
+    },
+    "theoretical_limit": "Delta MSE scales as O(eps^2 ||G xi||^2); below sqrt(noise^2 / N_test), discrimination is statistically impossible."
+  },
+  "stress_test_3_noise_misspecification": {
+    "test": "noise_misspecification",
+    "actual_noise": 0.1,
+    "status": "IDENTIFIED",
+    "winning_eq": "u_t = -0.1871*u +0.1970*u_x -0.8287*u_xxx +0.1368*u_xxxx -5.2159*u*u_x +0.7829*u^3 +0.6170*(u^3)_xx",
+    "risk_identified": "Under severe noise (10%), empirical residual variance inflates BIC, leading either to over-retention of simpler low-complexity models (pure diffusion or advection) or premature budget exhaustion."
+  },
+  "stress_test_4_spatial_subsampling": {
+    "test": "spatial_subsampling",
+    "results_by_resolution": {
+      "N_128": {
+        "recovered_equation": "u_t = -0.1113*u +0.1564*u_x +0.1529*u_xx -0.8346*u_xxx -6.1366*u*u_x -0.3172*(u^3)_xx",
+        "has_kdv_terms": true,
+        "residual_norm": 0.00885
+      },
+      "N_64": {
+        "recovered_equation": "u_t = -0.1258*u -0.3066*u_x +0.4637*u_xx -1.1930*u_xxx +0.0561*u_xxxx -6.1195*u*u_x +0.0642*u^2 -0.2668*u^3 -0.8981*(u^3)_xx",
+        "has_kdv_terms": true,
+        "residual_norm": 0.00865
+      },
+      "N_32": {
+        "recovered_equation": "u_t = -0.3716*u +0.4301*u_x -0.8736*u_xx -0.6708*u_xxx -0.1647*u_xxxx -5.9395*u*u_x -0.0575*u^2 +0.3834*u^3 +0.8885*(u^3)_xx",
+        "has_kdv_terms": true,
+        "residual_norm": 0.01465
+      },
+      "N_16": {
+        "recovered_equation": "u_t = +0.5833*u -0.1786*u_x +1.0236*u_xx -0.9632*u_xxx +0.3008*u_xxxx -5.8177*u*u_x -0.0901*u^2 +0.1335*u^3",
+        "has_kdv_terms": true,
+        "residual_norm": 0.03111
+      }
+    },
+    "critical_nyquist_threshold": "N=32 is the empirical lower boundary for 3rd-order spatial derivative quadrature; at N=16, spatial aliasing corrupts u_xxx projection."
+  }
+}

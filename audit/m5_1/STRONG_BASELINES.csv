@@ -1,0 +1,15 @@
+system,strategy,total_runs,exact_recoveries,recovery_rate,mean_queries,mean_duration_s
+brusselator_2d,cost_normalized,20,10,0.5,2.0,0.837
+brusselator_2d,fixed,20,10,0.5,2.0,0.85
+brusselator_2d,greedy_disagreement,20,10,0.5,2.0,0.76
+brusselator_2d,handcrafted_schedule,20,10,0.5,2.0,0.704
+brusselator_2d,model_discrimination,20,10,0.5,2.0,0.844
+brusselator_2d,random,20,10,0.5,2.0,0.877
+brusselator_2d,uncertainty_aware,20,10,0.5,2.0,0.73
+cahn_hilliard,cost_normalized,20,0,0.0,2.0,1.944
+cahn_hilliard,fixed,20,0,0.0,2.0,2.133
+cahn_hilliard,greedy_disagreement,20,0,0.0,2.0,1.905
+cahn_hilliard,handcrafted_schedule,20,0,0.0,2.0,1.933
+cahn_hilliard,model_discrimination,20,0,0.0,2.85,2.957
+cahn_hilliard,random,20,0,0.0,2.2,2.153
+cahn_hilliard,uncertainty_aware,20,0,0.0,2.6,2.48

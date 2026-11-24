@@ -1,0 +1,3 @@
+comparison,n_pairs,active_success_rate,comparator_success_rate,paired_difference,concordant_success_a,discordant_b_active_only,discordant_c_comparator_only,concordant_failure_d,mcnemar_stat_continuity_corrected,exact_p_one_sided,exact_p_two_sided,holm_adjusted_p,wald_paired_ci_95_low,wald_paired_ci_95_high,wilcoxon_query_p
+Active (Greedy) vs Fixed,100,0.63,0.55,0.07999999999999996,54,9,1,36,4.9,0.0107421875,0.021484375,0.021484375,0.020036754284832113,0.13996324571516788,0.020224
+Active (Greedy) vs Random,100,0.63,0.46,0.16999999999999998,45,18,1,36,13.473684210526315,3.814697265625e-05,7.62939453125e-05,0.000152587890625,0.0913325671082525,0.24866743289174753,0.287114

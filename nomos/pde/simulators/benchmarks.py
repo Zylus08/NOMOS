@@ -13,6 +13,7 @@ from nomos.pde.simulators.burgers import BurgersSimulator
 from nomos.pde.simulators.wave import WaveEquationSimulator
 from nomos.pde.simulators.kdv import KdVSimulator
 from nomos.pde.simulators.kuramoto_sivashinsky import KuramotoSivashinskySimulator
+from nomos.pde.simulators.cahn_hilliard import CahnHilliard1DSimulator
 
 
 PDE_BENCHMARK_REGISTRY: Dict[str, Type[BasePDESimulator]] = {
@@ -22,6 +23,7 @@ PDE_BENCHMARK_REGISTRY: Dict[str, Type[BasePDESimulator]] = {
     "wave_equation": WaveEquationSimulator,
     "kdv_equation": KdVSimulator,
     "kuramoto_sivashinsky": KuramotoSivashinskySimulator,
+    "cahn_hilliard": CahnHilliard1DSimulator,
 }
 
 
@@ -78,5 +80,16 @@ def generate_benchmark_initial_condition(pde_name: str, x: np.ndarray, ic_type: 
     elif pde_name == "kuramoto_sivashinsky":
         # Multi-mode small amplitude perturbation initiating chaos
         return np.cos(x / 16.0) * (1.0 + np.sin(x / 16.0))
+
+    elif pde_name == "cahn_hilliard":
+        if ic_type == "spinodal":
+            # Small random/harmonic perturbation around mixed state u=0
+            return 0.1 * np.cos(2.0 * x) + 0.05 * np.sin(5.0 * x)
+        elif ic_type == "interface":
+            # Smooth domain wall interface tanh(x / eps)
+            x_mid = 0.5 * (x[0] + x[-1])
+            return np.tanh((x - x_mid) / 0.2)
+        else:
+            return 0.2 * np.cos(3.0 * x)
 
     return np.sin(x)

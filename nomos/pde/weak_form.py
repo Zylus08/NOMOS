@@ -144,7 +144,7 @@ class WeakFormPDEDiscovery:
         rng = np.random.RandomState(self.random_seed)
 
         # Candidate feature names
-        feature_names = ["u", "u_x", "u_xx", "u_xxx", "u_xxxx", "u*u_x", "u^2", "u^3"]
+        feature_names = ["u", "u_x", "u_xx", "u_xxx", "u_xxxx", "u*u_x", "u^2", "u^3", "(u^3)_xx"]
         P = len(feature_names)
         K = self.num_test_functions
 
@@ -187,6 +187,9 @@ class WeakFormPDEDiscovery:
 
             # Feature 7: <u^3, phi>
             G[k_idx, 7] = float(np.sum((U**3) * tf["phi"]) * dx * dt)
+
+            # Feature 8: <(u^3)_xx, phi> = <u^3, phi_xx>
+            G[k_idx, 8] = float(np.sum((U**3) * tf["phi_xx"]) * dx * dt)
 
         return G, b, feature_names
 
