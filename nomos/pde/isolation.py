@@ -12,14 +12,16 @@ def create_learner_field_observation(field: SpatiotemporalField) -> Spatiotempor
     """
     Create a sanitized field observation visible to discovery engines.
     Strictly purges:
+    - PDE name / physical system identity (scrubbed to opaque blind identifier)
     - Clean noiseless fields (u_clean)
     - True analytical derivatives (u_t_true)
     - True underlying PDE parameters
     - Reference solver internals
     """
+    blind_id = f"blind_system_{abs(hash(field.id)) % 1000000:06d}"
     obs = SpatiotemporalField(
         id=f"learner_obs_{field.id}",
-        pde_name=field.pde_name,
+        pde_name=blind_id,
         x=field.x.copy(),
         y=field.y.copy() if field.y is not None else None,
         t=field.t.copy(),
@@ -45,8 +47,9 @@ def create_learner_field_observation(field: SpatiotemporalField) -> Spatiotempor
 def create_learner_dataset(dataset: SpatiotemporalDataset) -> SpatiotemporalDataset:
     """Create a sanitized dataset visible to learners."""
     isolated_fields = [create_learner_field_observation(f) for f in dataset.fields]
+    blind_ds_name = f"blind_dataset_{abs(hash(dataset.dataset_hash)) % 1000000:06d}"
     return SpatiotemporalDataset(
-        pde_name=dataset.pde_name,
+        pde_name=blind_ds_name,
         channel_names=copy.deepcopy(dataset.channel_names),
         fields=isolated_fields,
         metadata={"isolated": True, "source_hash": dataset.dataset_hash},

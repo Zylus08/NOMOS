@@ -51,6 +51,12 @@ class IdentifiabilityAuditor:
         active_hypotheses = portfolio.get_active()
 
         if not active_hypotheses:
+            if current_budget_used < max_budget:
+                return (
+                    IdentifiabilityStatus.INSUFFICIENT_EXCITATION,
+                    None,
+                    {"reason": "No active candidate hypotheses yet; querying next experiment to excite dynamics."},
+                )
             return (
                 IdentifiabilityStatus.NONIDENTIFIABLE,
                 None,

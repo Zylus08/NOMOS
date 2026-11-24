@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{bakarji2023model}
+Joseph Bakarji, Kathleen Champion, J~Nathan Kutz, and Steven~L Brunton.
+\newblock Model discovery with active learning for low-dimensional representations of dynamical systems.
+\newblock {\em Machine Learning: Science and Technology}, 4(2):025008, 2023.
+
+\bibitem{bretherton1999effective}
+Christopher~S Bretherton, Martin Widmann, Valentin~P Dymnikov, John~M Wallace, and Ileana Blad{\'e}.
+\newblock The effective number of spatial degrees of freedom of a field.
+\newblock {\em Journal of Climate}, 12(7):1990--2009, 1999.
+
+\bibitem{brunton2016discovering}
+Steven~L Brunton, Joshua~L Proctor, and J~Nathan Kutz.
+\newblock Discovering governing equations from data by sparse identification of nonlinear dynamical systems.
+\newblock {\em Proceedings of the National Academy of Sciences}, 113(15):3932--3937, 2016.
+
+\bibitem{chaloner1995bayesian}
+Kathryn Chaloner and Isabella Verdinelli.
+\newblock Bayesian experimental design: A review.
+\newblock {\em Statistical Science}, 10(3):273--304, 1995.
+
+\bibitem{cressie1993statistics}
+Noel Cressie.
+\newblock {\em Statistics for Spatial Data}.
+\newblock John Wiley \& Sons, 1993.
+
+\bibitem{desilva2020pysindy}
+Brian~M de~Silva, Kathleen Champion, Markus Quade, Jean-Christophe Loiseau, J~Nathan Kutz, and Steven~L Brunton.
+\newblock Pysindy: A python package for the sparse identification of nonlinear dynamical systems from data.
+\newblock {\em Journal of Open Source Software}, 5(49):2104, 2020.
+
+\bibitem{huan2013simulation}
+Xun Huan and Youssef~M Marzouk.
+\newblock Simulation-based optimal bayesian experimental design for nonlinear systems.
+\newblock {\em Journal of Computational Physics}, 232(1):288--317, 2013.
+
+\bibitem{messenger2021weak}
+Daniel~A Messenger and David~M Bortz.
+\newblock Weak sindy for partial differential equations.
+\newblock {\em Journal of Computational Physics}, 443:110525, 2021.
+
+\bibitem{schaeffer2017learning}
+Hayden Schaeffer.
+\newblock Learning partial differential equations via data discovery and sparse optimization.
+\newblock {\em Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences}, 473(2197):20160446, 2017.
+
+\end{thebibliography}

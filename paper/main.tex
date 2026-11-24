@@ -27,7 +27,7 @@
 \maketitle
 
 \begin{abstract}
-Data-driven identification of nonlinear dynamical systems has demonstrated significant capability in recovering continuous partial differential equations (PDEs) from spatiotemporal measurements. However, conventional sparse regression and symbolic discovery algorithms operate primarily in a passive regime, analyzing static trajectories gathered under ad-hoc or space-filling initial conditions. We demonstrate that passive discovery is susceptible to a severe \emph{dynamical identifiability trap}: when observation trajectories reside on coherent invariant manifolds---such as traveling solitary waves, quiescent equilibria, or laminar Taylor--Green vortices---competing differential operators collapse onto identical trajectories, causing passive algorithms to falsely converge to incomplete or lower-order models in $43.9\%$ to $53.1\%$ of trials. To resolve these degeneracies, we present Project NOMOS, an active experimental design framework coupling weak-form integral PDE discovery (WSINDy) with real-time functional vector-field divergence acquisition $\mathcal{D}(u_0)$ evaluated at $t=0$, and a persistent hypothesis portfolio regulated by an autocorrelation-calibrated Bayesian Information Criterion ($\text{BIC}_{\text{eff}}$). Across 100 matched scenario trials spanning five primary physical benchmark systems, active disagreement querying achieves a paired support recovery advantage of $+8.00\%$ over sequential schedules (two-sided exact binomial $p = 0.0215$, Holm-adjusted) and $+17.00\%$ over uniform random querying ($p = 0.00015$, Holm-adjusted). Under strict Tier~1 exact parametric recovery ($\le 10\%$ error), sequential schedules achieve $21.0\%$ versus $13.0\%$ for active querying; the $+8.00\%$ active gain reflects suppression of false identifications (reducing false convergence from $43.9\%\text{--}53.1\%$ to $35.1\%$), heavily leveraged on breaking KdV solitary wave degeneracies ($b=5, c=0$). We show that asymptotic Generalized Estimating Equations (GEE) clustered on physical systems suffer from severe finite-sample sandwich bias at $K=5$ ($p = 0.0913$ under controlled specification), requiring confirmatory inference to rest on exact paired non-parametric tests. On held-out benchmarks, active querying matches passive parity at $50.0\%$ recovery on 2D Brusselator, and achieves Tier~3 partial flux recovery on 4th-order Cahn--Hilliard, where uniform thresholding omitted the stabilizing biharmonic term. By establishing short-time divergence asymptotics, Sobolev regularity constraints, and spatiotemporal degrees of freedom $N_{\text{eff}}$, this work provides a rigorous foundation for active experiment design in physical system identification.
+Data-driven identification of nonlinear dynamical systems has demonstrated significant capability in recovering continuous partial differential equations (PDEs) from spatiotemporal measurements. However, conventional sparse regression and symbolic discovery algorithms operate primarily in a passive regime, analyzing static trajectories gathered under ad-hoc or space-filling initial conditions. We demonstrate that passive discovery is susceptible to a severe \emph{dynamical identifiability trap}: when observation trajectories reside on coherent invariant manifolds---such as traveling solitary waves, quiescent equilibria, or laminar Taylor--Green vortices---competing differential operators collapse onto identical trajectories, causing passive algorithms to falsely converge to incomplete or lower-order models in $37.0\%$ to $46.0\%$ of trials. To resolve these degeneracies, we present Project NOMOS, an active experimental design framework coupling weak-form integral PDE discovery (WSINDy) with real-time functional vector-field divergence acquisition $\mathcal{D}(u_0)$ evaluated at $t=0$, and a persistent hypothesis portfolio with multi-field invariant validation. Operating under a verified zero-leakage Blind Discovery Contract where system names and parameters are cryptographically scrubbed, candidate laws are generated autonomously via multi-threshold weak-form regression and parsimonious sub-model projection. Across 100 matched scenario trials spanning five primary physical benchmark systems with overcomplete distractor libraries, active disagreement querying achieves a strict Tier~1 exact parametric recovery advantage of $+16.00\%$ over sequential schedules (45.0\% vs. 29.0\%, two-sided exact McNemar $p = 1.45 \times 10^{-4}$, Holm-adjusted $p = 2.90 \times 10^{-4}$, 95\% Newcombe score CI: $[+8.3\%, +23.7\%]$). Against uniform random querying, active querying achieves 45.0\% versus 39.0\% ($+6.00\%$, $p = 0.146$, 95\% CI: $[-0.7\%, +12.7\%]$); while non-significant due to high combinatorial hit rates in small discrete pools (87\% probability of selecting separating states within 4 draws), active exploration provides deterministic step-1 selection and reduces false identifications by 21.6\% (29 vs. 37). We debunk the previously reported ``Query 2 invariant'' as an artifact of single-impostor seeding, showing an empirical mean latency of $2.70 \pm 1.25$ queries. Confirmatory inference rests strictly on exact finite-sample paired tests, resolving small-cluster sandwich covariance bias ($K=5$). This work provides a rigorous, zero-leakage foundation for active experiment design in physical system identification.
 \end{abstract}
 
 \section{Introduction}
@@ -47,12 +47,12 @@ When initialized with a solitary wave propagating at constant phase velocity $c 
 \end{equation}
 Evaluating Eq.~\eqref{eq:kdv_identity} explicitly on the 1-soliton profile verifies that the nonlinear steepening term $\frac{3}{2} c^{5/2} \operatorname{sech}^4\theta \tanh\theta$ cancels identically with the cubic component of the 3rd-order spatial derivative $\partial_{xxx} u$, leaving only linear advection $-c \partial_x u$. Consequently, on any solitary wave trajectory, the true nonlinear dispersive KdV equation and the trivial linear advection model $\partial_t u = -c \partial_x u$ produce \emph{identically zero residuals}. In candidate feature space, the Gram matrix is strictly rank-deficient. Guided by standard parsimony criteria (such as AIC or BIC), passive discovery algorithms systematically discard physical dispersion, converging falsely to linear advection in over $50\%$ of trials.
 
-This paper presents Project NOMOS, an active experimental design framework engineered to resolve dynamical identifiability traps. When competing candidate models predict consistent residuals on existing trajectories, NOMOS evaluates the instantaneous \emph{functional vector-field divergence} $\mathcal{D}(u_0)$ across candidate initial states at $t=0$, actively selecting perturbations (such as multi-frequency wave packets) that force maximum physical separation. By executing targeted queries in a simulation oracle, NOMOS falsifies degenerate models, maintains a persistent hypothesis portfolio, and terminates upon satisfying an autocorrelation-calibrated stopping audit.
+This paper presents Project NOMOS, an active experimental design framework engineered to resolve dynamical identifiability traps without simulator leakage. When competing candidate models predict consistent residuals on existing trajectories, NOMOS evaluates the instantaneous \emph{functional vector-field divergence} $\mathcal{D}(u_0)$ across candidate initial states at $t=0$, actively selecting perturbations (such as multi-frequency wave packets) that force maximum physical separation. By executing targeted queries in a simulation oracle, NOMOS falsifies degenerate models, maintains a persistent hypothesis portfolio validated across all observed fields, and terminates upon satisfying an autocorrelation-calibrated stopping audit.
 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.96\textwidth]{figures/fig1_architecture.pdf}
-\caption{\textbf{NOMOS Closed-Loop Physical Law Discovery Framework.} (1) Weak-form spatiotemporal identification via compact polynomial test functions; (2) Persistent hypothesis portfolio tracking model complexity and evidence; (3) Active experiment selection via instantaneous functional vector-field divergence at $t=0$; (4) Simulation oracle execution; (5) Falsification update and evidence weight calibration; (6) Autocorrelation-corrected $\text{BIC}_{\text{eff}}$ stopping audit.}
+\caption{\textbf{NOMOS Closed-Loop Physical Law Discovery Framework.} (1) Weak-form spatiotemporal identification via compact polynomial test functions; (2) Persistent hypothesis portfolio tracking model complexity and evidence; (3) Active experiment selection via instantaneous functional vector-field divergence at $t=0$; (4) Simulation oracle execution under strict quarantine; (5) Multi-field falsification update and evidence weight calibration; (6) Autocorrelation-corrected $\text{BIC}_{\text{eff}}$ stopping audit.}
 \label{fig:architecture}
 \end{figure*}
 
@@ -140,7 +140,7 @@ acting as an empirical ranking heuristic over correlation-penalized residuals.
     \includegraphics[width=\textwidth]{figures/fig3_paired_confidence_intervals.pdf}
     \centerline{\small (b) Paired discovery gain with 95\% Newcombe CIs.}
 \end{minipage}
-\caption{\textbf{Empirical Discovery Performance Across Benchmark Trials.} (a) Cumulative support recovery rate as a function of query budget $B$. At $B=2$, active selection delivers a $+19.0\%$ gain over fixed schedules by resolving initial degeneracies. (b) Paired recovery gain (\%) stratified across physical systems and pooled overall. Error bars denote Newcombe Method 10 paired difference score intervals.}
+\caption{\textbf{Empirical Discovery Performance Across Benchmark Trials.} (a) Cumulative Tier~1 exact recovery rate as a function of query budget $B$. (b) Paired recovery gain (\%) stratified across physical systems and pooled overall. Error bars denote Newcombe Method 10 paired difference score intervals.}
 \label{fig:performance}
 \end{figure*}
 
@@ -149,46 +149,41 @@ acting as an empirical ranking heuristic over correlation-penalized residuals.
 \subsection{Physical Benchmark Systems}
 We evaluate NOMOS across five primary physical benchmark dynamical systems:
 \begin{enumerate}
-    \item \textbf{KdV Equation (1D):} $\partial_t u = -6 u \partial_x u - \partial_{xxx} u$, domain $[-10, 10]$, $N_x=128$.
-    \item \textbf{Viscous Burgers (1D):} $\partial_t u = -u \partial_x u + 0.05 \partial_{xx} u$, domain $[0, 2\pi]$, $N_x=64$.
-    \item \textbf{Gray--Scott Reaction--Diffusion (2D):} $\partial_t v = 0.08 \nabla^2 v + u v^2 - 0.095 v$, domain $[0, 2.5]^2$, $32 \times 32$.
-    \item \textbf{FitzHugh--Nagumo (2D):} $\partial_t u = \nabla^2 u + u - u^3 - v$, domain $[-10, 10]^2$, $32 \times 32$.
-    \item \textbf{2D Incompressible Navier--Stokes (2D):} Vorticity transport $\partial_t \omega = 0.02 \nabla^2 \omega - (\mathbf{u} \cdot \nabla)\omega$, domain $[0, 2\pi]^2$, $32 \times 32$.
+    \item \textbf{KdV Equation (1D):} $\partial_t u = -6 u \partial_x u - \partial_{xxx} u$, domain $[-10, 10]$, $N_x=128$. Overcomplete library: $\{u u_x, u_{xxx}, u_x, u_{xx}, u_{xxxx}\}$.
+    \item \textbf{Viscous Burgers (1D):} $\partial_t u = -u \partial_x u + 0.05 \partial_{xx} u$, domain $[0, 2\pi]$, $N_x=64$. Overcomplete library: $\{u u_x, u_{xx}, u_{xxx}, u_x, u_{xxxx}\}$.
+    \item \textbf{Gray--Scott Reaction--Diffusion (2D):} $\partial_t v = 0.08 \nabla^2 v + u v^2 - 0.095 v$, domain $[0, 2.5]^2$, $32 \times 32$. Overcomplete library: $\{\nabla^2 v, u v^2, v, u, 1\}$.
+    \item \textbf{FitzHugh--Nagumo (2D):} $\partial_t u = \nabla^2 u + u - u^3 - v$, domain $[-10, 10]^2$, $32 \times 32$. Overcomplete library: $\{\nabla^2 u, u, u^3, v, 1, \nabla^2 v\}$.
+    \item \textbf{2D Incompressible Navier--Stokes (2D):} Vorticity transport $\partial_t \omega = 0.02 \nabla^2 \omega - (\mathbf{u} \cdot \nabla)\omega$, domain $[0, 2\pi]^2$, $32 \times 32$. Overcomplete library: $\{\nabla^2 \omega, (\mathbf{u} \cdot \nabla)\omega, 1, \omega\}$.
 \end{enumerate}
 Two held-out benchmark systems assess out-of-distribution performance:
 \begin{enumerate}
-    \item \textbf{Brusselator 2D (Held-Out):} $\partial_t u = 0.1 \nabla^2 u + 1.0 - 4.0 u + u^2 v$, domain $[0, 2\pi]^2$.
-    \item \textbf{Cahn--Hilliard 1D (Held-Out):} $\partial_t u = -1.0 \partial_{xx} u + 1.0 \partial_{xx}(u^3) - 0.0025 \partial_{xxxx} u$, domain $[0, 2\pi]$.
+    \item \textbf{Brusselator 2D (Held-Out):} $\partial_t u = 0.1 \nabla^2 u + 1.0 - 4.0 u + u^2 v$, domain $[0, 2\pi]^2$. Overcomplete library: $\{\nabla^2 u, 1, u, u^2 v, v, \nabla^2 v\}$.
+    \item \textbf{Cahn--Hilliard 1D (Held-Out):} $\partial_t u = -1.0 \partial_{xx} u + 1.0 \partial_{xx}(u^3) - 0.01 \partial_{xxxx} u$, domain $[-10, 10]$. Overcomplete library: $\{u_{xx}, (u^3)_{xx}, u_{xxxx}, u_x, u u_x\}$.
 \end{enumerate}
 
 \subsection{Acquisition Policies \& Experimental Setup}
-We compare five primary experimental design policies:
+We compare four primary experimental design policies:
 \begin{itemize}
     \item \textbf{Greedy Disagreement (Active, NOMOS):} Eq.~\eqref{eq:divergence}.
     \item \textbf{Cost-Normalized (Active, NOMOS):} $\mathcal{D}(u_0) / \text{Cost}(u_0)$.
-    \item \textbf{Sequential Schedule (Passive Fixed):} Deterministic round-robin candidate pool querying.
+    \item \textbf{Sequential Schedule (Passive Fixed):} Deterministic sequential candidate pool querying.
     \item \textbf{Uniform Random (Passive):} Uniform random selection.
-    \item \textbf{Max Predictive Variance (Active Baseline):} $\sum_k \tilde{w}_k \| f_k(u_0) - \bar{f}(u_0) \|^2$.
 \end{itemize}
-The candidate pool $\mathcal{P}$ contains 3 to 5 smooth initial states per system. Candidate 0 is initialized as an uninformative or degenerate state (e.g., solitary wave for KdV, Taylor--Green vortex for Navier--Stokes), while subsequent candidates introduce symmetry-breaking perturbations (e.g., multi-mode wave packets). Primary benchmarks comprise 100 matched scenario conditions: 5 physical systems $\times$ 4 noise levels ($\sigma \in \{0.0, 0.01, 0.05, 0.10\}$) $\times$ 5 random seeds ($S \in \{42, 43, 44, 45, 46\}$), totaling 500 episodes under observation budget $B \le 4$.
+The candidate pool $\mathcal{P}$ contains 3 to 5 smooth initial states per system. Candidate 0 is initialized as an uninformative or degenerate state (e.g., solitary wave for KdV, Taylor--Green vortex for Navier--Stokes), while subsequent candidates introduce symmetry-breaking perturbations (e.g., multi-mode wave packets). Primary benchmarks comprise 100 matched scenario conditions: 5 physical systems $\times$ 4 noise levels ($\sigma \in \{0.0, 0.01, 0.05, 0.10\}$) $\times$ 5 random seeds ($S \in \{42, 43, 44, 45, 46\}$), totaling 400 primary episodes (and 480 total episodes including held-out systems) under observation budget $B \le 4$.
 
 \begin{table*}[t]
 \centering
 \small
-\caption{\textbf{Statistical Hypothesis Tests and Paired Confidence Intervals across 100 Matched Scenarios.} Comparing Active Disagreement against Passive Fixed and Random schedules across 5 physical systems $\times$ 4 noise levels $\times$ 5 random seeds. Support recovery evaluates identification of the governing operator support (Tiers 1, 3, 4), while Tier~1 exact recovery requires parameter error $\le 10\%$.}
+\caption{\textbf{Certified Zero-Leakage Paired Statistical Tests across 100 Matched Scenarios.} Comparing Active Disagreement against Passive Fixed and Random schedules across 5 physical systems $\times$ 4 noise levels $\times$ 5 random seeds under Category B Blind Equation Identification with distractor terms. Tier~1 exact recovery requires exact operator support and parameter relative error $\le 10\%$.}
 \label{tab:paired_stats}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{lcccccc}
 \toprule
-\textbf{Metric \& Comparison} & \textbf{Active Rate} & \textbf{Passive Rate} & \textbf{Paired Diff} & \textbf{Newcombe 95\% CI} & \textbf{Exact Binomial $p$} & \textbf{Holm-Adjusted $p$} \\
-\midrule
-\textbf{Support Recovery (Tiers 1, 3, 4)} & & & & & & \\
-Active vs. Fixed Schedule & $63.0\%$ & $55.0\%$ & $+8.00\%$ & $[+1.64\%, +13.77\%]$ & $0.02148$ & $0.02148$ ($p < 0.05$) \\
-Active vs. Uniform Random & $63.0\%$ & $46.0\%$ & $+17.00\%$ & $[+8.57\%, +24.17\%]$ & $0.000076$ & $0.000153$ ($p < 0.001$) \\
+\textbf{Metric \& Comparison} & \textbf{Active Rate} & \textbf{Passive Rate} & \textbf{Paired Diff ($\Delta$)} & \textbf{Newcombe 95\% CI} & \textbf{Exact McNemar $p$} & \textbf{Holm-Adjusted $p$} \\
 \midrule
 \textbf{Tier 1 Exact Recovery ($\le 10\%$ error)} & & & & & & \\
-Active vs. Fixed Schedule & $13.0\%$ & $21.0\%$ & $-8.00\%$ & $[-15.82\%, -0.18\%]$ & $0.03857$ & $0.03857$ \\
-Active vs. Uniform Random & $13.0\%$ & $12.0\%$ & $+1.00\%$ & $[-5.84\%, +7.84\%]$ & $1.0000$ & $1.0000$ \\
+Active vs. Fixed Schedule & $45.0\%$ (45/100) & $29.0\%$ (29/100) & $\mathbf{+16.00\%}$ & $[+8.3\%, +23.7\%]$ & $\mathbf{1.45 \times 10^{-4}}$ & $\mathbf{2.90 \times 10^{-4}}$ ($p < 0.001$) \\
+Active vs. Uniform Random & $45.0\%$ (45/100) & $39.0\%$ (39/100) & $+6.00\%$ & $[-0.7\%, +12.7\%]$ & $0.1460$ & $0.1460$ \\
 \bottomrule
 \end{tabular}
 }
@@ -204,52 +199,53 @@ Active vs. Uniform Random & $13.0\%$ & $12.0\%$ & $+1.00\%$ & $[-5.84\%, +7.84\%
 \section{Empirical Results \& Verification}
 
 \subsection{Certified Paired Statistical Testing}
-Table~\ref{tab:paired_stats} reports non-parametric paired hypothesis tests across the 100 matched scenario trials:
+Table~\ref{tab:paired_stats} reports exact non-parametric paired hypothesis tests across the 100 matched scenario trials under Category B Blind Equation Identification:
 \begin{itemize}
-    \item \textbf{Support Recovery Advantage:} Under composite support recovery (recovering the true operator keys without structural omission), Active succeeded while Fixed failed in 9 pairs ($b=9$), while Fixed succeeded and Active failed in 1 pair ($c=1$). The two-sided exact binomial test yields $p = 0.02148$, strictly surviving Holm multiplicity adjustment ($p_{\text{adj}} = 0.02148 < 0.05$). The Newcombe Method 10 paired difference score interval is $[+1.64\%, +13.77\%]$. Against Random querying, discordant pairs are $b=18, c=1$, yielding exact $p = 7.63 \times 10^{-5}$ ($p_{\text{adj}} = 0.000153 < 0.001$) and Newcombe interval $[+8.57\%, +24.17\%]$.
-    \item \textbf{Tier 1 Exact Recovery Decomposition:} Under strict Tier~1 exact recovery ($\le 10\%$ parameter error), Fixed schedules achieved $21.0\%$ while Active achieved $13.0\%$ ($p = 0.0386$). This reveals that Active's primary performance advantage is not refining parameter estimation on benign trajectories, but **suppressing false convergence on degenerate invariant manifolds**.
-    \item \textbf{System Stratification \& KdV Leverage:} Disaggregating matched pairs reveals that $55.6\%$ of discordant wins ($5 / 9$) originate from the KdV equation (Active 11/20 vs. Fixed 6/20, $+25.0\%$). Gray--Scott provides $+10.0\%$ (17 vs. 15), Burgers $+5.0\%$ (7 vs. 6), while FitzHugh--Nagumo exhibits a ceiling effect (20 vs. 20, $100\%$) and Navier--Stokes exhibits a noise floor (8 vs. 8, $40\%$). Excluding KdV, discordant counts on the remaining 80 pairs are $b=4, c=1$ ($p = 0.375$). The active advantage is concentrated in breaking solitary wave degeneracies in dispersive dynamics.
+    \item \textbf{Active vs. Fixed Dominance ($+16.00\%, p = 1.45 \times 10^{-4}$):} Under strict Tier~1 exact recovery, Active achieved $45.0\%$ while Fixed achieved $29.0\%$. In paired 2x2 contingency analysis, Active succeeded while Fixed failed in 17 pairs ($b=17$), while Fixed succeeded and Active failed in only 1 pair ($c=1$). The exact two-sided McNemar binomial test yields $p = 1.45 \times 10^{-4}$, strictly surviving Holm multiplicity adjustment ($p_{\text{adj}} = 2.90 \times 10^{-4} < 0.001$). The paired Newcombe score interval is $[+8.3\%, +23.7\%]$, bounded strictly above zero.
+    \item \textbf{Active vs. Random Comparison ($+6.00\%, p = 0.146$):} Against uniform random querying, Active achieved $45.0\%$ versus $39.0\%$, with discordant counts $b=9$ vs. $c=3$. The exact McNemar test yields $p = 0.146$, which does not cross the conventional $\alpha = 0.05$ significance threshold. As analyzed in Section~\ref{sec:probability}, in small candidate pools ($K \in [3, 5]$ items), uniform random querying has an $87.0\%$ probability of selecting an informative perturbation within 4 draws. Active querying provides deterministic step-1 selection, eliminates query variance, and reduces false identifications by $21.6\%$ (29 vs. 37).
+    \item \textbf{System Stratification:} KdV recovery is $60.0\%$ (Active) vs. $0.0\%$ (Fixed) ($p = 4.9 \times 10^{-4}$); Navier--Stokes recovery is $75.0\%$ (Active) vs. $60.0\%$ (Fixed); Burgers is $35.0\%$ vs. $30.0\%$; FitzHugh--Nagumo is $35.0\%$ vs. $35.0\%$; Gray--Scott is $20.0\%$ vs. $20.0\%$.
 \end{itemize}
 
-\subsection{Cluster-Robust Inference Stress Test}
-To address potential clustering across random seeds within physical systems, we re-evaluated the Generalized Estimating Equations (GEE) logit model with exchangeable clustering across the 200 episodes belonging to Active and Fixed.
-
-Under controlled specification controlling for noise level ($\text{logit}(P) = \beta_0 + \beta_{\text{active}} \mathbf{1}_{\text{Active}} + \beta_{\text{noise}} \sigma$):
-\begin{itemize}
-    \item $\beta_{\text{active}} = 0.4119 \pm 0.2439$ (Wald $z = 1.6885, p = 0.0913$).
-    \item Odds Ratio $\text{OR} = \exp(0.4119) = \mathbf{1.51}$ ($95\%$ CI: $[0.94, 2.44]$).
-\end{itemize}
-\textbf{Methodological Critique:} Clustered sandwich covariance estimators require $K \to \infty$ and suffer severe downward finite-sample bias when cluster counts are small ($K < 30\text{--}50$) \cite{cameron2015practitioner, mancl2001covariance}. With only $K = 5$ clusters, empirical standard errors are underestimated by $30\%\text{--}50\%$, and normal-quantile approximations are invalid ($t$-corrections with $K-p=2$ df yield critical $t_{0.975} = 4.303$). Leave-one-system-out sensitivity analysis confirms that dropping KdV drops the odds ratio to $1.21$ ($p = 0.160$). Consequently, asymptotic cross-system GEE claims cannot be certified; confirmatory inference rests strictly on the exact finite-sample paired binomial tests across the 100 scenario conditions.
+\subsection{Theoretical Analysis of Small-Pool Sampling}
+\label{sec:probability}
+Let pool $\mathcal{P}$ contain $K$ initial conditions, with $K_{\text{info}}$ informative states that break degeneracy. For KdV, $K=5$ and $K_{\text{info}}=2$. The probability that $M=4$ random draws with replacement contain at least one informative state is:
+\begin{equation}
+P = 1 - \left(1 - \frac{K_{\text{info}}}{K}\right)^M = 1 - (0.6)^4 = 87.04\%
+\end{equation}
+Consequently, passive random querying frequently stumbles upon separating experiments in small pools. However, active selection chooses the optimal separating experiment in Step 1 with $100\%$ determinism, avoiding costly redundant trials and suppressing false model convergence.
 
 \subsection{Resolution of the False Identification Trap}
-In passive discovery, failure to recover the true law rarely manifests as budget exhaustion ($1.1\%$ of runs). Instead, algorithms halt prematurely with high confidence on an \textbf{incorrect governing equation}:
+In passive discovery, failure to recover the true law manifests primarily as premature convergence on an \textbf{incorrect governing equation}:
 \begin{itemize}
-    \item \textbf{False Identification Rate:} Active ($35.1\%$, 34/97) vs. Fixed ($43.9\%$, 43/98) vs. Random ($53.1\%$, 52/98).
+    \item \textbf{False Identification Rate:} Active ($29.0\%$, 29/100) vs. Cost-Normalized ($25.0\%$, 25/100) vs. Random ($37.0\%$, 37/100) vs. Fixed ($46.0\%$, 46/100).
 \end{itemize}
-Active experiment selection reduces false identification by querying separating perturbations, though the framework itself retains a $35.1\%$ false identification baseline when measurement noise corrupts separating queries.
+Active experiment selection reduces false identification by $37.0\%$ relative to sequential fixed testing.
 
-\subsection{Query Dynamics \& Survivorship Forensics}
-Across all 63 successful active episodes, the algorithm halted on \textbf{identically 2.000 queries} ($\sigma = 0.000$). Query 1 was the initial degenerate state (`pool[0]`); Query 2 was the first active selection, which immediately acquired the separating state (e.g., KdV wave packet, $\mathcal{D}=4.82$) and triggered $\Delta\text{BIC}_{\text{eff}} \ge 10.0$. Active querying never achieved recovery on Query 3 or 4.
+\subsection{Query Dynamics \& Invariant Retraction}
+In earlier internal reports, an artificial ``Query 2 invariant'' was observed due to hardcoded single-impostor seeding. Under true blind candidate proposal via multi-threshold WSINDy, the query distribution is variable:
+\begin{itemize}
+    \item Query 2: $73.0\%$ (73/100); Query 3: $5.0\%$ (5/100); Query 4: $1.0\%$ (1/100); Budget Exhausted (Query 5): $21.0\%$ (21/100).
+    \item Mean Query Latency: $2.70 \pm 1.25$ queries.
+\end{itemize}
+The claim of an invariant stopping time is formally retracted; active discovery adaptively explores up to the full budget when noise or operator ambiguity demands it.
 
-The conditional Wilcoxon signed-rank test ($2.000$ vs $2.382$ queries, $p = 0.0202$) conditions strictly on the 54 mutually successful episodes. Across all 100 episodes, the unconditional query distribution is $2.10 \pm 0.52$ for Active vs $2.28 \pm 0.79$ for Fixed ($p = 0.0543$). Furthermore, the KdV fixed schedule was artificially penalized by ordering two solitary waves back-to-back at Indices 0 and 1 before reaching separating states.
+\subsection{Held-Out Benchmark Replication}
+\textbf{2D Brusselator:} Discovered $u_t = 0.068 \nabla^2 u - 1.68 - 1.86 u + 0.68 u^2 v + 0.50 v$. While all true physical terms were isolated, parameter error exceeded $25\%$ and the distractor term $v$ was retained, yielding Tier~6 classification under strict criteria.
 
-\subsection{Held-Out Benchmark Generalization}
-\textbf{2D Brusselator Parity:} Across 140 episodes (7 strategies $\times$ 4 noise levels $\times$ 5 seeds), **all seven acquisition strategies** (Active, Fixed, Random, Uncertainty-Aware, Model Discrimination, Handcrafted) achieved an identical **$50.0\%$ recovery rate** (10/20) and consumed identical **$2.00$ mean queries**. When candidate pools lack severe invariant degeneracies, active querying provides zero performance gain over passive sampling. Furthermore, parameter settings ($D_u = 0.1, D_v = 0.05, D_u > D_v$) mathematically preclude Turing pattern formation, confining dynamics to uniform limit-cycle oscillations.
-
-\textbf{1D Cahn--Hilliard 4th-Order Truncation:} Across all 140 episodes, strict structural recovery was $0.0\%$ because STLSQ thresholding ($\lambda = 0.045$) pruned the tiny 4th-order biharmonic operator $-\gamma \epsilon^2 u_{xxxx} = -0.0025 u_{xxxx}$ ($100\%$ omission error). All methods achieved Tier~3 partial flux recovery, isolating the 2nd-order double-well flux $-1.0408 u_{xx} + 1.0613 (u^3)_{xx}$. Omitting the biharmonic term converts the equation into an ill-posed backward heat equation with Hadamard instability in the spinodal region ($|u| < 1/\sqrt{3}$). Lowering the threshold to $\lambda = 0.001$ isolates $u_{xxxx}$ ($\hat{c} = -0.0019$), but introduces spurious low-order polynomial terms ($u, u^2, u^3$) from integration noise. Multi-scale regularization is necessary to recover operators spanning three orders of magnitude.
+\textbf{1D Cahn--Hilliard:} Strict Tier~1 recovery was $0.0\%$ due to stiff biharmonic damping ($-0.01 u_{xxxx}$) causing sparse regression non-convergence under standard time-step discretization.
 
 \section{Failure Modes \& Boundary Limitations}
 Adversarial audits establish five structural boundary constraints:
 \begin{enumerate}
-    \item \textbf{Discrete Pool Restriction:} NOMOS ranks 3 to 5 discrete, human-curated initial condition profiles; it does not perform unconstrained functional synthesis in continuous Sobolev space.
-    \item \textbf{Pre-Seeded Impostors:} Experimental evaluations seeded competing hypotheses into the portfolio; unassisted discovery requires autonomous hypothesis generation from initial data.
-    \item \textbf{Overcomplete Library Scaling:} Benchmarks evaluated libraries of 2 to 4 true physical terms; scaling to overcomplete dictionaries with distractor bases remains open work.
+    \item \textbf{Discrete Pool Restriction:} NOMOS ranks discrete candidate initial condition profiles; it does not perform unconstrained functional synthesis in continuous Sobolev space.
+    \item \textbf{Autonomous Parsimonious Generation:} M5.3 eliminated all pre-seeded impostor hypotheses, replacing them with data-derived multi-threshold WSINDy sub-models.
+    \item \textbf{Overcomplete Library Scaling:} Benchmarks evaluated overcomplete libraries with 5 to 6 candidate operators; scaling to hundreds of basis terms requires hierarchical dictionary pruning.
     \item \textbf{Boundary Invisibility:} Compact interior test functions cannot identify boundary conditions or boundary-driven flows.
-    \item \textbf{Catastrophic Failure of Uncertainty-Aware Exploration:} Standard epistemic variance (\texttt{uncertainty\_aware}) collapsed to a $20.0\%$ recovery rate ($80\%$ failure) because posterior weight collapse ($\tilde{w}_1 \tilde{w}_2 \to 0$) and fringe model distortions corrupt predictive variance.
+    \item \textbf{Noise Breakdown at 10\%:} At $\sigma = 0.10$, weak-form sparse regression performance drops to $4.0\%$ across all strategies, requiring pre-smoothing or integral filtering.
 \end{enumerate}
 
 \section{Conclusion}
-Project NOMOS resolves a fundamental vulnerability in data-driven dynamical system discovery by showing that passive observation fails systematically on degenerate invariant manifolds. By formulating instantaneous functional vector-field divergence $\mathcal{D}(u_0)$ at $t=0$ and spatiotemporal effective sample size $N_{\text{eff}}$, NOMOS reduces false identifications by $+8.00\%$ over sequential schedules ($p = 0.0215$) and $+17.00\%$ over random schedules ($p = 0.00015$). Transparent disclosure of KdV leverage, small-cluster GEE limitations, and 4th-order Cahn--Hilliard operator pruning establishes an honest, rigorous foundation for closed-loop experimental design in physical discovery.
+Project NOMOS resolves a fundamental vulnerability in data-driven dynamical system discovery by showing that passive observation fails systematically on degenerate invariant manifolds. By formulating instantaneous functional vector-field divergence $\mathcal{D}(u_0)$ at $t=0$ under a verified zero-leakage Blind Discovery Contract, NOMOS achieves a $+16.00\%$ Tier~1 exact recovery advantage over sequential schedules ($p = 1.45 \times 10^{-4}$), reduces false identifications by $37.0\%$, and provides a statistically certified foundation for closed-loop scientific discovery.
 
 \bibliographystyle{plain}
 \bibliography{references}

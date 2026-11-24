@@ -1,0 +1,481 @@
+episode_id,benchmark_type,system,strategy,noise_level,random_seed,status,winning_equation,tier,tier_name,is_tier1_strict,max_parameter_rel_error,experiments_queried,observation_volume,compute_time_s,steps_taken
+1,PRIMARY,kdv,greedy_disagreement,0.0,42,IDENTIFIED,u_t = -1.0003*u_xxx -6.0004*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.0003,2,20.6897,0.6173,1
+2,PRIMARY,kdv,cost_normalized,0.0,42,IDENTIFIED,u_t = -1.0003*u_xxx -6.0004*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.0003,2,20.6897,0.6192,1
+3,PRIMARY,kdv,random,0.0,42,IDENTIFIED,u_t = -1.0023*u_xxx -5.9962*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00235,2,20.6897,0.6637,1
+4,PRIMARY,kdv,fixed,0.0,42,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6576,1
+5,PRIMARY,kdv,greedy_disagreement,0.0,43,IDENTIFIED,u_t = -1.0006*u_xxx -6.0004*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000578,2,20.6897,0.6203,1
+6,PRIMARY,kdv,cost_normalized,0.0,43,IDENTIFIED,u_t = -1.0006*u_xxx -6.0004*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000578,2,20.6897,0.6052,1
+7,PRIMARY,kdv,random,0.0,43,IDENTIFIED,u_t = -1.0069*u_xxx -5.9977*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00694,2,20.6897,0.6188,1
+8,PRIMARY,kdv,fixed,0.0,43,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6083,1
+9,PRIMARY,kdv,greedy_disagreement,0.0,44,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,2.3e-05,2,20.6897,0.6063,1
+10,PRIMARY,kdv,cost_normalized,0.0,44,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,2.3e-05,2,20.6897,0.6099,1
+11,PRIMARY,kdv,random,0.0,44,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,2.3e-05,2,20.6897,0.6025,1
+12,PRIMARY,kdv,fixed,0.0,44,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.705,1
+13,PRIMARY,kdv,greedy_disagreement,0.0,45,IDENTIFIED,u_t = -0.9998*u_xxx -6.0019*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000311,2,20.6897,0.6726,1
+14,PRIMARY,kdv,cost_normalized,0.0,45,IDENTIFIED,u_t = -0.9998*u_xxx -6.0019*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000311,2,20.6897,0.6713,1
+15,PRIMARY,kdv,random,0.0,45,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.606,1
+16,PRIMARY,kdv,fixed,0.0,45,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.5928,1
+17,PRIMARY,kdv,greedy_disagreement,0.0,46,IDENTIFIED,u_t = -0.9997*u_xxx -6.0011*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000264,2,20.6897,0.6181,1
+18,PRIMARY,kdv,cost_normalized,0.0,46,IDENTIFIED,u_t = -0.9997*u_xxx -6.0011*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.000264,2,20.6897,0.61,1
+19,PRIMARY,kdv,random,0.0,46,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6043,1
+20,PRIMARY,kdv,fixed,0.0,46,IDENTIFIED,u_t = -1.9997*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.5924,1
+21,PRIMARY,kdv,greedy_disagreement,0.01,42,IDENTIFIED,u_t = -0.9978*u_xxx -5.9440*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.009337,2,20.6897,0.6356,1
+22,PRIMARY,kdv,cost_normalized,0.01,42,IDENTIFIED,u_t = -0.9978*u_xxx -5.9440*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.009337,2,20.6897,0.6666,1
+23,PRIMARY,kdv,random,0.01,42,IDENTIFIED,u_t = -1.0223*u_xxx -6.0152*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.022288,2,20.6897,0.6434,1
+24,PRIMARY,kdv,fixed,0.01,42,IDENTIFIED,u_t = -2.0029*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6098,1
+25,PRIMARY,kdv,greedy_disagreement,0.01,43,IDENTIFIED,u_t = -1.0006*u_xxx -6.0169*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002817,2,20.6897,0.6291,1
+26,PRIMARY,kdv,cost_normalized,0.01,43,IDENTIFIED,u_t = -1.0006*u_xxx -6.0169*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002817,2,20.6897,0.6204,1
+27,PRIMARY,kdv,random,0.01,43,IDENTIFIED,u_t = -1.0633*u_xxx -5.9664*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.063305,2,20.6897,0.6108,1
+28,PRIMARY,kdv,fixed,0.01,43,IDENTIFIED,u_t = -2.0010*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6224,1
+29,PRIMARY,kdv,greedy_disagreement,0.01,44,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,0.030747,2,20.6897,0.6215,1
+30,PRIMARY,kdv,cost_normalized,0.01,44,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,0.030747,2,20.6897,0.6348,1
+31,PRIMARY,kdv,random,0.01,44,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,0.030747,2,20.6897,0.6723,1
+32,PRIMARY,kdv,fixed,0.01,44,IDENTIFIED,u_t = -1.9953*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6849,1
+33,PRIMARY,kdv,greedy_disagreement,0.01,45,IDENTIFIED,u_t = -0.9986*u_xxx -5.9815*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003078,2,20.6897,0.6648,1
+34,PRIMARY,kdv,cost_normalized,0.01,45,IDENTIFIED,u_t = -0.9986*u_xxx -5.9815*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003078,2,20.6897,0.6265,1
+35,PRIMARY,kdv,random,0.01,45,IDENTIFIED,u_t = -2.0000*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6321,1
+36,PRIMARY,kdv,fixed,0.01,45,IDENTIFIED,u_t = -2.0004*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6192,1
+37,PRIMARY,kdv,greedy_disagreement,0.01,46,IDENTIFIED,u_t = -0.9921*u_xxx -5.9515*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.008089,2,20.6897,0.6245,1
+38,PRIMARY,kdv,cost_normalized,0.01,46,IDENTIFIED,u_t = -0.9921*u_xxx -5.9515*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.008089,2,20.6897,0.6145,1
+39,PRIMARY,kdv,random,0.01,46,IDENTIFIED,u_t = -1.9969*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6162,1
+40,PRIMARY,kdv,fixed,0.01,46,IDENTIFIED,u_t = -1.9969*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6563,1
+41,PRIMARY,kdv,greedy_disagreement,0.05,42,IDENTIFIED,u_t = -0.9137*u_xxx -5.8547*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.086331,2,20.6897,0.7205,1
+42,PRIMARY,kdv,cost_normalized,0.05,42,IDENTIFIED,u_t = -0.9137*u_xxx -5.8547*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.086331,2,20.6897,0.6241,1
+43,PRIMARY,kdv,random,0.05,42,IDENTIFIED,u_t = -0.9330*u_xxx -5.8881*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.066967,3,31.0345,1.0165,2
+44,PRIMARY,kdv,fixed,0.05,42,IDENTIFIED,u_t = -2.0154*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6271,1
+45,PRIMARY,kdv,greedy_disagreement,0.05,43,IDENTIFIED,u_t = +0.1494*u_x -0.9862*u_xxx -6.1671*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.027851,2,20.6897,0.622,1
+46,PRIMARY,kdv,cost_normalized,0.05,43,IDENTIFIED,u_t = +0.1494*u_x -0.9862*u_xxx -6.1671*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.027851,2,20.6897,0.6254,1
+47,PRIMARY,kdv,random,0.05,43,IDENTIFIED,u_t = -0.9395*u_xxx -5.8940*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.060499,3,31.0345,1.3228,2
+48,PRIMARY,kdv,fixed,0.05,43,IDENTIFIED,u_t = -2.0051*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,1.1089,1
+49,PRIMARY,kdv,greedy_disagreement,0.05,44,IDENTIFIED,u_t = -0.8690*u_xxx -5.8648*u*u_x,2,Tier 2: Algebraically Equivalent Support,0,0.131002,2,20.6897,0.6596,1
+50,PRIMARY,kdv,cost_normalized,0.05,44,IDENTIFIED,u_t = -0.8690*u_xxx -5.8648*u*u_x,2,Tier 2: Algebraically Equivalent Support,0,0.131002,2,20.6897,0.7331,1
+51,PRIMARY,kdv,random,0.05,44,IDENTIFIED,u_t = -1.0060*u_xxx -5.9794*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.005973,3,31.0345,1.3445,2
+52,PRIMARY,kdv,fixed,0.05,44,IDENTIFIED,u_t = -1.9772*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6938,1
+53,PRIMARY,kdv,greedy_disagreement,0.05,45,IDENTIFIED,u_t = -0.9862*u_xxx -5.9809*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.013794,2,20.6897,0.8524,1
+54,PRIMARY,kdv,cost_normalized,0.05,45,IDENTIFIED,u_t = -0.9862*u_xxx -5.9809*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.013794,2,20.6897,1.0269,1
+55,PRIMARY,kdv,random,0.05,45,IDENTIFIED,u_t = -2.0025*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,1.0013,1
+56,PRIMARY,kdv,fixed,0.05,45,IDENTIFIED,u_t = -2.0081*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.8801,1
+57,PRIMARY,kdv,greedy_disagreement,0.05,46,IDENTIFIED,u_t = -4.9458*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.8588,1
+58,PRIMARY,kdv,cost_normalized,0.05,46,IDENTIFIED,u_t = -4.9458*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.8503,1
+59,PRIMARY,kdv,random,0.05,46,IDENTIFIED,u_t = -1.9840*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.7316,1
+60,PRIMARY,kdv,fixed,0.05,46,IDENTIFIED,u_t = -1.9840*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6769,1
+61,PRIMARY,kdv,greedy_disagreement,0.1,42,IDENTIFIED,u_t = -4.8383*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6378,1
+62,PRIMARY,kdv,cost_normalized,0.1,42,IDENTIFIED,u_t = -4.8383*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6453,1
+63,PRIMARY,kdv,random,0.1,42,IDENTIFIED,u_t = +0.6282*u_xx -0.7795*u_xxx -5.6103*u*u_x -0.7864*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,0.220464,2,20.6897,0.6722,1
+64,PRIMARY,kdv,fixed,0.1,42,IDENTIFIED,u_t = -2.0309*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6414,1
+65,PRIMARY,kdv,greedy_disagreement,0.1,43,IDENTIFIED,u_t = +0.3506*u_x +0.2270*u_xx -0.9497*u_xxx +0.2670*u_xxxx -6.4099*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,0.068315,2,20.6897,0.6651,1
+66,PRIMARY,kdv,cost_normalized,0.1,43,IDENTIFIED,u_t = +0.3506*u_x +0.2270*u_xx -0.9497*u_xxx +0.2670*u_xxxx -6.4099*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,0.068315,2,20.6897,0.6572,1
+67,PRIMARY,kdv,random,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.0874,4
+68,PRIMARY,kdv,fixed,0.1,43,IDENTIFIED,u_t = -2.0102*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6592,1
+69,PRIMARY,kdv,greedy_disagreement,0.1,44,IDENTIFIED,u_t = -4.8982*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6287,1
+70,PRIMARY,kdv,cost_normalized,0.1,44,IDENTIFIED,u_t = -4.8982*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6209,1
+71,PRIMARY,kdv,random,0.1,44,IDENTIFIED,u_t = -1.0115*u_xxx -5.9583*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011546,3,31.0345,1.0323,2
+72,PRIMARY,kdv,fixed,0.1,44,IDENTIFIED,u_t = -1.9544*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6416,1
+73,PRIMARY,kdv,greedy_disagreement,0.1,45,IDENTIFIED,u_t = -0.9722*u_xxx -5.9604*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.027801,2,20.6897,0.6333,1
+74,PRIMARY,kdv,cost_normalized,0.1,45,IDENTIFIED,u_t = -0.9722*u_xxx -5.9604*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.027801,2,20.6897,0.6265,1
+75,PRIMARY,kdv,random,0.1,45,IDENTIFIED,u_t = -2.0055*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6514,1
+76,PRIMARY,kdv,fixed,0.1,45,IDENTIFIED,u_t = -2.0176*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6411,1
+77,PRIMARY,kdv,greedy_disagreement,0.1,46,IDENTIFIED,u_t = -4.9035*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6186,1
+78,PRIMARY,kdv,cost_normalized,0.1,46,IDENTIFIED,u_t = -4.9035*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.622,1
+79,PRIMARY,kdv,random,0.1,46,IDENTIFIED,u_t = -1.9678*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6263,1
+80,PRIMARY,kdv,fixed,0.1,46,IDENTIFIED,u_t = -1.9678*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,20.6897,0.6244,1
+81,PRIMARY,burgers,greedy_disagreement,0.0,42,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.5162,1
+82,PRIMARY,burgers,cost_normalized,0.0,42,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4215,1
+83,PRIMARY,burgers,random,0.0,42,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4332,1
+84,PRIMARY,burgers,fixed,0.0,42,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4421,1
+85,PRIMARY,burgers,greedy_disagreement,0.0,43,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4345,1
+86,PRIMARY,burgers,cost_normalized,0.0,43,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4243,1
+87,PRIMARY,burgers,random,0.0,43,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4323,1
+88,PRIMARY,burgers,fixed,0.0,43,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4351,1
+89,PRIMARY,burgers,greedy_disagreement,0.0,44,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4388,1
+90,PRIMARY,burgers,cost_normalized,0.0,44,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.435,1
+91,PRIMARY,burgers,random,0.0,44,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4291,1
+92,PRIMARY,burgers,fixed,0.0,44,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4349,1
+93,PRIMARY,burgers,greedy_disagreement,0.0,45,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4359,1
+94,PRIMARY,burgers,cost_normalized,0.0,45,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4364,1
+95,PRIMARY,burgers,random,0.0,45,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4308,1
+96,PRIMARY,burgers,fixed,0.0,45,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4331,1
+97,PRIMARY,burgers,greedy_disagreement,0.0,46,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4279,1
+98,PRIMARY,burgers,cost_normalized,0.0,46,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4245,1
+99,PRIMARY,burgers,random,0.0,46,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4224,1
+100,PRIMARY,burgers,fixed,0.0,46,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,4e-06,2,6.4998,0.4386,1
+101,PRIMARY,burgers,greedy_disagreement,0.01,42,IDENTIFIED,u_t = +0.0504*u_xx +0.0002*u_xxxx -1.0112*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.011222,2,6.4998,0.4369,1
+102,PRIMARY,burgers,cost_normalized,0.01,42,IDENTIFIED,u_t = +0.0504*u_xx +0.0002*u_xxxx -1.0112*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.011222,2,6.4998,0.4251,1
+103,PRIMARY,burgers,random,0.01,42,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.03813,4,12.9997,1.0456,3
+104,PRIMARY,burgers,fixed,0.01,42,IDENTIFIED,u_t = -0.9490*u*u_x -0.0672*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4343,1
+105,PRIMARY,burgers,greedy_disagreement,0.01,43,IDENTIFIED,u_t = +0.0528*u_xx +0.0002*u_xxxx -0.9739*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.056876,2,6.4998,0.4337,1
+106,PRIMARY,burgers,cost_normalized,0.01,43,IDENTIFIED,u_t = +0.0528*u_xx +0.0002*u_xxxx -0.9739*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.056876,2,6.4998,0.433,1
+107,PRIMARY,burgers,random,0.01,43,IDENTIFIED,u_t = +2.3461*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4379,1
+108,PRIMARY,burgers,fixed,0.01,43,IDENTIFIED,u_t = -0.0517*u -0.9539*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4278,1
+109,PRIMARY,burgers,greedy_disagreement,0.01,44,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.03813,2,6.4998,0.4333,1
+110,PRIMARY,burgers,cost_normalized,0.01,44,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.03813,2,6.4998,0.4296,1
+111,PRIMARY,burgers,random,0.01,44,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.03813,2,6.4998,0.4316,1
+112,PRIMARY,burgers,fixed,0.01,44,IDENTIFIED,u_t = -0.0780*u_xx -0.8440*u*u_x -0.1576*u^3,6,Tier 6: Incorrect Identification / Failed,0,2.560733,2,6.4998,0.4314,1
+113,PRIMARY,burgers,greedy_disagreement,0.01,45,IDENTIFIED,u_t = +0.0502*u_xx +0.0002*u_xxxx -0.9922*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.007773,2,6.4998,0.4357,1
+114,PRIMARY,burgers,cost_normalized,0.01,45,IDENTIFIED,u_t = +0.0502*u_xx +0.0002*u_xxxx -0.9922*u*u_x,3,Tier 3: Dominant Support & Minor Distractor,0,0.007773,2,6.4998,0.4311,1
+115,PRIMARY,burgers,random,0.01,45,IDENTIFIED,u_t = -0.9359*u*u_x -0.0585*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4327,1
+116,PRIMARY,burgers,fixed,0.01,45,IDENTIFIED,u_t = -0.9359*u*u_x -0.0585*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4336,1
+117,PRIMARY,burgers,greedy_disagreement,0.01,46,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011834,2,6.4998,0.4247,1
+118,PRIMARY,burgers,cost_normalized,0.01,46,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011834,2,6.4998,0.4414,1
+119,PRIMARY,burgers,random,0.01,46,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011834,2,6.4998,0.4257,1
+120,PRIMARY,burgers,fixed,0.01,46,IDENTIFIED,u_t = +0.0489*u_xx -1.0052*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.02298,3,9.7498,0.7157,2
+121,PRIMARY,burgers,greedy_disagreement,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3674,4
+122,PRIMARY,burgers,cost_normalized,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3667,4
+123,PRIMARY,burgers,random,0.05,42,IDENTIFIED,u_t = +4.2977*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4334,1
+124,PRIMARY,burgers,fixed,0.05,42,IDENTIFIED,u_t = -0.1752*u_xx -0.7773*u*u_x -0.3056*u^3,6,Tier 6: Incorrect Identification / Failed,0,4.50409,2,6.4998,0.4381,1
+125,PRIMARY,burgers,greedy_disagreement,0.05,43,IDENTIFIED,u_t = +0.6116*u -0.9287*u*u_x -0.5215*u^2 -0.8213*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4295,1
+126,PRIMARY,burgers,cost_normalized,0.05,43,IDENTIFIED,u_t = +0.6116*u -0.9287*u*u_x -0.5215*u^2 -0.8213*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4341,1
+127,PRIMARY,burgers,random,0.05,43,IDENTIFIED,u_t = +0.8797*u -0.9326*u*u_x -0.7329*u^2 -1.1641*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.7498,0.6997,2
+128,PRIMARY,burgers,fixed,0.05,43,IDENTIFIED,u_t = -0.8007*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4342,1
+129,PRIMARY,burgers,greedy_disagreement,0.05,44,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4368,1
+130,PRIMARY,burgers,cost_normalized,0.05,44,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4308,1
+131,PRIMARY,burgers,random,0.05,44,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4332,1
+132,PRIMARY,burgers,fixed,0.05,44,IDENTIFIED,u_t = -0.7834*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4327,1
+133,PRIMARY,burgers,greedy_disagreement,0.05,45,IDENTIFIED,u_t = +0.5752*u -0.9588*u*u_x -0.4689*u^2 -0.7521*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4353,1
+134,PRIMARY,burgers,cost_normalized,0.05,45,IDENTIFIED,u_t = +0.5752*u -0.9588*u*u_x -0.4689*u^2 -0.7521*u^3,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4318,1
+135,PRIMARY,burgers,random,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3491,4
+136,PRIMARY,burgers,fixed,0.05,45,IDENTIFIED,u_t = -1.0155*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.7498,0.7009,2
+137,PRIMARY,burgers,greedy_disagreement,0.05,46,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.05991,2,6.4998,0.4427,1
+138,PRIMARY,burgers,cost_normalized,0.05,46,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.05991,2,6.4998,0.4322,1
+139,PRIMARY,burgers,random,0.05,46,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,Tier 1: Strict Exact Support & High Accuracy,1,0.05991,2,6.4998,0.4345,1
+140,PRIMARY,burgers,fixed,0.05,46,IDENTIFIED,u_t = -1.0221*u*u_x,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.7498,0.7158,2
+141,PRIMARY,burgers,greedy_disagreement,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3749,4
+142,PRIMARY,burgers,cost_normalized,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.369,4
+143,PRIMARY,burgers,random,0.1,42,IDENTIFIED,u_t = +1.7834*u^2,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4998,0.4373,1
+144,PRIMARY,burgers,fixed,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3716,4
+145,PRIMARY,burgers,greedy_disagreement,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3947,4
+146,PRIMARY,burgers,cost_normalized,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3935,4
+147,PRIMARY,burgers,random,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3665,4
+148,PRIMARY,burgers,fixed,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3665,4
+149,PRIMARY,burgers,greedy_disagreement,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3919,4
+150,PRIMARY,burgers,cost_normalized,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3755,4
+151,PRIMARY,burgers,random,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3693,4
+152,PRIMARY,burgers,fixed,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.4136,4
+153,PRIMARY,burgers,greedy_disagreement,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3666,4
+154,PRIMARY,burgers,cost_normalized,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3799,4
+155,PRIMARY,burgers,random,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3716,4
+156,PRIMARY,burgers,fixed,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3789,4
+157,PRIMARY,burgers,greedy_disagreement,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.3862,4
+158,PRIMARY,burgers,cost_normalized,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.4471,4
+159,PRIMARY,burgers,random,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.7881,4
+160,PRIMARY,burgers,fixed,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.2496,1.5002,4
+161,PRIMARY,gray_scott,greedy_disagreement,0.0,42,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.09777,2,6.4655,0.8033,1
+162,PRIMARY,gray_scott,cost_normalized,0.0,42,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.09777,2,6.4655,0.8258,1
+163,PRIMARY,gray_scott,random,0.0,42,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.09777,2,6.4655,0.8255,1
+164,PRIMARY,gray_scott,fixed,0.0,42,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.09777,2,6.4655,0.8299,1
+165,PRIMARY,gray_scott,greedy_disagreement,0.0,43,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,Tier 2: Algebraically Equivalent Support,0,0.107213,2,6.4655,0.902,1
+166,PRIMARY,gray_scott,cost_normalized,0.0,43,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,Tier 2: Algebraically Equivalent Support,0,0.107213,2,6.4655,1.0557,1
+167,PRIMARY,gray_scott,random,0.0,43,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,Tier 2: Algebraically Equivalent Support,0,0.107213,2,6.4655,0.9776,1
+168,PRIMARY,gray_scott,fixed,0.0,43,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,Tier 2: Algebraically Equivalent Support,0,0.107213,2,6.4655,0.8001,1
+169,PRIMARY,gray_scott,greedy_disagreement,0.0,44,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.060733,2,6.4655,1.0348,1
+170,PRIMARY,gray_scott,cost_normalized,0.0,44,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.060733,2,6.4655,1.1341,1
+171,PRIMARY,gray_scott,random,0.0,44,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.060733,2,6.4655,1.0299,1
+172,PRIMARY,gray_scott,fixed,0.0,44,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.060733,2,6.4655,0.7908,1
+173,PRIMARY,gray_scott,greedy_disagreement,0.0,45,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.072497,2,6.4655,0.792,1
+174,PRIMARY,gray_scott,cost_normalized,0.0,45,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.072497,2,6.4655,0.8004,1
+175,PRIMARY,gray_scott,random,0.0,45,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.072497,2,6.4655,0.7936,1
+176,PRIMARY,gray_scott,fixed,0.0,45,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.072497,2,6.4655,0.773,1
+177,PRIMARY,gray_scott,greedy_disagreement,0.0,46,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.095716,2,6.4655,0.7835,1
+178,PRIMARY,gray_scott,cost_normalized,0.0,46,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.095716,2,6.4655,0.784,1
+179,PRIMARY,gray_scott,random,0.0,46,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.095716,2,6.4655,0.7906,1
+180,PRIMARY,gray_scott,fixed,0.0,46,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.095716,2,6.4655,0.7966,1
+181,PRIMARY,gray_scott,greedy_disagreement,0.01,42,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7866,1
+182,PRIMARY,gray_scott,cost_normalized,0.01,42,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8002,1
+183,PRIMARY,gray_scott,random,0.01,42,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7999,1
+184,PRIMARY,gray_scott,fixed,0.01,42,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8,1
+185,PRIMARY,gray_scott,greedy_disagreement,0.01,43,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8029,1
+186,PRIMARY,gray_scott,cost_normalized,0.01,43,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4171,4
+187,PRIMARY,gray_scott,random,0.01,43,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.3061,2
+188,PRIMARY,gray_scott,fixed,0.01,43,IDENTIFIED,v_t = +0.0787*lap_v +0.5301*u*v^2 -0.0563*v,6,Tier 6: Incorrect Identification / Failed,0,0.469853,3,9.6983,1.291,2
+189,PRIMARY,gray_scott,greedy_disagreement,0.01,44,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7981,1
+190,PRIMARY,gray_scott,cost_normalized,0.01,44,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7845,1
+191,PRIMARY,gray_scott,random,0.01,44,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7915,1
+192,PRIMARY,gray_scott,fixed,0.01,44,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8084,1
+193,PRIMARY,gray_scott,greedy_disagreement,0.01,45,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8061,1
+194,PRIMARY,gray_scott,cost_normalized,0.01,45,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7845,1
+195,PRIMARY,gray_scott,random,0.01,45,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8014,1
+196,PRIMARY,gray_scott,fixed,0.01,45,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8139,1
+197,PRIMARY,gray_scott,greedy_disagreement,0.01,46,IDENTIFIED,v_t = +0.0795*lap_v +0.8750*u*v^2 -0.0870*v,2,Tier 2: Algebraically Equivalent Support,0,0.124987,3,9.6983,1.3342,2
+198,PRIMARY,gray_scott,cost_normalized,0.01,46,IDENTIFIED,v_t = +0.0795*lap_v +0.8750*u*v^2 -0.0870*v,2,Tier 2: Algebraically Equivalent Support,0,0.124987,5,16.1638,2.5494,4
+199,PRIMARY,gray_scott,random,0.01,46,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.3272,2
+200,PRIMARY,gray_scott,fixed,0.01,46,IDENTIFIED,v_t = +0.0795*lap_v +0.8750*u*v^2 -0.0870*v,2,Tier 2: Algebraically Equivalent Support,0,0.124987,3,9.6983,1.3024,2
+201,PRIMARY,gray_scott,greedy_disagreement,0.05,42,IDENTIFIED,v_t = +0.0804*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8122,1
+202,PRIMARY,gray_scott,cost_normalized,0.05,42,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4256,4
+203,PRIMARY,gray_scott,random,0.05,42,IDENTIFIED,v_t = +8.8028*u*v^2 -0.5775*v,6,Tier 6: Incorrect Identification / Failed,0,7.802796,2,6.4655,0.8095,1
+204,PRIMARY,gray_scott,fixed,0.05,42,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.5166,4
+205,PRIMARY,gray_scott,greedy_disagreement,0.05,43,IDENTIFIED,v_t = +0.0806*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8017,1
+206,PRIMARY,gray_scott,cost_normalized,0.05,43,IDENTIFIED,v_t = +0.0780*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7904,1
+207,PRIMARY,gray_scott,random,0.05,43,IDENTIFIED,v_t = +0.0805*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.2615,2
+208,PRIMARY,gray_scott,fixed,0.05,43,IDENTIFIED,v_t = +0.0780*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7869,1
+209,PRIMARY,gray_scott,greedy_disagreement,0.05,44,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,4,12.931,1.8456,3
+210,PRIMARY,gray_scott,cost_normalized,0.05,44,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4192,4
+211,PRIMARY,gray_scott,random,0.05,44,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4088,4
+212,PRIMARY,gray_scott,fixed,0.05,44,IDENTIFIED,v_t = +0.0809*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,4,12.931,1.8392,3
+213,PRIMARY,gray_scott,greedy_disagreement,0.05,45,IDENTIFIED,v_t = +0.0809*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8165,1
+214,PRIMARY,gray_scott,cost_normalized,0.05,45,IDENTIFIED,v_t = +0.0782*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.3001,2
+215,PRIMARY,gray_scott,random,0.05,45,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.3334,2
+216,PRIMARY,gray_scott,fixed,0.05,45,IDENTIFIED,v_t = +0.0808*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.3159,2
+217,PRIMARY,gray_scott,greedy_disagreement,0.05,46,IDENTIFIED,v_t = +0.0782*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8009,1
+218,PRIMARY,gray_scott,cost_normalized,0.05,46,IDENTIFIED,v_t = +0.0782*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8425,1
+219,PRIMARY,gray_scott,random,0.05,46,IDENTIFIED,v_t = +0.0810*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.806,1
+220,PRIMARY,gray_scott,fixed,0.05,46,IDENTIFIED,v_t = +0.0782*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8156,1
+221,PRIMARY,gray_scott,greedy_disagreement,0.1,42,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.441,4
+222,PRIMARY,gray_scott,cost_normalized,0.1,42,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4679,4
+223,PRIMARY,gray_scott,random,0.1,42,IDENTIFIED,v_t = +7.4671*u*v^2 -0.9662*v,6,Tier 6: Incorrect Identification / Failed,0,9.170463,2,6.4655,0.8076,1
+224,PRIMARY,gray_scott,fixed,0.1,42,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.4327,4
+225,PRIMARY,gray_scott,greedy_disagreement,0.1,43,IDENTIFIED,v_t = +0.0804*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.789,1
+226,PRIMARY,gray_scott,cost_normalized,0.1,43,IDENTIFIED,v_t = +0.0777*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7783,1
+227,PRIMARY,gray_scott,random,0.1,43,IDENTIFIED,v_t = +0.0801*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,9.6983,1.2877,2
+228,PRIMARY,gray_scott,fixed,0.1,43,IDENTIFIED,v_t = +0.0777*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8005,1
+229,PRIMARY,gray_scott,greedy_disagreement,0.1,44,IDENTIFIED,v_t = +0.0797*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7992,1
+230,PRIMARY,gray_scott,cost_normalized,0.1,44,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7982,1
+231,PRIMARY,gray_scott,random,0.1,44,IDENTIFIED,v_t = +0.0797*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7995,1
+232,PRIMARY,gray_scott,fixed,0.1,44,IDENTIFIED,v_t = +0.0784*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.7889,1
+233,PRIMARY,gray_scott,greedy_disagreement,0.1,45,IDENTIFIED,v_t = +0.0810*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8269,1
+234,PRIMARY,gray_scott,cost_normalized,0.1,45,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8152,1
+235,PRIMARY,gray_scott,random,0.1,45,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8009,1
+236,PRIMARY,gray_scott,fixed,0.1,45,IDENTIFIED,v_t = +0.0783*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8125,1
+237,PRIMARY,gray_scott,greedy_disagreement,0.1,46,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.5387,4
+238,PRIMARY,gray_scott,cost_normalized,0.1,46,MULTIPLE_PLAUSIBLE_LAWS,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,16.1638,2.456,4
+239,PRIMARY,gray_scott,random,0.1,46,IDENTIFIED,v_t = +0.0811*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,6.4655,0.8034,1
+240,PRIMARY,gray_scott,fixed,0.1,46,IDENTIFIED,v_t = +0.0813*lap_v,6,Tier 6: Incorrect Identification / Failed,0,1.0,4,12.931,1.85,3
+241,PRIMARY,fitzhugh,greedy_disagreement,0.0,42,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002866,2,413.7931,0.8834,1
+242,PRIMARY,fitzhugh,cost_normalized,0.0,42,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002866,2,413.7931,0.8767,1
+243,PRIMARY,fitzhugh,random,0.0,42,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002866,2,413.7931,0.8899,1
+244,PRIMARY,fitzhugh,fixed,0.0,42,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002866,2,413.7931,0.8659,1
+245,PRIMARY,fitzhugh,greedy_disagreement,0.0,43,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003677,2,413.7931,0.8901,1
+246,PRIMARY,fitzhugh,cost_normalized,0.0,43,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003677,2,413.7931,0.8746,1
+247,PRIMARY,fitzhugh,random,0.0,43,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003677,2,413.7931,0.8737,1
+248,PRIMARY,fitzhugh,fixed,0.0,43,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003677,2,413.7931,0.9053,1
+249,PRIMARY,fitzhugh,greedy_disagreement,0.0,44,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001333,2,413.7931,0.8871,1
+250,PRIMARY,fitzhugh,cost_normalized,0.0,44,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001333,2,413.7931,0.8696,1
+251,PRIMARY,fitzhugh,random,0.0,44,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001333,2,413.7931,0.8599,1
+252,PRIMARY,fitzhugh,fixed,0.0,44,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001333,2,413.7931,0.9586,1
+253,PRIMARY,fitzhugh,greedy_disagreement,0.0,45,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002695,2,413.7931,0.875,1
+254,PRIMARY,fitzhugh,cost_normalized,0.0,45,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002695,2,413.7931,0.8567,1
+255,PRIMARY,fitzhugh,random,0.0,45,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002695,2,413.7931,0.8843,1
+256,PRIMARY,fitzhugh,fixed,0.0,45,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002695,2,413.7931,0.8655,1
+257,PRIMARY,fitzhugh,greedy_disagreement,0.0,46,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.004139,2,413.7931,0.8671,1
+258,PRIMARY,fitzhugh,cost_normalized,0.0,46,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.004139,2,413.7931,0.8868,1
+259,PRIMARY,fitzhugh,random,0.0,46,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.004139,2,413.7931,0.877,1
+260,PRIMARY,fitzhugh,fixed,0.0,46,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.004139,2,413.7931,0.8828,1
+261,PRIMARY,fitzhugh,greedy_disagreement,0.01,42,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00748,2,413.7931,0.9339,1
+262,PRIMARY,fitzhugh,cost_normalized,0.01,42,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00748,2,413.7931,0.9401,1
+263,PRIMARY,fitzhugh,random,0.01,42,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00748,2,413.7931,0.9323,1
+264,PRIMARY,fitzhugh,fixed,0.01,42,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00748,2,413.7931,0.9343,1
+265,PRIMARY,fitzhugh,greedy_disagreement,0.01,43,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.010182,2,413.7931,0.9271,1
+266,PRIMARY,fitzhugh,cost_normalized,0.01,43,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.010182,2,413.7931,0.9289,1
+267,PRIMARY,fitzhugh,random,0.01,43,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.010182,2,413.7931,0.9184,1
+268,PRIMARY,fitzhugh,fixed,0.01,43,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,Tier 1: Strict Exact Support & High Accuracy,1,0.010182,2,413.7931,0.9368,1
+269,PRIMARY,fitzhugh,greedy_disagreement,0.01,44,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.026894,2,413.7931,0.9386,1
+270,PRIMARY,fitzhugh,cost_normalized,0.01,44,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.026894,2,413.7931,0.9429,1
+271,PRIMARY,fitzhugh,random,0.01,44,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.026894,2,413.7931,0.9414,1
+272,PRIMARY,fitzhugh,fixed,0.01,44,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.026894,2,413.7931,0.9417,1
+273,PRIMARY,fitzhugh,greedy_disagreement,0.01,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8848,4
+274,PRIMARY,fitzhugh,cost_normalized,0.01,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8983,4
+275,PRIMARY,fitzhugh,random,0.01,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.866,4
+276,PRIMARY,fitzhugh,fixed,0.01,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8616,4
+277,PRIMARY,fitzhugh,greedy_disagreement,0.01,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8775,4
+278,PRIMARY,fitzhugh,cost_normalized,0.01,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8737,4
+279,PRIMARY,fitzhugh,random,0.01,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8653,4
+280,PRIMARY,fitzhugh,fixed,0.01,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8808,4
+281,PRIMARY,fitzhugh,greedy_disagreement,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8765,4
+282,PRIMARY,fitzhugh,cost_normalized,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8677,4
+283,PRIMARY,fitzhugh,random,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.874,4
+284,PRIMARY,fitzhugh,fixed,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.88,4
+285,PRIMARY,fitzhugh,greedy_disagreement,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8362,4
+286,PRIMARY,fitzhugh,cost_normalized,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8512,4
+287,PRIMARY,fitzhugh,random,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8416,4
+288,PRIMARY,fitzhugh,fixed,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8173,4
+289,PRIMARY,fitzhugh,greedy_disagreement,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.866,4
+290,PRIMARY,fitzhugh,cost_normalized,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8767,4
+291,PRIMARY,fitzhugh,random,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8854,4
+292,PRIMARY,fitzhugh,fixed,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9884,4
+293,PRIMARY,fitzhugh,greedy_disagreement,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,3.0288,4
+294,PRIMARY,fitzhugh,cost_normalized,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,3.2199,4
+295,PRIMARY,fitzhugh,random,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,3.1912,4
+296,PRIMARY,fitzhugh,fixed,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,3.4252,4
+297,PRIMARY,fitzhugh,greedy_disagreement,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,3.7051,4
+298,PRIMARY,fitzhugh,cost_normalized,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8941,4
+299,PRIMARY,fitzhugh,random,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8843,4
+300,PRIMARY,fitzhugh,fixed,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9616,4
+301,PRIMARY,fitzhugh,greedy_disagreement,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8518,4
+302,PRIMARY,fitzhugh,cost_normalized,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8759,4
+303,PRIMARY,fitzhugh,random,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8899,4
+304,PRIMARY,fitzhugh,fixed,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9324,4
+305,PRIMARY,fitzhugh,greedy_disagreement,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.834,4
+306,PRIMARY,fitzhugh,cost_normalized,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8407,4
+307,PRIMARY,fitzhugh,random,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8499,4
+308,PRIMARY,fitzhugh,fixed,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.953,4
+309,PRIMARY,fitzhugh,greedy_disagreement,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9308,4
+310,PRIMARY,fitzhugh,cost_normalized,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9876,4
+311,PRIMARY,fitzhugh,random,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9291,4
+312,PRIMARY,fitzhugh,fixed,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9639,4
+313,PRIMARY,fitzhugh,greedy_disagreement,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9908,4
+314,PRIMARY,fitzhugh,cost_normalized,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.9757,4
+315,PRIMARY,fitzhugh,random,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8528,4
+316,PRIMARY,fitzhugh,fixed,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8136,4
+317,PRIMARY,fitzhugh,greedy_disagreement,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.849,4
+318,PRIMARY,fitzhugh,cost_normalized,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8509,4
+319,PRIMARY,fitzhugh,random,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8366,4
+320,PRIMARY,fitzhugh,fixed,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,1034.4828,2.8337,4
+321,PRIMARY,navier_stokes,greedy_disagreement,0.0,42,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00093,2,40.8397,0.891,1
+322,PRIMARY,navier_stokes,cost_normalized,0.0,42,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00093,2,40.8397,0.936,1
+323,PRIMARY,navier_stokes,random,0.0,42,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00093,4,81.6795,2.0897,3
+324,PRIMARY,navier_stokes,fixed,0.0,42,IDENTIFIED,omega_t = +0.0201*lap_omega -1.0010*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002944,2,40.8397,0.9423,1
+325,PRIMARY,navier_stokes,greedy_disagreement,0.0,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001301,2,40.8397,0.9034,1
+326,PRIMARY,navier_stokes,cost_normalized,0.0,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001301,2,40.8397,0.916,1
+327,PRIMARY,navier_stokes,random,0.0,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001301,3,61.2596,1.4399,2
+328,PRIMARY,navier_stokes,fixed,0.0,43,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9975*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002533,2,40.8397,0.9491,1
+329,PRIMARY,navier_stokes,greedy_disagreement,0.0,44,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003755,2,40.8397,0.8951,1
+330,PRIMARY,navier_stokes,cost_normalized,0.0,44,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003755,2,40.8397,0.9003,1
+331,PRIMARY,navier_stokes,random,0.0,44,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003755,2,40.8397,0.8782,1
+332,PRIMARY,navier_stokes,fixed,0.0,44,IDENTIFIED,omega_t = +0.0199*lap_omega -1.0003*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.006828,2,40.8397,0.8954,1
+333,PRIMARY,navier_stokes,greedy_disagreement,0.0,45,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9996*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001685,2,40.8397,0.9263,1
+334,PRIMARY,navier_stokes,cost_normalized,0.0,45,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9996*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001685,2,40.8397,0.8823,1
+335,PRIMARY,navier_stokes,random,0.0,45,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9988*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002288,2,40.8397,0.8839,1
+336,PRIMARY,navier_stokes,fixed,0.0,45,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9988*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.002288,2,40.8397,0.8825,1
+337,PRIMARY,navier_stokes,greedy_disagreement,0.0,46,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001421,2,40.8397,0.8843,1
+338,PRIMARY,navier_stokes,cost_normalized,0.0,46,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001421,2,40.8397,0.8797,1
+339,PRIMARY,navier_stokes,random,0.0,46,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.001421,2,40.8397,0.8927,1
+340,PRIMARY,navier_stokes,fixed,0.0,46,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9981*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.00191,2,40.8397,0.8768,1
+341,PRIMARY,navier_stokes,greedy_disagreement,0.01,42,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9961*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003852,2,40.8397,0.9106,1
+342,PRIMARY,navier_stokes,cost_normalized,0.01,42,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9961*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.003852,2,40.8397,0.9039,1
+343,PRIMARY,navier_stokes,random,0.01,42,IDENTIFIED,omega_t = +0.0205*lap_omega -1.0087*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.023841,4,81.6795,2.0325,3
+344,PRIMARY,navier_stokes,fixed,0.01,42,IDENTIFIED,omega_t = +0.0201*lap_omega -1.0052*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.005152,2,40.8397,0.8977,1
+345,PRIMARY,navier_stokes,greedy_disagreement,0.01,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0120*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011971,2,40.8397,0.8825,1
+346,PRIMARY,navier_stokes,cost_normalized,0.01,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0120*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011971,2,40.8397,0.8764,1
+347,PRIMARY,navier_stokes,random,0.01,43,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0095*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.010213,3,61.2596,1.4411,2
+348,PRIMARY,navier_stokes,fixed,0.01,43,IDENTIFIED,omega_t = +0.0193*lap_omega -0.9900*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.037003,2,40.8397,0.8832,1
+349,PRIMARY,navier_stokes,greedy_disagreement,0.01,44,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011956,2,40.8397,0.8998,1
+350,PRIMARY,navier_stokes,cost_normalized,0.01,44,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011956,2,40.8397,0.9677,1
+351,PRIMARY,navier_stokes,random,0.01,44,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.011956,2,40.8397,0.8989,1
+352,PRIMARY,navier_stokes,fixed,0.01,44,IDENTIFIED,omega_t = +0.0201*lap_omega -0.9954*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.006119,2,40.8397,0.893,1
+353,PRIMARY,navier_stokes,greedy_disagreement,0.01,45,IDENTIFIED,omega_t = +0.0195*lap_omega -0.9965*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.024466,2,40.8397,0.8994,1
+354,PRIMARY,navier_stokes,cost_normalized,0.01,45,IDENTIFIED,omega_t = +0.0195*lap_omega -0.9965*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.024466,2,40.8397,0.8949,1
+355,PRIMARY,navier_stokes,random,0.01,45,IDENTIFIED,omega_t = +0.0194*lap_omega -1.0005*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.029858,2,40.8397,0.8876,1
+356,PRIMARY,navier_stokes,fixed,0.01,45,IDENTIFIED,omega_t = +0.0194*lap_omega -1.0005*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.029858,2,40.8397,0.8966,1
+357,PRIMARY,navier_stokes,greedy_disagreement,0.01,46,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.007652,2,40.8397,0.9036,1
+358,PRIMARY,navier_stokes,cost_normalized,0.01,46,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.007652,2,40.8397,0.9214,1
+359,PRIMARY,navier_stokes,random,0.01,46,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.007652,2,40.8397,0.9196,1
+360,PRIMARY,navier_stokes,fixed,0.01,46,IDENTIFIED,omega_t = +0.0205*lap_omega -0.9939*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.023417,2,40.8397,0.904,1
+361,PRIMARY,navier_stokes,greedy_disagreement,0.05,42,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9770*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.022994,2,40.8397,1.0562,1
+362,PRIMARY,navier_stokes,cost_normalized,0.05,42,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9770*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.022994,2,40.8397,0.9911,1
+363,PRIMARY,navier_stokes,random,0.05,42,IDENTIFIED,omega_t = +0.0223*lap_omega -1.0397*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.116972,4,81.6795,2.2718,3
+364,PRIMARY,navier_stokes,fixed,0.05,42,IDENTIFIED,omega_t = +0.0203*lap_omega -1.0219*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.021873,2,40.8397,0.9251,1
+365,PRIMARY,navier_stokes,greedy_disagreement,0.05,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0551*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.055135,2,40.8397,0.9526,1
+366,PRIMARY,navier_stokes,cost_normalized,0.05,43,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0551*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.055135,2,40.8397,0.8952,1
+367,PRIMARY,navier_stokes,random,0.05,43,IDENTIFIED,omega_t = +0.0170*lap_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,3,61.2596,1.4415,2
+368,PRIMARY,navier_stokes,fixed,0.05,43,IDENTIFIED,omega_t = +0.0165*lap_omega -0.9599*advection_omega,3,Tier 3: Dominant Support & Approximate Parameters,0,0.175036,2,40.8397,0.8927,1
+369,PRIMARY,navier_stokes,greedy_disagreement,0.05,44,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.07482,3,61.2596,1.4657,2
+370,PRIMARY,navier_stokes,cost_normalized,0.05,44,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.07482,3,61.2596,1.431,2
+371,PRIMARY,navier_stokes,random,0.05,44,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.07482,3,61.2596,1.4302,2
+372,PRIMARY,navier_stokes,fixed,0.05,44,IDENTIFIED,omega_t = -0.8090*advection_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,40.8397,0.906,1
+373,PRIMARY,navier_stokes,greedy_disagreement,0.05,45,IDENTIFIED,omega_t = +0.0214*lap_omega -1.0089*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.069682,3,61.2596,1.4502,2
+374,PRIMARY,navier_stokes,cost_normalized,0.05,45,IDENTIFIED,omega_t = +0.0214*lap_omega -1.0089*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.069682,3,61.2596,1.4486,2
+375,PRIMARY,navier_stokes,random,0.05,45,IDENTIFIED,omega_t = +0.0172*lap_omega -1.0069*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140069,2,40.8397,0.9007,1
+376,PRIMARY,navier_stokes,fixed,0.05,45,IDENTIFIED,omega_t = +0.0172*lap_omega -1.0069*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140069,2,40.8397,0.8903,1
+377,PRIMARY,navier_stokes,greedy_disagreement,0.05,46,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.04368,2,40.8397,0.9027,1
+378,PRIMARY,navier_stokes,cost_normalized,0.05,46,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.04368,2,40.8397,0.9022,1
+379,PRIMARY,navier_stokes,random,0.05,46,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.04368,2,40.8397,0.8975,1
+380,PRIMARY,navier_stokes,fixed,0.05,46,IDENTIFIED,omega_t = +0.0224*lap_omega -0.9765*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.118917,2,40.8397,0.9032,1
+381,PRIMARY,navier_stokes,greedy_disagreement,0.1,42,IDENTIFIED,omega_t = +0.0156*lap_omega -0.9581*advection_omega -0.0199*omega,3,Tier 3: Dominant Support & Minor Distractor,0,0.219345,2,40.8397,0.8928,1
+382,PRIMARY,navier_stokes,cost_normalized,0.1,42,IDENTIFIED,omega_t = +0.0156*lap_omega -0.9581*advection_omega -0.0199*omega,3,Tier 3: Dominant Support & Minor Distractor,0,0.219345,2,40.8397,0.8923,1
+383,PRIMARY,navier_stokes,random,0.1,42,IDENTIFIED,omega_t = +0.0247*lap_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,4,81.6795,2.0331,3
+384,PRIMARY,navier_stokes,fixed,0.1,42,IDENTIFIED,omega_t = +0.0205*lap_omega -1.0428*advection_omega,1,Tier 1: Strict Exact Support & High Accuracy,1,0.042775,3,61.2596,1.4487,2
+385,PRIMARY,navier_stokes,greedy_disagreement,0.1,43,IDENTIFIED,omega_t = +0.0199*lap_omega -1.1101*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.110143,3,61.2596,1.4336,2
+386,PRIMARY,navier_stokes,cost_normalized,0.1,43,IDENTIFIED,omega_t = +0.0199*lap_omega -1.1101*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.110143,3,61.2596,1.4363,2
+387,PRIMARY,navier_stokes,random,0.1,43,IDENTIFIED,omega_t = +0.1031*lap_omega -2.9860*advection_omega -0.0248*1 +0.1981*omega,6,Tier 6: Incorrect Identification / Failed,0,4.15532,2,40.8397,0.8966,1
+388,PRIMARY,navier_stokes,fixed,0.1,43,IDENTIFIED,omega_t = +0.0170*lap_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,40.8397,0.8847,1
+389,PRIMARY,navier_stokes,greedy_disagreement,0.1,44,IDENTIFIED,omega_t = -0.7730*advection_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,40.8397,0.9125,1
+390,PRIMARY,navier_stokes,cost_normalized,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,102.0994,2.6826,4
+391,PRIMARY,navier_stokes,random,0.1,44,IDENTIFIED,omega_t = -1.0696*advection_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,40.8397,0.9017,1
+392,PRIMARY,navier_stokes,fixed,0.1,44,IDENTIFIED,omega_t = -0.7730*advection_omega,6,Tier 6: Incorrect Identification / Failed,0,1.0,2,40.8397,0.9139,1
+393,PRIMARY,navier_stokes,greedy_disagreement,0.1,45,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140965,3,61.2596,1.4498,2
+394,PRIMARY,navier_stokes,cost_normalized,0.1,45,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140965,3,61.2596,1.4562,2
+395,PRIMARY,navier_stokes,random,0.1,45,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140965,3,61.2596,1.451,2
+396,PRIMARY,navier_stokes,fixed,0.1,45,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,Tier 2: Algebraically Equivalent Support,0,0.140965,3,61.2596,1.4684,2
+397,PRIMARY,navier_stokes,greedy_disagreement,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,102.0994,2.6858,4
+398,PRIMARY,navier_stokes,cost_normalized,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,102.0994,2.7094,4
+399,PRIMARY,navier_stokes,random,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,102.0994,2.7132,4
+400,PRIMARY,navier_stokes,fixed,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,102.0994,2.6567,4
+401,HELD_OUT,brusselator,greedy_disagreement,0.0,42,IDENTIFIED,u_t = +0.0681*lap_u -1.6849*1 -1.8584*u +0.6801*u^2*v +0.5010*v -0.0248*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.684853,2,40.8397,0.6156,1
+402,HELD_OUT,brusselator,random,0.0,42,IDENTIFIED,u_t = +0.0681*lap_u -1.6849*1 -1.8584*u +0.6801*u^2*v +0.5010*v -0.0248*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.684853,2,40.8397,0.6153,1
+403,HELD_OUT,brusselator,greedy_disagreement,0.0,43,IDENTIFIED,u_t = +0.0670*lap_u -1.0732*1 -2.2435*u +0.7272*u^2*v +0.3786*v -0.0237*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.073196,2,40.8397,0.5876,1
+404,HELD_OUT,brusselator,random,0.0,43,IDENTIFIED,u_t = +0.0670*lap_u -1.0732*1 -2.2435*u +0.7272*u^2*v +0.3786*v -0.0237*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.073196,2,40.8397,0.6133,1
+405,HELD_OUT,brusselator,greedy_disagreement,0.0,44,IDENTIFIED,u_t = -4.0148*1 +0.3912*u^2*v +0.9490*v -0.0647*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.014842,2,40.8397,0.7281,1
+406,HELD_OUT,brusselator,random,0.0,44,IDENTIFIED,u_t = -4.0148*1 +0.3912*u^2*v +0.9490*v -0.0647*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.014842,2,40.8397,0.6294,1
+407,HELD_OUT,brusselator,greedy_disagreement,0.0,45,IDENTIFIED,u_t = +0.0696*lap_u -3.8913*1 -0.3092*u +0.4670*u^2*v +0.9331*v -0.0226*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.891332,2,40.8397,0.6014,1
+408,HELD_OUT,brusselator,random,0.0,45,IDENTIFIED,u_t = +0.0696*lap_u -3.8913*1 -0.3092*u +0.4670*u^2*v +0.9331*v -0.0226*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.891332,2,40.8397,0.6067,1
+409,HELD_OUT,brusselator,greedy_disagreement,0.0,46,IDENTIFIED,u_t = +0.0728*lap_u -1.9196*1 -1.6678*u +0.6522*u^2*v +0.5434*v -0.0219*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.919602,2,40.8397,0.5993,1
+410,HELD_OUT,brusselator,random,0.0,46,IDENTIFIED,u_t = +0.0728*lap_u -1.9196*1 -1.6678*u +0.6522*u^2*v +0.5434*v -0.0219*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.919602,2,40.8397,0.7023,1
+411,HELD_OUT,brusselator,greedy_disagreement,0.01,42,IDENTIFIED,u_t = +0.0693*lap_u -1.5090*1 -1.9632*u +0.6919*u^2*v +0.4655*v -0.0235*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.508992,2,40.8397,0.7842,1
+412,HELD_OUT,brusselator,random,0.01,42,IDENTIFIED,u_t = +0.0693*lap_u -1.5090*1 -1.9632*u +0.6919*u^2*v +0.4655*v -0.0235*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.508992,2,40.8397,0.6286,1
+413,HELD_OUT,brusselator,greedy_disagreement,0.01,43,IDENTIFIED,u_t = +0.0696*lap_u +0.0759*1 -3.1334*u +0.8581*u^2*v +0.1612*v -0.0221*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.924113,2,40.8397,0.6364,1
+414,HELD_OUT,brusselator,random,0.01,43,IDENTIFIED,u_t = +0.0696*lap_u +0.0759*1 -3.1334*u +0.8581*u^2*v +0.1612*v -0.0221*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.924113,2,40.8397,0.7491,1
+415,HELD_OUT,brusselator,greedy_disagreement,0.01,44,IDENTIFIED,u_t = +0.0728*lap_u -4.1930*1 +0.4148*u^2*v +0.9829*v -0.0197*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.193029,2,40.8397,0.6192,1
+416,HELD_OUT,brusselator,random,0.01,44,IDENTIFIED,u_t = +0.0728*lap_u -4.1930*1 +0.4148*u^2*v +0.9829*v -0.0197*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.193029,2,40.8397,0.666,1
+417,HELD_OUT,brusselator,greedy_disagreement,0.01,45,IDENTIFIED,u_t = +0.0693*lap_u -2.3513*1 -1.3614*u +0.6080*u^2*v +0.6297*v -0.0225*lap_v,6,Tier 6: Incorrect Identification / Failed,0,3.351348,2,40.8397,0.7879,1
+418,HELD_OUT,brusselator,random,0.01,45,IDENTIFIED,u_t = +0.0693*lap_u -2.3513*1 -1.3614*u +0.6080*u^2*v +0.6297*v -0.0225*lap_v,6,Tier 6: Incorrect Identification / Failed,0,3.351348,2,40.8397,0.6942,1
+419,HELD_OUT,brusselator,greedy_disagreement,0.01,46,IDENTIFIED,u_t = +0.0721*lap_u -1.5650*1 -1.8959*u +0.6812*u^2*v +0.4725*v -0.0220*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.565031,2,40.8397,0.8261,1
+420,HELD_OUT,brusselator,random,0.01,46,IDENTIFIED,u_t = +0.0721*lap_u -1.5650*1 -1.8959*u +0.6812*u^2*v +0.4725*v -0.0220*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.565031,2,40.8397,0.611,1
+421,HELD_OUT,brusselator,greedy_disagreement,0.05,42,IDENTIFIED,u_t = +0.0738*lap_u +0.6709*1 -3.4854*u +0.8970*u^2*v +0.0415*v -0.0182*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.329071,2,40.8397,0.6149,1
+422,HELD_OUT,brusselator,random,0.05,42,IDENTIFIED,u_t = +0.0738*lap_u +0.6709*1 -3.4854*u +0.8970*u^2*v +0.0415*v -0.0182*lap_v,6,Tier 6: Incorrect Identification / Failed,0,0.329071,2,40.8397,0.8436,1
+423,HELD_OUT,brusselator,greedy_disagreement,0.05,43,IDENTIFIED,u_t = +0.0800*lap_u +4.2127*1 -6.3501*u +1.3329*u^2*v -0.6204*v -0.0156*lap_v,6,Tier 6: Incorrect Identification / Failed,0,3.212732,2,40.8397,0.8615,1
+424,HELD_OUT,brusselator,random,0.05,43,IDENTIFIED,u_t = +0.0800*lap_u +4.2127*1 -6.3501*u +1.3329*u^2*v -0.6204*v -0.0156*lap_v,6,Tier 6: Incorrect Identification / Failed,0,3.212732,2,40.8397,0.8661,1
+425,HELD_OUT,brusselator,greedy_disagreement,0.05,44,IDENTIFIED,u_t = +0.0780*lap_u -3.9868*1 +0.3977*u^2*v +0.9317*v -0.0116*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.986787,2,40.8397,0.6631,1
+426,HELD_OUT,brusselator,random,0.05,44,IDENTIFIED,u_t = +0.0780*lap_u -3.9868*1 +0.3977*u^2*v +0.9317*v -0.0116*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.986787,2,40.8397,0.6136,1
+427,HELD_OUT,brusselator,greedy_disagreement,0.05,45,IDENTIFIED,u_t = +0.0675*lap_u +6.3309*1 -7.4415*u +1.4380*u^2*v -1.0671*v -0.0217*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.330905,2,40.8397,0.6003,1
+428,HELD_OUT,brusselator,random,0.05,45,IDENTIFIED,u_t = +0.0675*lap_u +6.3309*1 -7.4415*u +1.4380*u^2*v -1.0671*v -0.0217*lap_v,6,Tier 6: Incorrect Identification / Failed,0,5.330905,2,40.8397,0.6125,1
+429,HELD_OUT,brusselator,greedy_disagreement,0.05,46,IDENTIFIED,u_t = +0.0689*lap_u -1.1095*1 -2.0867*u +0.6933*u^2*v +0.3724*v -0.0226*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.109495,2,40.8397,0.6126,1
+430,HELD_OUT,brusselator,random,0.05,46,IDENTIFIED,u_t = +0.0689*lap_u -1.1095*1 -2.0867*u +0.6933*u^2*v +0.3724*v -0.0226*lap_v,6,Tier 6: Incorrect Identification / Failed,0,2.109495,2,40.8397,0.6077,1
+431,HELD_OUT,brusselator,greedy_disagreement,0.1,42,IDENTIFIED,u_t = +0.0958*lap_u -3.8761*1 +0.3869*u^2*v +0.9053*v,6,Tier 6: Incorrect Identification / Failed,0,4.876132,2,40.8397,0.6009,1
+432,HELD_OUT,brusselator,random,0.1,42,IDENTIFIED,u_t = +0.0958*lap_u -3.8761*1 +0.3869*u^2*v +0.9053*v,6,Tier 6: Incorrect Identification / Failed,0,4.876132,2,40.8397,0.6068,1
+433,HELD_OUT,brusselator,greedy_disagreement,0.1,43,IDENTIFIED,u_t = +0.0933*lap_u +7.7774*1 -9.1700*u +1.7545*u^2*v -1.2906*v -0.0077*lap_v,6,Tier 6: Incorrect Identification / Failed,0,6.777374,2,40.8397,0.6113,1
+434,HELD_OUT,brusselator,random,0.1,43,IDENTIFIED,u_t = +0.0933*lap_u +7.7774*1 -9.1700*u +1.7545*u^2*v -1.2906*v -0.0077*lap_v,6,Tier 6: Incorrect Identification / Failed,0,6.777374,2,40.8397,0.5947,1
+435,HELD_OUT,brusselator,greedy_disagreement,0.1,44,IDENTIFIED,u_t = +0.0850*lap_u -3.7115*1 +0.3752*u^2*v +0.8629*v -0.0013*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.711452,2,40.8397,0.6,1
+436,HELD_OUT,brusselator,random,0.1,44,IDENTIFIED,u_t = +0.0850*lap_u -3.7115*1 +0.3752*u^2*v +0.8629*v -0.0013*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.711452,2,40.8397,0.6064,1
+437,HELD_OUT,brusselator,greedy_disagreement,0.1,45,IDENTIFIED,u_t = +0.0631*lap_u +19.2664*1 -16.5936*u +2.6969*u^2*v -3.5863*v -0.0217*lap_v,6,Tier 6: Incorrect Identification / Failed,0,18.266443,2,40.8397,0.6119,1
+438,HELD_OUT,brusselator,random,0.1,45,IDENTIFIED,u_t = +0.0631*lap_u +19.2664*1 -16.5936*u +2.6969*u^2*v -3.5863*v -0.0217*lap_v,6,Tier 6: Incorrect Identification / Failed,0,18.266443,2,40.8397,0.6113,1
+439,HELD_OUT,brusselator,greedy_disagreement,0.1,46,IDENTIFIED,u_t = +0.1001*lap_u -3.2837*1 +0.3682*u^2*v +0.7276*v -0.0132*lap_v,6,Tier 6: Incorrect Identification / Failed,0,4.283702,4,81.6795,1.4367,3
+440,HELD_OUT,brusselator,random,0.1,46,IDENTIFIED,u_t = +0.0648*lap_u -2.4088*1 -0.9233*u +0.5075*u^2*v +0.6038*v -0.0239*lap_v,6,Tier 6: Incorrect Identification / Failed,0,3.408821,3,61.2596,1.0006,2
+441,HELD_OUT,cahn_hilliard,greedy_disagreement,0.0,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7276,4
+442,HELD_OUT,cahn_hilliard,random,0.0,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7388,4
+443,HELD_OUT,cahn_hilliard,greedy_disagreement,0.0,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7494,4
+444,HELD_OUT,cahn_hilliard,random,0.0,43,IDENTIFIED,u_t = +0.1197*u -9.9240*u_xx -0.2300*u_xxxx -0.0722*u^3 +9.9888*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,22.004918,2,20.6897,0.9367,1
+445,HELD_OUT,cahn_hilliard,greedy_disagreement,0.0,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.8165,4
+446,HELD_OUT,cahn_hilliard,random,0.0,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7807,4
+447,HELD_OUT,cahn_hilliard,greedy_disagreement,0.0,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7711,4
+448,HELD_OUT,cahn_hilliard,random,0.0,45,IDENTIFIED,u_t = +0.2221*u -9.8088*u_xx -0.2316*u_xxxx +10.0012*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,22.156515,2,20.6897,0.948,1
+449,HELD_OUT,cahn_hilliard,greedy_disagreement,0.0,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7471,4
+450,HELD_OUT,cahn_hilliard,random,0.0,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7431,4
+451,HELD_OUT,cahn_hilliard,greedy_disagreement,0.01,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7329,4
+452,HELD_OUT,cahn_hilliard,random,0.01,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.774,4
+453,HELD_OUT,cahn_hilliard,greedy_disagreement,0.01,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.764,4
+454,HELD_OUT,cahn_hilliard,random,0.01,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7482,4
+455,HELD_OUT,cahn_hilliard,greedy_disagreement,0.01,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7156,4
+456,HELD_OUT,cahn_hilliard,random,0.01,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7561,4
+457,HELD_OUT,cahn_hilliard,greedy_disagreement,0.01,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7508,4
+458,HELD_OUT,cahn_hilliard,random,0.01,45,IDENTIFIED,u_t = +0.4397*u -10.3483*u_xx -0.2221*u_xxxx +0.4916*u*u_x +0.4460*u^3 +11.2551*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,21.210152,2,20.6897,0.9324,1
+459,HELD_OUT,cahn_hilliard,greedy_disagreement,0.01,46,IDENTIFIED,u_t = -9.7293*u_xx -0.1877*u_xxxx +9.7445*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,17.772282,2,20.6897,0.9411,1
+460,HELD_OUT,cahn_hilliard,random,0.01,46,IDENTIFIED,u_t = -9.7293*u_xx -0.1877*u_xxxx +9.7445*(u^3)_xx,6,Tier 6: Incorrect Identification / Failed,0,17.772282,2,20.6897,0.9425,1
+461,HELD_OUT,cahn_hilliard,greedy_disagreement,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7434,4
+462,HELD_OUT,cahn_hilliard,random,0.05,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7586,4
+463,HELD_OUT,cahn_hilliard,greedy_disagreement,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7358,4
+464,HELD_OUT,cahn_hilliard,random,0.05,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7287,4
+465,HELD_OUT,cahn_hilliard,greedy_disagreement,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7278,4
+466,HELD_OUT,cahn_hilliard,random,0.05,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7357,4
+467,HELD_OUT,cahn_hilliard,greedy_disagreement,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7436,4
+468,HELD_OUT,cahn_hilliard,random,0.05,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7491,4
+469,HELD_OUT,cahn_hilliard,greedy_disagreement,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.76,4
+470,HELD_OUT,cahn_hilliard,random,0.05,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.8011,4
+471,HELD_OUT,cahn_hilliard,greedy_disagreement,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.8089,4
+472,HELD_OUT,cahn_hilliard,random,0.1,42,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7411,4
+473,HELD_OUT,cahn_hilliard,greedy_disagreement,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.716,4
+474,HELD_OUT,cahn_hilliard,random,0.1,43,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7345,4
+475,HELD_OUT,cahn_hilliard,greedy_disagreement,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7157,4
+476,HELD_OUT,cahn_hilliard,random,0.1,44,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7232,4
+477,HELD_OUT,cahn_hilliard,greedy_disagreement,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7261,4
+478,HELD_OUT,cahn_hilliard,random,0.1,45,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7496,4
+479,HELD_OUT,cahn_hilliard,greedy_disagreement,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7507,4
+480,HELD_OUT,cahn_hilliard,random,0.1,46,NONIDENTIFIABLE,NONE,6,Tier 6: Failed / Non-identifiable,0,-1.0,5,51.7241,2.7393,4

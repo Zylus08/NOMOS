@@ -1,0 +1,53 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-9.0.3, pluggy-1.6.0
+Fugue tests will be initialized with options:
+rootdir: E:\NOMOS
+configfile: pyproject.toml
+plugins: anyio-4.2.0, datalad-1.6.1, fugue-0.9.7, langsmith-0.10.18, asyncio-1.4.0, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 109 items
+
+tests\m2\test_identifiability.py ..                                      [  1%]
+tests\m2\test_neural.py ..                                               [  3%]
+tests\m2\test_search.py ....                                             [  7%]
+tests\m2\test_trees.py ....                                              [ 11%]
+tests\m2_1\test_regression_m2_1.py .......                               [ 17%]
+tests\m2_1\test_symbolic_classifier.py ........                          [ 24%]
+tests\m3\test_pde_expression_grammar.py ...                              [ 27%]
+tests\m3\test_pde_simulators.py ......                                   [ 33%]
+tests\m3\test_spatial_operators.py ....                                  [ 36%]
+tests\m3\test_strong_and_weak_discovery.py ...                           [ 39%]
+tests\m4\test_2d_schema_and_isolation.py ...                             [ 42%]
+tests\m4\test_2d_simulators.py ....                                      [ 45%]
+tests\m4\test_active_identifiability.py ..                               [ 47%]
+tests\m4\test_coupled_ast_grammar.py ...                                 [ 50%]
+tests\m4\test_wsindy_2d.py ..                                            [ 52%]
+tests\m5\test_acquisition_strategies.py ...                              [ 55%]
+tests\m5\test_advection_kdv_falsification.py ..                          [ 56%]
+tests\m5\test_closed_loop_controller.py .                                [ 57%]
+tests\m5\test_hypothesis_portfolio.py ...                                [ 60%]
+tests\m5\test_oracle_isolation.py .                                      [ 61%]
+tests\m5_1\test_brusselator_and_cahn_hilliard.py ....                    [ 65%]
+tests\m5_3\test_adversarial_leakage.py .....                             [ 69%]
+tests\test_adversarial.py ...                                            [ 72%]
+tests\test_baselines.py ..                                               [ 74%]
+tests\test_data.py ....                                                  [ 77%]
+tests\test_library.py .....                                              [ 82%]
+tests\test_physics.py ......                                             [ 88%]
+tests\test_pipeline.py .....                                             [ 92%]
+tests\test_sparse.py ...                                                 [ 95%]
+tests\test_symbolic.py .....                                             [100%]
+
+============================== warnings summary ===============================
+tests/m2_1/test_regression_m2_1.py::TestDomainSingularityDetection::test_internal_singularity_detection
+  <lambdifygenerated-7>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/m2_1/test_symbolic_classifier.py::test_classifier_invalid_expression
+  <lambdifygenerated-25>:2: RuntimeWarning: divide by zero encountered in divide
+
+tests/m5_1/test_brusselator_and_cahn_hilliard.py::test_acquisition_baselines_execute
+  E:\NOMOS\nomos\closed_loop\portfolio.py:164: RuntimeWarning: invalid value encountered in subtract
+    delta_bic = bics - min_bic
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+====================== 109 passed, 3 warnings in 24.09s =======================

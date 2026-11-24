@@ -10,6 +10,7 @@ from typing import Dict, List, Optional, Any, Tuple
 import numpy as np
 
 from nomos.pde.schema import SpatiotemporalField, Grid1D, Grid2D, TimeGrid
+from nomos.pde.isolation import create_learner_field_observation
 from nomos.closed_loop.portfolio import ScientificHypothesis, HypothesisPortfolio, HypothesisStatus
 from nomos.closed_loop.oracle import SimulationOracle, ExperimentRequest, ExperimentResponse, ExperimentCost
 from nomos.closed_loop.acquisition import ExperimentAcquisitionEngine, AcquisitionStrategy
@@ -81,7 +82,12 @@ class ClosedLoopController:
         self.random_seed = int(random_seed)
         self.dimension = int(dimension)
         self.target_channel = target_channel
-        self.candidate_library = candidate_library or ["u*u_x", "u_xx", "u_xxx", "u_xxxx"]
+        if candidate_library is not None:
+            self.candidate_library = candidate_library
+        elif self.dimension == 2:
+            self.candidate_library = ["lap_u", "lap_v", "lap_omega", "u", "v", "u^2", "u^3", "u*v^2", "u^2*v", "1", "advection_omega"]
+        else:
+            self.candidate_library = ["u*u_x", "u_xx", "u_xxx", "u_xxxx"]
 
         # Subsystems
         self.portfolio = HypothesisPortfolio()
@@ -101,8 +107,9 @@ class ClosedLoopController:
 
         # Stage 0: OBSERVE initial dataset
         if initial_field is not None:
-            self.observed_fields.append(initial_field)
-            self._generate_initial_hypotheses(initial_field)
+            sanitized_field = create_learner_field_observation(initial_field)
+            self.observed_fields.append(sanitized_field)
+            self._generate_initial_hypotheses(sanitized_field)
         else:
             # Execute first experiment from pool
             init_lbl, init_u0, _ = self.candidate_pool[0]
@@ -120,7 +127,7 @@ class ClosedLoopController:
         status, winning_h, diag = self.auditor.audit_portfolio(self.portfolio, iteration, self.max_budget)
 
         # Iterative Closed-Loop Cycle
-        while iteration < self.max_budget and status == IdentifiabilityStatus.MULTIPLE_PLAUSIBLE_LAWS:
+        while iteration < self.max_budget and status in (IdentifiabilityStatus.MULTIPLE_PLAUSIBLE_LAWS, IdentifiabilityStatus.INSUFFICIENT_EXCITATION):
             iteration += 1
             step_t0 = time.time()
 
@@ -194,32 +201,57 @@ class ClosedLoopController:
             portfolio_summary=self.portfolio.export_summary(),
         )
 
+    def _register_or_update_hypothesis(self, h: ScientificHypothesis):
+        """
+        Register hypothesis, deduplicating structurally identical models
+        by retaining the one with lower validation MSE / BIC.
+        """
+        feat_key = tuple(sorted(h.parameters.keys()))
+        for existing in self.portfolio.get_active():
+            if tuple(sorted(existing.parameters.keys())) == feat_key:
+                if h.val_mse < existing.val_mse:
+                    existing.parameters = h.parameters.copy()
+                    existing.equation_str = h.equation_str
+                    existing.val_mse = h.val_mse
+                    existing.train_mse = h.train_mse
+                    existing.bic = h.bic
+                return
+        self.portfolio.register(h)
+
     def _generate_initial_hypotheses(self, field: SpatiotemporalField, source_tag: str = "initial"):
-        """Formulate candidate physical laws using discovery engines."""
+        """
+        Formulate candidate physical laws using discovery engines without simulator leakage.
+        Employs:
+        1. Multi-threshold WSINDy (weak-form sparse regression across multiple sparsity thresholds)
+        2. Differential Beam Search (scale-adaptive symbolic grammar search in 1D)
+        3. Parsimonious sub-model generation (data-derived single-operator sub-models
+           fitted directly on the observed trajectory via least-squares projection)
+        """
         if self.dimension == 1:
-            # 1. WSINDy fit
-            wsindy = WeakFormPDEDiscovery(num_test_functions=80, threshold=0.045, random_seed=self.random_seed)
-            res_w = wsindy.fit(field)
-            if res_w.coefficients:
-                h_wsindy = ScientificHypothesis(
-                    id=f"hyp_wsindy_{field.pde_name}_{source_tag}",
-                    equation_str=res_w.discovered_equation,
-                    features=res_w.feature_names,
-                    parameters=res_w.coefficients.copy(),
-                    complexity=len(res_w.coefficients) * 2,
-                    origin=f"wsindy_{source_tag}",
-                    train_mse=res_w.residual_norm**2,
-                    val_mse=res_w.residual_norm**2,
-                    bic=float(len(field.u.flatten()) * np.log(res_w.residual_norm**2 + 1e-12) + len(res_w.coefficients) * np.log(len(field.u.flatten()))),
-                )
-                self.portfolio.register(h_wsindy)
+            # 1. Multi-threshold WSINDy discovery
+            for thresh in [0.015, 0.045, 0.12]:
+                wsindy = WeakFormPDEDiscovery(num_test_functions=80, threshold=thresh, random_seed=self.random_seed)
+                res_w = wsindy.fit(field)
+                if res_w.coefficients:
+                    h_wsindy = ScientificHypothesis(
+                        id=f"hyp_wsindy_{'_'.join(sorted(res_w.coefficients.keys()))}",
+                        equation_str=res_w.discovered_equation,
+                        features=res_w.feature_names,
+                        parameters=res_w.coefficients.copy(),
+                        complexity=len(res_w.coefficients) * 2,
+                        origin=f"wsindy_thresh_{thresh}_{source_tag}",
+                        train_mse=res_w.residual_norm**2,
+                        val_mse=res_w.residual_norm**2,
+                        bic=float(len(field.u.flatten()) * np.log(res_w.residual_norm**2 + 1e-12) + len(res_w.coefficients) * np.log(len(field.u.flatten()))),
+                    )
+                    self._register_or_update_hypothesis(h_wsindy)
 
             # 2. Scale-Adaptive Beam Search fit
             beam = DifferentialBeamSearch(scoring_mode="adaptive", complexity_penalty=1e-4, random_seed=self.random_seed)
             res_b = beam.fit(field)
             if res_b.coefficients:
                 h_beam = ScientificHypothesis(
-                    id=f"hyp_beam_{field.pde_name}_{source_tag}",
+                    id=f"hyp_beam_{'_'.join(sorted(res_b.coefficients.keys()))}",
                     equation_str=res_b.discovered_equation,
                     features=res_b.feature_names,
                     parameters=res_b.coefficients.copy(),
@@ -229,190 +261,184 @@ class ClosedLoopController:
                     val_mse=res_b.residual_norm**2,
                     bic=float(len(field.u.flatten()) * np.log(res_b.residual_norm**2 + 1e-12) + len(res_b.coefficients) * np.log(len(field.u.flatten()))),
                 )
-                self.portfolio.register(h_beam)
+                self._register_or_update_hypothesis(h_beam)
 
-            # 3. Competing physical priors for active discrimination
-            if source_tag == "initial":
-                if "kdv" in field.pde_name:
-                    h_adv = ScientificHypothesis(
-                        id="hyp_linear_advection_impostor",
-                        equation_str="u_t = -2.0000*u_x",
-                        features=["u_x"],
-                        parameters={"u_x": -2.0},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_adv)
-                elif "burgers" in field.pde_name:
-                    h_diff = ScientificHypothesis(
-                        id="hyp_linear_diffusion_impostor",
-                        equation_str="u_t = +0.0500*u_xx",
-                        features=["u_xx"],
-                        parameters={"u_xx": 0.05},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_diff)
-                elif "cahn_hilliard" in field.pde_name:
-                    h_diff = ScientificHypothesis(
-                        id="hyp_ch_biharmonic_damping_impostor",
-                        equation_str="u_t = -0.0100*u_xxxx",
-                        features=["u_xxxx"],
-                        parameters={"u_xxxx": -0.01},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_diff)
+            # 3. Autonomous Parsimonious Sub-model Proposal (Zero Leakage)
+            # Fits single-term candidates directly from weak-form observations using least squares
+            ws_base = WeakFormPDEDiscovery(num_test_functions=80, threshold=0.045, random_seed=self.random_seed)
+            G, b, fnames = ws_base.build_weak_form_system(field)
+            var_b = float(np.var(b)) + 1e-12
+            N_pts = len(field.u.flatten())
+
+            for fname in fnames:
+                idx = fnames.index(fname)
+                col = G[:, idx]
+                denom = float(np.dot(col, col))
+                if denom > 1e-12:
+                    coef = float(np.dot(col, b) / denom)
+                    if abs(coef) > 1e-4:
+                        res = b - coef * col
+                        mse = float(np.mean(res**2))
+                        if mse / var_b < 0.85:
+                            eq_str = f"u_t = {coef:+.4f}*{fname}"
+                            h_sub = ScientificHypothesis(
+                                id=f"hyp_sub_{fname}",
+                                equation_str=eq_str,
+                                features=[fname],
+                                parameters={fname: coef},
+                                complexity=2,
+                                origin=f"parsimonious_submodel_{source_tag}",
+                                train_mse=mse,
+                                val_mse=mse,
+                                bic=float(N_pts * np.log(mse + 1e-12) + 2 * np.log(N_pts)),
+                            )
+                            self._register_or_update_hypothesis(h_sub)
 
         else:
-            # 2D Field Hypothesis Generation via WSINDy-2D
-            engine2d = WeakForm2DPDEDiscovery(num_test_functions=70, threshold=0.02, random_seed=self.random_seed)
-            res2d = engine2d.fit_channel(field, self.target_channel, self.candidate_library)
-            if res2d.coefficients:
-                h2d = ScientificHypothesis(
-                    id=f"hyp_wsindy2d_{field.pde_name}_{self.target_channel}_{source_tag}",
-                    equation_str=res2d.discovered_equation,
-                    features=res2d.feature_names,
-                    parameters=res2d.coefficients.copy(),
-                    complexity=len(res2d.coefficients) * 2,
-                    origin=f"wsindy2d_{source_tag}",
-                    train_mse=res2d.residual_norm**2,
-                    val_mse=res2d.residual_norm**2,
-                    bic=float(len(field.u.flatten()) * np.log(res2d.residual_norm**2 + 1e-12) + len(res2d.coefficients) * np.log(len(field.u.flatten()))),
-                )
-                self.portfolio.register(h2d)
+            # 2D Field Hypothesis Generation via Multi-Threshold WSINDy-2D
+            for thresh in [0.015, 0.045, 0.12]:
+                engine2d = WeakForm2DPDEDiscovery(num_test_functions=70, threshold=thresh, random_seed=self.random_seed)
+                res2d = engine2d.fit_channel(field, self.target_channel, self.candidate_library)
+                if res2d.coefficients:
+                    h2d = ScientificHypothesis(
+                        id=f"hyp_wsindy2d_{'_'.join(sorted(res2d.coefficients.keys()))}",
+                        equation_str=res2d.discovered_equation,
+                        features=res2d.feature_names,
+                        parameters=res2d.coefficients.copy(),
+                        complexity=len(res2d.coefficients) * 2,
+                        origin=f"wsindy2d_thresh_{thresh}_{source_tag}",
+                        train_mse=res2d.residual_norm**2,
+                        val_mse=res2d.residual_norm**2,
+                        bic=float(len(field.u.flatten()) * np.log(res2d.residual_norm**2 + 1e-12) + len(res2d.coefficients) * np.log(len(field.u.flatten()))),
+                    )
+                    self._register_or_update_hypothesis(h2d)
 
-            # Competing physical priors for 2D systems
-            if source_tag == "initial":
-                if "gray_scott" in field.pde_name:
-                    h_diff = ScientificHypothesis(
-                        id="hyp_gs_diffusion_only",
-                        equation_str="v_t = +0.0800*lap_v",
-                        features=["lap_v"],
-                        parameters={"lap_v": 0.08},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_diff)
-                elif "fitzhugh" in field.pde_name:
-                    h_diff = ScientificHypothesis(
-                        id="hyp_fhn_diffusion_only",
-                        equation_str="u_t = +1.0000*lap_u",
-                        features=["lap_u"],
-                        parameters={"lap_u": 1.0},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_diff)
-                elif "navier_stokes" in field.pde_name:
-                    h_stokes = ScientificHypothesis(
-                        id="hyp_stokes_decay_impostor",
-                        equation_str="omega_t = +0.0200*lap_omega",
-                        features=["lap_omega"],
-                        parameters={"lap_omega": 0.02},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_stokes)
-                elif "brusselator" in field.pde_name:
-                    h_diff = ScientificHypothesis(
-                        id="hyp_brusselator_diffusion_impostor",
-                        equation_str="u_t = +0.1000*lap_u",
-                        features=["lap_u"],
-                        parameters={"lap_u": 0.1},
-                        complexity=2,
-                        origin="competing_physical_prior",
-                        train_mse=0.001,
-                        val_mse=0.001,
-                        bic=0.0,
-                    )
-                    self.portfolio.register(h_diff)
+            # Autonomous Parsimonious Sub-models for 2D
+            engine2d_base = WeakForm2DPDEDiscovery(num_test_functions=70, threshold=0.045, random_seed=self.random_seed)
+            G, b = engine2d_base.build_weak_form_system(field, self.target_channel, self.candidate_library)
+            var_b = float(np.var(b)) + 1e-12
+            N_pts = len(field.u.flatten())
+
+            for idx, cand in enumerate(self.candidate_library):
+                col = G[:, idx]
+                denom = float(np.dot(col, col))
+                if denom > 1e-12:
+                    coef = float(np.dot(col, b) / denom)
+                    if abs(coef) > 1e-4:
+                        res = b - coef * col
+                        mse = float(np.mean(res**2))
+                        if mse / var_b < 0.85:
+                            eq_str = f"{self.target_channel}_t = {coef:+.4f}*{cand}"
+                            h_sub2d = ScientificHypothesis(
+                                id=f"hyp_sub2d_{cand}",
+                                equation_str=eq_str,
+                                features=[cand],
+                                parameters={cand: coef},
+                                complexity=2,
+                                origin=f"parsimonious_submodel_{source_tag}",
+                                train_mse=mse,
+                                val_mse=mse,
+                                bic=float(N_pts * np.log(mse + 1e-12) + 2 * np.log(N_pts)),
+                            )
+                            self._register_or_update_hypothesis(h_sub2d)
 
     def _update_and_validate_hypotheses(
         self, new_field: SpatiotemporalField, experiment_id: str, iteration: int = 1
     ) -> Tuple[List[str], List[str]]:
         """
-        Evaluate predictive residual of each active hypothesis on newly acquired observations.
-        Also formulates updated hypotheses from the newly acquired data, refits parameters,
-        falsifies models whose predictive error exceeds tolerance, and confirms supporting ones.
+        Evaluate predictive residual of each active hypothesis across ALL observed fields
+        to enforce universal law invariance. Also proposes updated hypotheses from new observations.
         """
         falsified = []
         supported = []
 
-        # 1. Formulate updated candidate hypotheses from the newly acquired observations
+        # 1. Propose candidate hypotheses from newly acquired observations
         self._generate_initial_hypotheses(new_field, source_tag=f"step{iteration}_{experiment_id}")
 
         active = self.portfolio.get_active()
         if not active:
             return falsified, supported
 
-        errors = {}
-
         if self.dimension == 1:
             wsindy = WeakFormPDEDiscovery(num_test_functions=60, threshold=0.03, random_seed=self.random_seed)
-            G, b, fnames = wsindy.build_weak_form_system(new_field)
-            K = len(b)
-            var_b = float(np.var(b)) + 1e-12
+            field_systems = []
+            for f in self.observed_fields:
+                G_f, b_f, fnames_f = wsindy.build_weak_form_system(f)
+                var_f = float(np.var(b_f)) + 1e-12
+                field_systems.append((G_f, b_f, fnames_f, var_f))
 
             for h in active:
-                xi = np.zeros(len(fnames), dtype=np.float64)
-                for term, coef in h.parameters.items():
-                    if term in fnames:
-                        xi[fnames.index(term)] = coef
-                res_vec = b - G @ xi
-                mse = float(np.mean(res_vec ** 2))
-                errors[h.id] = mse
-                h.val_mse = (h.val_mse + mse) / 2.0 if h.val_mse < 1e5 else mse
-                h.bic = float(K * np.log(h.val_mse + 1e-12) + h.complexity * np.log(K))
+                field_mses = []
+                is_falsified = False
+                reasons = []
+
+                for idx_f, (G_f, b_f, fnames_f, var_f) in enumerate(field_systems):
+                    xi = np.zeros(len(fnames_f), dtype=np.float64)
+                    for term, coef in h.parameters.items():
+                        if term in fnames_f:
+                            xi[fnames_f.index(term)] = coef
+                    res_vec = b_f - G_f @ xi
+                    mse_f = float(np.mean(res_vec ** 2))
+                    norm_err_f = mse_f / var_f
+                    field_mses.append(mse_f)
+
+                    if norm_err_f > 0.05 and mse_f > 1e-4:
+                        is_falsified = True
+                        reasons.append(f"field_{idx_f} rel_err={norm_err_f:.4f}")
+
+                mean_mse = float(np.mean(field_mses))
+                h.val_mse = mean_mse
+                K_total = sum(len(b_f) for _, b_f, _, _ in field_systems)
+                h.bic = float(K_total * np.log(mean_mse + 1e-12) + h.complexity * np.log(K_total))
+
+                if is_falsified:
+                    self.portfolio.record_falsification(
+                        h.id, experiment_id, reason="; ".join(reasons)
+                    )
+                    falsified.append(h.id)
+                else:
+                    self.portfolio.record_support(h.id, experiment_id)
+                    supported.append(h.id)
 
         else:
             engine2d = WeakForm2DPDEDiscovery(num_test_functions=50, threshold=0.02, random_seed=self.random_seed)
-            G, b = engine2d.build_weak_form_system(new_field, self.target_channel, self.candidate_library)
-            K = len(b)
-            var_b = float(np.var(b)) + 1e-12
+            field_systems = []
+            for f in self.observed_fields:
+                G_f, b_f = engine2d.build_weak_form_system(f, self.target_channel, self.candidate_library)
+                var_f = float(np.var(b_f)) + 1e-12
+                field_systems.append((G_f, b_f, var_f))
 
             for h in active:
-                xi = np.zeros(len(self.candidate_library), dtype=np.float64)
-                for term, coef in h.parameters.items():
-                    if term in self.candidate_library:
-                        xi[self.candidate_library.index(term)] = coef
-                res_vec = b - G @ xi
-                mse = float(np.mean(res_vec ** 2))
-                errors[h.id] = mse
-                h.val_mse = (h.val_mse + mse) / 2.0 if h.val_mse < 1e5 else mse
-                h.bic = float(K * np.log(h.val_mse + 1e-12) + h.complexity * np.log(K))
+                field_mses = []
+                is_falsified = False
+                reasons = []
 
-        min_mse = min(errors.values())
+                for idx_f, (G_f, b_f, var_f) in enumerate(field_systems):
+                    xi = np.zeros(len(self.candidate_library), dtype=np.float64)
+                    for term, coef in h.parameters.items():
+                        if term in self.candidate_library:
+                            xi[self.candidate_library.index(term)] = coef
+                    res_vec = b_f - G_f @ xi
+                    mse_f = float(np.mean(res_vec ** 2))
+                    norm_err_f = mse_f / var_f
+                    field_mses.append(mse_f)
 
-        # Falsification check: statistical discrimination against top predictive model
-        for h in active:
-            mse = errors[h.id]
-            norm_err = mse / var_b
-            if mse > 5.0 * (min_mse + 1e-7) and norm_err > 0.05:
-                self.portfolio.record_falsification(
-                    h.id, experiment_id, reason=f"Weak-form residual MSE {mse:.6f} exceeded margin vs best {min_mse:.6f}"
-                )
-                falsified.append(h.id)
-            else:
-                self.portfolio.record_support(h.id, experiment_id)
-                supported.append(h.id)
+                    if norm_err_f > 0.05 and mse_f > 1e-4:
+                        is_falsified = True
+                        reasons.append(f"field_{idx_f} rel_err={norm_err_f:.4f}")
+
+                mean_mse = float(np.mean(field_mses))
+                h.val_mse = mean_mse
+                K_total = sum(len(b_f) for _, b_f, _ in field_systems)
+                h.bic = float(K_total * np.log(mean_mse + 1e-12) + h.complexity * np.log(K_total))
+
+                if is_falsified:
+                    self.portfolio.record_falsification(
+                        h.id, experiment_id, reason="; ".join(reasons)
+                    )
+                    falsified.append(h.id)
+                else:
+                    self.portfolio.record_support(h.id, experiment_id)
+                    supported.append(h.id)
 
         return falsified, supported
