@@ -1,0 +1,3682 @@
+{
+  "A01": {
+    "agent_id": "A01",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A02": {
+    "agent_id": "A02",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A03": {
+    "agent_id": "A03",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A04": {
+    "agent_id": "A04",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A05": {
+    "agent_id": "A05",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A06": {
+    "agent_id": "A06",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A07": {
+    "agent_id": "A07",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A08": {
+    "agent_id": "A08",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A09": {
+    "agent_id": "A09",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "A10": {
+    "agent_id": "A10",
+    "division": "Division A",
+    "specialty": "Closed-Loop Scientific Controller Architecture Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment A10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_a",
+    "owned_files": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/controller.py",
+      "audit/m5/CLOSED_LOOP_ARCHITECTURE.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B01": {
+    "agent_id": "B01",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B02": {
+    "agent_id": "B02",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B03": {
+    "agent_id": "B03",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B04": {
+    "agent_id": "B04",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B05": {
+    "agent_id": "B05",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B06": {
+    "agent_id": "B06",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B07": {
+    "agent_id": "B07",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B08": {
+    "agent_id": "B08",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B09": {
+    "agent_id": "B09",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "B10": {
+    "agent_id": "B10",
+    "division": "Division B",
+    "specialty": "Hypothesis Portfolio & Scientific Memory Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment B10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_b",
+    "owned_files": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/portfolio.py",
+      "audit/m5/HYPOTHESIS_PORTFOLIO.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C01": {
+    "agent_id": "C01",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C02": {
+    "agent_id": "C02",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C03": {
+    "agent_id": "C03",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C04": {
+    "agent_id": "C04",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C05": {
+    "agent_id": "C05",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C06": {
+    "agent_id": "C06",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C07": {
+    "agent_id": "C07",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C08": {
+    "agent_id": "C08",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C09": {
+    "agent_id": "C09",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "C10": {
+    "agent_id": "C10",
+    "division": "Division C",
+    "specialty": "Quarantined Simulation Oracle & Sandboxing Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment C10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_c",
+    "owned_files": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/oracle.py",
+      "audit/m5/ORACLE_ISOLATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D01": {
+    "agent_id": "D01",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D02": {
+    "agent_id": "D02",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D03": {
+    "agent_id": "D03",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D04": {
+    "agent_id": "D04",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D05": {
+    "agent_id": "D05",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D06": {
+    "agent_id": "D06",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D07": {
+    "agent_id": "D07",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D08": {
+    "agent_id": "D08",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D09": {
+    "agent_id": "D09",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "D10": {
+    "agent_id": "D10",
+    "division": "Division D",
+    "specialty": "Active Experiment Acquisition & Divergence Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment D10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_d",
+    "owned_files": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/acquisition.py",
+      "audit/m5/ACQUISITION_FUNCTIONS.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E01": {
+    "agent_id": "E01",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E02": {
+    "agent_id": "E02",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E03": {
+    "agent_id": "E03",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E04": {
+    "agent_id": "E04",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E05": {
+    "agent_id": "E05",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E06": {
+    "agent_id": "E06",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E07": {
+    "agent_id": "E07",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E08": {
+    "agent_id": "E08",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E09": {
+    "agent_id": "E09",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "E10": {
+    "agent_id": "E10",
+    "division": "Division E",
+    "specialty": "Identifiability, Observability & Stopping Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment E10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_e",
+    "owned_files": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/closed_loop/diagnostics.py",
+      "audit/m5/ACTIVE_IDENTIFIABILITY.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F01": {
+    "agent_id": "F01",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F02": {
+    "agent_id": "F02",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F03": {
+    "agent_id": "F03",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F04": {
+    "agent_id": "F04",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F05": {
+    "agent_id": "F05",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F06": {
+    "agent_id": "F06",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F07": {
+    "agent_id": "F07",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F08": {
+    "agent_id": "F08",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F09": {
+    "agent_id": "F09",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "F10": {
+    "agent_id": "F10",
+    "division": "Division F",
+    "specialty": "Multi-Resource Experimental Cost Accounting Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment F10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_f",
+    "owned_files": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/EXPERIMENT_COST_MODEL.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G01": {
+    "agent_id": "G01",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G02": {
+    "agent_id": "G02",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G03": {
+    "agent_id": "G03",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G04": {
+    "agent_id": "G04",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G05": {
+    "agent_id": "G05",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G06": {
+    "agent_id": "G06",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G07": {
+    "agent_id": "G07",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G08": {
+    "agent_id": "G08",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G09": {
+    "agent_id": "G09",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "G10": {
+    "agent_id": "G10",
+    "division": "Division G",
+    "specialty": "Confirmatory Benchmark Matrix & Baselines Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment G10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_g",
+    "owned_files": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "experiments/m5/run_m5_benchmarks.py",
+      "audit/m5/BENCHMARK_PROTOCOL.md",
+      "audit/m5/BASELINE_COMPARISON.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H01": {
+    "agent_id": "H01",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H02": {
+    "agent_id": "H02",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H03": {
+    "agent_id": "H03",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H04": {
+    "agent_id": "H04",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H05": {
+    "agent_id": "H05",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H06": {
+    "agent_id": "H06",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H07": {
+    "agent_id": "H07",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H08": {
+    "agent_id": "H08",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H09": {
+    "agent_id": "H09",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "H10": {
+    "agent_id": "H10",
+    "division": "Division H",
+    "specialty": "Paired Statistical Testing & Noise Robustness Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment H10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_h",
+    "owned_files": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/STATISTICAL_ANALYSIS.md",
+      "audit/m5/NOISE_ROBUSTNESS.md",
+      "audit/m5/GENERALIZATION.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I01": {
+    "agent_id": "I01",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I02": {
+    "agent_id": "I02",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I03": {
+    "agent_id": "I03",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I04": {
+    "agent_id": "I04",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I05": {
+    "agent_id": "I05",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I06": {
+    "agent_id": "I06",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I07": {
+    "agent_id": "I07",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I08": {
+    "agent_id": "I08",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I09": {
+    "agent_id": "I09",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "I10": {
+    "agent_id": "I10",
+    "division": "Division I",
+    "specialty": "Adversarial Falsification & Critical Audit Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment I10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_i",
+    "owned_files": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "audit/m5/ADVERSARIAL_REVIEW.md",
+      "audit/m5/LIMITATIONS.md",
+      "audit/m5/NOVELTY_MATRIX.md"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J01": {
+    "agent_id": "J01",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #1",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J01",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J02": {
+    "agent_id": "J02",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #2",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J02",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J03": {
+    "agent_id": "J03",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #3",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J03",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J04": {
+    "agent_id": "J04",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #4",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J04",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J05": {
+    "agent_id": "J05",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #5",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J05",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J06": {
+    "agent_id": "J06",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #6",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J06",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J07": {
+    "agent_id": "J07",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #7",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J07",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J08": {
+    "agent_id": "J08",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #8",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J08",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J09": {
+    "agent_id": "J09",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #9",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J09",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  },
+  "J10": {
+    "agent_id": "J10",
+    "division": "Division J",
+    "specialty": "CLI Investigation, Test Suite Expansion & Certification Specialist #10",
+    "assigned_task": "Milestone M5 closed-loop scientific investigation assignment J10",
+    "dependency_ids": [],
+    "worktree_or_workspace": "m5_workspace_j",
+    "owned_files": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "execution_state": "INTEGRATED",
+    "is_instantiated": true,
+    "produced_artifacts": [
+      "nomos/cli_investigate.py",
+      "tests/m5/",
+      "audit/m5/M5_FINAL_REPORT.md",
+      "audit/m5/TEST_RESULTS.txt"
+    ],
+    "tests_executed": [
+      "pytest tests tests/m2 tests/m2_1 tests/m3 tests/m4 tests/m5"
+    ],
+    "test_outcomes": {
+      "status": "PASSED",
+      "total": 95,
+      "passed": 95,
+      "failed": 0
+    },
+    "commit_sha": null,
+    "integration_status": "ACCEPTED",
+    "blocking_issues": [],
+    "evidence_references": [
+      "audit/m5/RAW_EPISODES.csv",
+      "audit/m5/PAIRED_OUTCOMES.csv",
+      "audit/m5/TEST_RESULTS.txt",
+      "audit/m5/M5_FINAL_REPORT.md"
+    ]
+  }
+}

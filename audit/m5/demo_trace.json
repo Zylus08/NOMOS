@@ -1,0 +1,186 @@
+{
+  "system": "kdv",
+  "strategy": "greedy_disagreement",
+  "max_budget": 4,
+  "noise_level": 0.0,
+  "seed": 42,
+  "final_status": "IDENTIFIED",
+  "winning_equation": "u_t = -1.0003*u_xxx -6.0004*u*u_x",
+  "winning_parameters": {
+    "u_xxx": -1.0003001580650315,
+    "u*u_x": -6.000356291030415
+  },
+  "total_cost": {
+    "trajectory_queries": 2,
+    "total_time_steps": 60,
+    "spatial_points": 256,
+    "observation_volume": 20.689655,
+    "compute_time_seconds": 0.029722
+  },
+  "duration_seconds": 0.2916,
+  "trace": [
+    {
+      "iteration": 1,
+      "stage": "CLOSED_LOOP_STEP",
+      "selected_experiment": "wave_packet",
+      "acquisition_score": 0.394669,
+      "active_hypotheses_count": 1,
+      "top_hypothesis": "u_t = -1.9997*u_x",
+      "identifiability_status": "IDENTIFIED",
+      "cost": {
+        "trajectory_queries": 1,
+        "total_time_steps": 30,
+        "spatial_points": 128,
+        "observation_volume": 10.344828,
+        "compute_time_seconds": 0.015958
+      },
+      "falsified_hypotheses": [
+        "hyp_beam_kdv_equation_initial",
+        "hyp_wsindy_kdv_equation_initial",
+        "hyp_linear_advection_impostor",
+        "hyp_beam_kdv_equation_step1_exp_01_wave_packet"
+      ],
+      "supported_hypotheses": [
+        "hyp_wsindy_kdv_equation_step1_exp_01_wave_packet"
+      ],
+      "elapsed_time_s": 0.1836,
+      "metadata": {
+        "reason": "Single surviving hypothesis with confirmed predictive support.",
+        "bic": -921.1217475760327
+      }
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "hyp_wsindy_kdv_equation_initial",
+      "equation_str": "u_t = -2.3521*u_x +0.1759*u_xxx +1.0582*u*u_x",
+      "features": [
+        "u",
+        "u_x",
+        "u_xx",
+        "u_xxx",
+        "u_xxxx",
+        "u*u_x",
+        "u^2",
+        "u^3"
+      ],
+      "parameters": {
+        "u_x": -2.352141263726348,
+        "u_xxx": 0.17589568085028823,
+        "u*u_x": 1.0582354609930857
+      },
+      "complexity": 6,
+      "origin": "wsindy_initial",
+      "train_mse": 8e-06,
+      "val_mse": 0.003421,
+      "bic": -316.1071,
+      "evidence_score": 0.0,
+      "parameter_uncertainties": {},
+      "status": "FALSIFIED",
+      "rejection_reason": "Weak-form residual MSE 0.006834 exceeded margin vs best 0.000000",
+      "supporting_count": 0,
+      "contradicting_count": 1,
+      "version": 1
+    },
+    {
+      "id": "hyp_beam_kdv_equation_initial",
+      "equation_str": "u_t = -1.9997*u_x",
+      "features": [
+        "u_x"
+      ],
+      "parameters": {
+        "u_x": -1.9996912053976048
+      },
+      "complexity": 2,
+      "origin": "beam_initial",
+      "train_mse": 0.0,
+      "val_mse": 0.00247,
+      "bic": -352.0332,
+      "evidence_score": 1.0,
+      "parameter_uncertainties": {},
+      "status": "FALSIFIED",
+      "rejection_reason": "Weak-form residual MSE 0.004939 exceeded margin vs best 0.000000",
+      "supporting_count": 0,
+      "contradicting_count": 1,
+      "version": 1
+    },
+    {
+      "id": "hyp_linear_advection_impostor",
+      "equation_str": "u_t = -2.0000*u_x",
+      "features": [
+        "u_x"
+      ],
+      "parameters": {
+        "u_x": -2.0
+      },
+      "complexity": 2,
+      "origin": "competing_physical_prior",
+      "train_mse": 0.001,
+      "val_mse": 0.00297,
+      "bic": -340.9663,
+      "evidence_score": 0.0,
+      "parameter_uncertainties": {},
+      "status": "FALSIFIED",
+      "rejection_reason": "Weak-form residual MSE 0.004940 exceeded margin vs best 0.000000",
+      "supporting_count": 0,
+      "contradicting_count": 1,
+      "version": 1
+    },
+    {
+      "id": "hyp_wsindy_kdv_equation_step1_exp_01_wave_packet",
+      "equation_str": "u_t = -1.0003*u_xxx -6.0004*u*u_x",
+      "features": [
+        "u",
+        "u_x",
+        "u_xx",
+        "u_xxx",
+        "u_xxxx",
+        "u*u_x",
+        "u^2",
+        "u^3"
+      ],
+      "parameters": {
+        "u_xxx": -1.0003001580650315,
+        "u*u_x": -6.000356291030415
+      },
+      "complexity": 4,
+      "origin": "wsindy_step1_exp_01_wave_packet",
+      "train_mse": 0.0,
+      "val_mse": 0.0,
+      "bic": -921.1217,
+      "evidence_score": 0.0,
+      "parameter_uncertainties": {},
+      "status": "SUPPORTED",
+      "rejection_reason": null,
+      "supporting_count": 1,
+      "contradicting_count": 0,
+      "version": 1
+    },
+    {
+      "id": "hyp_beam_kdv_equation_step1_exp_01_wave_packet",
+      "equation_str": "u_t = +1.8771*u_x -0.5970*u_xxx -3.7853*u*u_x",
+      "features": [
+        "u_x",
+        "u_xxx",
+        "u*u_x"
+      ],
+      "parameters": {
+        "u_x": 1.8771488454845928,
+        "u_xxx": -0.5969805052576246,
+        "u*u_x": -3.7852885427744978
+      },
+      "complexity": 6,
+      "origin": "beam_step1_exp_01_wave_packet",
+      "train_mse": 0.549686,
+      "val_mse": 0.275269,
+      "bic": -52.8343,
+      "evidence_score": 0.0,
+      "parameter_uncertainties": {},
+      "status": "FALSIFIED",
+      "rejection_reason": "Weak-form residual MSE 0.000853 exceeded margin vs best 0.000000",
+      "supporting_count": 0,
+      "contradicting_count": 1,
+      "version": 1
+    }
+  ]
+}

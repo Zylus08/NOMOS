@@ -158,18 +158,16 @@ class WeakForm2DPDEDiscovery:
 
         return test_functions
 
-    def fit_channel(
+    def build_weak_form_system(
         self,
         field: SpatiotemporalField,
         target_channel: str,
         candidate_library: List[str],
-    ) -> PDEDiscoveryResult:
+    ) -> Tuple[np.ndarray, np.ndarray]:
         """
-        Discover governing PDE for a specific channel using WSINDy-2D.
+        Assemble 2D spatiotemporal weak-form linear system G @ xi = b.
+        Returns: (G, b) of shape (K, P) and (K,).
         """
-        import time
-
-        t0 = time.time()
         x = field.x
         y = field.y
         t = field.t
@@ -178,7 +176,7 @@ class WeakForm2DPDEDiscovery:
         dt = field.dt
 
         if field.spatial_dim != 2 or y is None:
-            raise ValueError("fit_channel requires 2D SpatiotemporalField with non-None y.")
+            raise ValueError("build_weak_form_system requires 2D SpatiotemporalField with non-None y.")
 
         test_functions = self.build_test_functions(x, y, t)
         K = len(test_functions)
@@ -204,7 +202,6 @@ class WeakForm2DPDEDiscovery:
             iy = tf["idx_y"]
 
             # Subdomain view: shape (len(it), len(ix), len(iy))
-            # Slice efficiently using np.ix_
             sub_w_target = w_target[np.ix_(it, ix, iy)]
 
             # Target b_k = - int (w * phi_t) dV
@@ -216,21 +213,17 @@ class WeakForm2DPDEDiscovery:
                 if cand == "1":
                     val_k = float(np.sum(tf["phi"]) * dV)
                 elif cand in field.channel_names:
-                    # int (field * phi) dV
                     f_sub = channel_data[cand][np.ix_(it, ix, iy)]
                     val_k = float(np.sum(f_sub * tf["phi"]) * dV)
                 elif cand.startswith("lap_"):
-                    # e.g. lap_u => int (u * (phi_xx + phi_yy)) dV
                     vname = cand[4:]
                     f_sub = channel_data[vname][np.ix_(it, ix, iy)]
                     val_k = float(np.sum(f_sub * tf["phi_lap"]) * dV)
                 elif cand.startswith("d_") and cand.endswith("_x"):
-                    # e.g. d_u_x => - int (u * phi_x) dV
                     vname = cand[2:-2]
                     f_sub = channel_data[vname][np.ix_(it, ix, iy)]
                     val_k = -float(np.sum(f_sub * tf["phi_x"]) * dV)
                 elif cand.startswith("d_") and cand.endswith("_y"):
-                    # e.g. d_u_y => - int (u * phi_y) dV
                     vname = cand[2:-2]
                     f_sub = channel_data[vname][np.ix_(it, ix, iy)]
                     val_k = -float(np.sum(f_sub * tf["phi_y"]) * dV)
@@ -242,18 +235,32 @@ class WeakForm2DPDEDiscovery:
                     u_sub = channel_data["u"][np.ix_(it, ix, iy)]
                     val_k = float(np.sum((u_sub**3) * tf["phi"]) * dV)
                 elif cand == "advection_omega":
-                    # Incompressible advection: u*omega_x + v*omega_y
-                    # Weak form: - int omega * (u * phi_x + v * phi_y) dV
                     om_sub = channel_data["omega"][np.ix_(it, ix, iy)]
                     u_sub = channel_data["u"][np.ix_(it, ix, iy)]
                     v_sub = channel_data["v"][np.ix_(it, ix, iy)]
                     advec_integrand = om_sub * (u_sub * tf["phi_x"] + v_sub * tf["phi_y"])
                     val_k = -float(np.sum(advec_integrand) * dV)
                 else:
-                    # Generic product parsing if needed
                     val_k = 0.0
 
                 G[k, p] = val_k
+
+        return G, b
+
+    def fit_channel(
+        self,
+        field: SpatiotemporalField,
+        target_channel: str,
+        candidate_library: List[str],
+    ) -> PDEDiscoveryResult:
+        """
+        Discover governing PDE for a specific channel using WSINDy-2D.
+        """
+        import time
+
+        t0 = time.time()
+        G, b = self.build_weak_form_system(field, target_channel, candidate_library)
+        K = len(b)
 
         # Solve sparse regression via STLSQ directly on (G, b)
         b_col = b.reshape(-1, 1)
