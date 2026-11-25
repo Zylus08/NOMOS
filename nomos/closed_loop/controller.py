@@ -74,10 +74,12 @@ class ClosedLoopController:
         candidate_library: Optional[List[str]] = None,
     ):
         self.oracle = oracle
+        self.max_budget = int(max_budget)
+        if getattr(self.oracle, "max_budget", None) is None:
+            self.oracle.max_budget = self.max_budget
         self.grid = grid
         self.candidate_pool = candidate_experiment_pool
         self.strategy = strategy
-        self.max_budget = int(max_budget)
         self.noise_level = float(noise_level)
         self.random_seed = int(random_seed)
         self.dimension = int(dimension)
@@ -105,7 +107,7 @@ class ClosedLoopController:
         t_start = time.time()
         iteration = 0
 
-        # Stage 0: OBSERVE initial dataset
+        # Stage 0: OBSERVE initial dataset (consumes Query 1 if initial_field is None)
         if initial_field is not None:
             sanitized_field = create_learner_field_observation(initial_field)
             self.observed_fields.append(sanitized_field)
@@ -114,7 +116,7 @@ class ClosedLoopController:
             # Execute first experiment from pool
             init_lbl, init_u0, _ = self.candidate_pool[0]
             req = ExperimentRequest(
-                experiment_id=f"exp_{iteration:02d}_{init_lbl}",
+                experiment_id=f"exp_{self.oracle.query_count:02d}_{init_lbl}",
                 u0=init_u0,
                 noise_level=self.noise_level,
                 random_seed=self.random_seed,
@@ -124,10 +126,15 @@ class ClosedLoopController:
             self._generate_initial_hypotheses(resp.field)
 
         # Audit stopping condition immediately after initialization
-        status, winning_h, diag = self.auditor.audit_portfolio(self.portfolio, iteration, self.max_budget)
+        status, winning_h, diag = self.auditor.audit_portfolio(
+            self.portfolio, self.oracle.query_count, self.max_budget
+        )
 
-        # Iterative Closed-Loop Cycle
-        while iteration < self.max_budget and status in (IdentifiabilityStatus.MULTIPLE_PLAUSIBLE_LAWS, IdentifiabilityStatus.INSUFFICIENT_EXCITATION):
+        # Iterative Closed-Loop Cycle: bounded strictly by total oracle query budget
+        while (
+            self.oracle.query_count < self.max_budget
+            and status in (IdentifiabilityStatus.MULTIPLE_PLAUSIBLE_LAWS, IdentifiabilityStatus.INSUFFICIENT_EXCITATION)
+        ):
             iteration += 1
             step_t0 = time.time()
 
@@ -144,12 +151,12 @@ class ClosedLoopController:
                 dx=dx,
                 dy=dy,
                 periodic=True,
-                iteration_index=iteration,
+                iteration_index=self.oracle.query_count,
             )
 
             # STAGE 3: EXPERIMENT (Strict Oracle Query)
             req = ExperimentRequest(
-                experiment_id=f"exp_{iteration:02d}_{chosen_lbl}",
+                experiment_id=f"exp_{self.oracle.query_count:02d}_{chosen_lbl}",
                 u0=chosen_u0,
                 noise_level=self.noise_level,
                 random_seed=self.random_seed + iteration,
@@ -161,7 +168,9 @@ class ClosedLoopController:
             falsified, supported = self._update_and_validate_hypotheses(resp.field, req.experiment_id, iteration)
 
             # STAGE 5: STOPPING AUDIT
-            status, winning_h, diag = self.auditor.audit_portfolio(self.portfolio, iteration, self.max_budget)
+            status, winning_h, diag = self.auditor.audit_portfolio(
+                self.portfolio, self.oracle.query_count, self.max_budget
+            )
 
             top_str = active_hyps[0].equation_str if active_hyps else None
 
@@ -184,6 +193,12 @@ class ClosedLoopController:
 
             if status in (IdentifiabilityStatus.IDENTIFIED, IdentifiabilityStatus.BUDGET_EXHAUSTED):
                 break
+
+        if (
+            status in (IdentifiabilityStatus.MULTIPLE_PLAUSIBLE_LAWS, IdentifiabilityStatus.INSUFFICIENT_EXCITATION)
+            and self.oracle.query_count >= self.max_budget
+        ):
+            status = IdentifiabilityStatus.BUDGET_EXHAUSTED
 
         total_duration = time.time() - t_start
 

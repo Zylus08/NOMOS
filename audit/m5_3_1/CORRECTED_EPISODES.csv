@@ -1,0 +1,481 @@
+episode_id,benchmark_type,system_key,noise_level,seed,strategy,total_queries,status,winning_equation,tier,is_tier1_strict,max_parameter_rel_error
+1,PRIMARY,kdv,0.0,42,greedy_disagreement,2,IDENTIFIED,u_t = -1.0003*u_xxx -6.0004*u*u_x,1,1,0.0003
+2,PRIMARY,kdv,0.0,42,cost_normalized,2,IDENTIFIED,u_t = -1.0003*u_xxx -6.0004*u*u_x,1,1,0.0003
+3,PRIMARY,kdv,0.0,42,random,2,IDENTIFIED,u_t = -1.0023*u_xxx -5.9962*u*u_x,1,1,0.00235
+4,PRIMARY,kdv,0.0,42,fixed,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+5,PRIMARY,kdv,0.0,43,greedy_disagreement,2,IDENTIFIED,u_t = -1.0006*u_xxx -6.0004*u*u_x,1,1,0.000578
+6,PRIMARY,kdv,0.0,43,cost_normalized,2,IDENTIFIED,u_t = -1.0006*u_xxx -6.0004*u*u_x,1,1,0.000578
+7,PRIMARY,kdv,0.0,43,random,2,IDENTIFIED,u_t = -1.0069*u_xxx -5.9977*u*u_x,1,1,0.00694
+8,PRIMARY,kdv,0.0,43,fixed,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+9,PRIMARY,kdv,0.0,44,greedy_disagreement,2,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,1,2.3e-05
+10,PRIMARY,kdv,0.0,44,cost_normalized,2,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,1,2.3e-05
+11,PRIMARY,kdv,0.0,44,random,2,IDENTIFIED,u_t = -1.0000*u_xxx -6.0000*u*u_x,1,1,2.3e-05
+12,PRIMARY,kdv,0.0,44,fixed,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+13,PRIMARY,kdv,0.0,45,greedy_disagreement,2,IDENTIFIED,u_t = -0.9998*u_xxx -6.0019*u*u_x,1,1,0.000311
+14,PRIMARY,kdv,0.0,45,cost_normalized,2,IDENTIFIED,u_t = -0.9998*u_xxx -6.0019*u*u_x,1,1,0.000311
+15,PRIMARY,kdv,0.0,45,random,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+16,PRIMARY,kdv,0.0,45,fixed,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+17,PRIMARY,kdv,0.0,46,greedy_disagreement,2,IDENTIFIED,u_t = -0.9997*u_xxx -6.0011*u*u_x,1,1,0.000264
+18,PRIMARY,kdv,0.0,46,cost_normalized,2,IDENTIFIED,u_t = -0.9997*u_xxx -6.0011*u*u_x,1,1,0.000264
+19,PRIMARY,kdv,0.0,46,random,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+20,PRIMARY,kdv,0.0,46,fixed,2,IDENTIFIED,u_t = -1.9997*u_x,6,0,1.0
+21,PRIMARY,kdv,0.01,42,greedy_disagreement,2,IDENTIFIED,u_t = -0.9978*u_xxx -5.9440*u*u_x,1,1,0.009337
+22,PRIMARY,kdv,0.01,42,cost_normalized,2,IDENTIFIED,u_t = -0.9978*u_xxx -5.9440*u*u_x,1,1,0.009337
+23,PRIMARY,kdv,0.01,42,random,2,IDENTIFIED,u_t = -1.0223*u_xxx -6.0152*u*u_x,1,1,0.022288
+24,PRIMARY,kdv,0.01,42,fixed,2,IDENTIFIED,u_t = -2.0029*u_x,6,0,1.0
+25,PRIMARY,kdv,0.01,43,greedy_disagreement,2,IDENTIFIED,u_t = -1.0006*u_xxx -6.0169*u*u_x,1,1,0.002817
+26,PRIMARY,kdv,0.01,43,cost_normalized,2,IDENTIFIED,u_t = -1.0006*u_xxx -6.0169*u*u_x,1,1,0.002817
+27,PRIMARY,kdv,0.01,43,random,2,IDENTIFIED,u_t = -1.0633*u_xxx -5.9664*u*u_x,1,1,0.063305
+28,PRIMARY,kdv,0.01,43,fixed,2,IDENTIFIED,u_t = -2.0010*u_x,6,0,1.0
+29,PRIMARY,kdv,0.01,44,greedy_disagreement,2,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,0,0.030747
+30,PRIMARY,kdv,0.01,44,cost_normalized,2,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,0,0.030747
+31,PRIMARY,kdv,0.01,44,random,2,IDENTIFIED,u_t = -0.1398*u +0.0283*u_x -0.1886*u_xx -0.9693*u_xxx +0.0241*u_xxxx -6.1422*u*u_x +0.1840*u^3 +0.4460*(u^3)_xx,6,0,0.030747
+32,PRIMARY,kdv,0.01,44,fixed,2,IDENTIFIED,u_t = -1.9953*u_x,6,0,1.0
+33,PRIMARY,kdv,0.01,45,greedy_disagreement,2,IDENTIFIED,u_t = -0.9986*u_xxx -5.9815*u*u_x,1,1,0.003078
+34,PRIMARY,kdv,0.01,45,cost_normalized,2,IDENTIFIED,u_t = -0.9986*u_xxx -5.9815*u*u_x,1,1,0.003078
+35,PRIMARY,kdv,0.01,45,random,2,IDENTIFIED,u_t = -2.0000*u_x,6,0,1.0
+36,PRIMARY,kdv,0.01,45,fixed,2,IDENTIFIED,u_t = -2.0004*u_x,6,0,1.0
+37,PRIMARY,kdv,0.01,46,greedy_disagreement,2,IDENTIFIED,u_t = -0.9921*u_xxx -5.9515*u*u_x,1,1,0.008089
+38,PRIMARY,kdv,0.01,46,cost_normalized,2,IDENTIFIED,u_t = -0.9921*u_xxx -5.9515*u*u_x,1,1,0.008089
+39,PRIMARY,kdv,0.01,46,random,2,IDENTIFIED,u_t = -1.9969*u_x,6,0,1.0
+40,PRIMARY,kdv,0.01,46,fixed,2,IDENTIFIED,u_t = -1.9969*u_x,6,0,1.0
+41,PRIMARY,kdv,0.05,42,greedy_disagreement,2,IDENTIFIED,u_t = -0.9137*u_xxx -5.8547*u*u_x,1,1,0.086331
+42,PRIMARY,kdv,0.05,42,cost_normalized,2,IDENTIFIED,u_t = -0.9137*u_xxx -5.8547*u*u_x,1,1,0.086331
+43,PRIMARY,kdv,0.05,42,random,3,IDENTIFIED,u_t = -0.9330*u_xxx -5.8881*u*u_x,1,1,0.066967
+44,PRIMARY,kdv,0.05,42,fixed,2,IDENTIFIED,u_t = -2.0154*u_x,6,0,1.0
+45,PRIMARY,kdv,0.05,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.1494*u_x -0.9862*u_xxx -6.1671*u*u_x,3,0,0.027851
+46,PRIMARY,kdv,0.05,43,cost_normalized,2,IDENTIFIED,u_t = +0.1494*u_x -0.9862*u_xxx -6.1671*u*u_x,3,0,0.027851
+47,PRIMARY,kdv,0.05,43,random,3,IDENTIFIED,u_t = -0.9395*u_xxx -5.8940*u*u_x,1,1,0.060499
+48,PRIMARY,kdv,0.05,43,fixed,2,IDENTIFIED,u_t = -2.0051*u_x,6,0,1.0
+49,PRIMARY,kdv,0.05,44,greedy_disagreement,2,IDENTIFIED,u_t = -0.8690*u_xxx -5.8648*u*u_x,2,0,0.131002
+50,PRIMARY,kdv,0.05,44,cost_normalized,2,IDENTIFIED,u_t = -0.8690*u_xxx -5.8648*u*u_x,2,0,0.131002
+51,PRIMARY,kdv,0.05,44,random,3,IDENTIFIED,u_t = -1.0060*u_xxx -5.9794*u*u_x,1,1,0.005973
+52,PRIMARY,kdv,0.05,44,fixed,2,IDENTIFIED,u_t = -1.9772*u_x,6,0,1.0
+53,PRIMARY,kdv,0.05,45,greedy_disagreement,2,IDENTIFIED,u_t = -0.9862*u_xxx -5.9809*u*u_x,1,1,0.013794
+54,PRIMARY,kdv,0.05,45,cost_normalized,2,IDENTIFIED,u_t = -0.9862*u_xxx -5.9809*u*u_x,1,1,0.013794
+55,PRIMARY,kdv,0.05,45,random,2,IDENTIFIED,u_t = -2.0025*u_x,6,0,1.0
+56,PRIMARY,kdv,0.05,45,fixed,2,IDENTIFIED,u_t = -2.0081*u_x,6,0,1.0
+57,PRIMARY,kdv,0.05,46,greedy_disagreement,2,IDENTIFIED,u_t = -4.9458*u*u_x,6,0,1.0
+58,PRIMARY,kdv,0.05,46,cost_normalized,2,IDENTIFIED,u_t = -4.9458*u*u_x,6,0,1.0
+59,PRIMARY,kdv,0.05,46,random,2,IDENTIFIED,u_t = -1.9840*u_x,6,0,1.0
+60,PRIMARY,kdv,0.05,46,fixed,2,IDENTIFIED,u_t = -1.9840*u_x,6,0,1.0
+61,PRIMARY,kdv,0.1,42,greedy_disagreement,2,IDENTIFIED,u_t = -4.8383*u*u_x,6,0,1.0
+62,PRIMARY,kdv,0.1,42,cost_normalized,2,IDENTIFIED,u_t = -4.8383*u*u_x,6,0,1.0
+63,PRIMARY,kdv,0.1,42,random,2,IDENTIFIED,u_t = +0.6282*u_xx -0.7795*u_xxx -5.6103*u*u_x -0.7864*(u^3)_xx,6,0,0.220464
+64,PRIMARY,kdv,0.1,42,fixed,2,IDENTIFIED,u_t = -2.0309*u_x,6,0,1.0
+65,PRIMARY,kdv,0.1,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.3506*u_x +0.2270*u_xx -0.9497*u_xxx +0.2670*u_xxxx -6.4099*u*u_x,6,0,0.068315
+66,PRIMARY,kdv,0.1,43,cost_normalized,2,IDENTIFIED,u_t = +0.3506*u_x +0.2270*u_xx -0.9497*u_xxx +0.2670*u_xxxx -6.4099*u*u_x,6,0,0.068315
+67,PRIMARY,kdv,0.1,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+68,PRIMARY,kdv,0.1,43,fixed,2,IDENTIFIED,u_t = -2.0102*u_x,6,0,1.0
+69,PRIMARY,kdv,0.1,44,greedy_disagreement,2,IDENTIFIED,u_t = -4.8982*u*u_x,6,0,1.0
+70,PRIMARY,kdv,0.1,44,cost_normalized,2,IDENTIFIED,u_t = -4.8982*u*u_x,6,0,1.0
+71,PRIMARY,kdv,0.1,44,random,3,IDENTIFIED,u_t = -1.0115*u_xxx -5.9583*u*u_x,1,1,0.011546
+72,PRIMARY,kdv,0.1,44,fixed,2,IDENTIFIED,u_t = -1.9544*u_x,6,0,1.0
+73,PRIMARY,kdv,0.1,45,greedy_disagreement,2,IDENTIFIED,u_t = -0.9722*u_xxx -5.9604*u*u_x,1,1,0.027801
+74,PRIMARY,kdv,0.1,45,cost_normalized,2,IDENTIFIED,u_t = -0.9722*u_xxx -5.9604*u*u_x,1,1,0.027801
+75,PRIMARY,kdv,0.1,45,random,2,IDENTIFIED,u_t = -2.0055*u_x,6,0,1.0
+76,PRIMARY,kdv,0.1,45,fixed,2,IDENTIFIED,u_t = -2.0176*u_x,6,0,1.0
+77,PRIMARY,kdv,0.1,46,greedy_disagreement,2,IDENTIFIED,u_t = -4.9035*u*u_x,6,0,1.0
+78,PRIMARY,kdv,0.1,46,cost_normalized,2,IDENTIFIED,u_t = -4.9035*u*u_x,6,0,1.0
+79,PRIMARY,kdv,0.1,46,random,2,IDENTIFIED,u_t = -1.9678*u_x,6,0,1.0
+80,PRIMARY,kdv,0.1,46,fixed,2,IDENTIFIED,u_t = -1.9678*u_x,6,0,1.0
+81,PRIMARY,burgers,0.0,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+82,PRIMARY,burgers,0.0,42,cost_normalized,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+83,PRIMARY,burgers,0.0,42,random,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+84,PRIMARY,burgers,0.0,42,fixed,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+85,PRIMARY,burgers,0.0,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+86,PRIMARY,burgers,0.0,43,cost_normalized,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+87,PRIMARY,burgers,0.0,43,random,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+88,PRIMARY,burgers,0.0,43,fixed,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+89,PRIMARY,burgers,0.0,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+90,PRIMARY,burgers,0.0,44,cost_normalized,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+91,PRIMARY,burgers,0.0,44,random,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+92,PRIMARY,burgers,0.0,44,fixed,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+93,PRIMARY,burgers,0.0,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+94,PRIMARY,burgers,0.0,45,cost_normalized,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+95,PRIMARY,burgers,0.0,45,random,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+96,PRIMARY,burgers,0.0,45,fixed,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+97,PRIMARY,burgers,0.0,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+98,PRIMARY,burgers,0.0,46,cost_normalized,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+99,PRIMARY,burgers,0.0,46,random,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+100,PRIMARY,burgers,0.0,46,fixed,2,IDENTIFIED,u_t = +0.0500*u_xx -1.0000*u*u_x,1,1,4e-06
+101,PRIMARY,burgers,0.01,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0504*u_xx +0.0002*u_xxxx -1.0112*u*u_x,3,0,0.011222
+102,PRIMARY,burgers,0.01,42,cost_normalized,2,IDENTIFIED,u_t = +0.0504*u_xx +0.0002*u_xxxx -1.0112*u*u_x,3,0,0.011222
+103,PRIMARY,burgers,0.01,42,random,4,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,0,0.03813
+104,PRIMARY,burgers,0.01,42,fixed,2,IDENTIFIED,u_t = -0.9490*u*u_x -0.0672*u^3,6,0,1.0
+105,PRIMARY,burgers,0.01,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0528*u_xx +0.0002*u_xxxx -0.9739*u*u_x,3,0,0.056876
+106,PRIMARY,burgers,0.01,43,cost_normalized,2,IDENTIFIED,u_t = +0.0528*u_xx +0.0002*u_xxxx -0.9739*u*u_x,3,0,0.056876
+107,PRIMARY,burgers,0.01,43,random,2,IDENTIFIED,u_t = +2.3461*(u^3)_xx,6,0,1.0
+108,PRIMARY,burgers,0.01,43,fixed,2,IDENTIFIED,u_t = -0.0517*u -0.9539*u*u_x,6,0,1.0
+109,PRIMARY,burgers,0.01,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,0,0.03813
+110,PRIMARY,burgers,0.01,44,cost_normalized,2,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,0,0.03813
+111,PRIMARY,burgers,0.01,44,random,2,IDENTIFIED,u_t = +0.0519*u_xx +0.0002*u_xxxx -0.9833*u*u_x,3,0,0.03813
+112,PRIMARY,burgers,0.01,44,fixed,2,IDENTIFIED,u_t = -0.0780*u_xx -0.8440*u*u_x -0.1576*u^3,6,0,2.560733
+113,PRIMARY,burgers,0.01,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0502*u_xx +0.0002*u_xxxx -0.9922*u*u_x,3,0,0.007773
+114,PRIMARY,burgers,0.01,45,cost_normalized,2,IDENTIFIED,u_t = +0.0502*u_xx +0.0002*u_xxxx -0.9922*u*u_x,3,0,0.007773
+115,PRIMARY,burgers,0.01,45,random,2,IDENTIFIED,u_t = -0.9359*u*u_x -0.0585*u^3,6,0,1.0
+116,PRIMARY,burgers,0.01,45,fixed,2,IDENTIFIED,u_t = -0.9359*u*u_x -0.0585*u^3,6,0,1.0
+117,PRIMARY,burgers,0.01,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,1,0.011834
+118,PRIMARY,burgers,0.01,46,cost_normalized,2,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,1,0.011834
+119,PRIMARY,burgers,0.01,46,random,2,IDENTIFIED,u_t = +0.0506*u_xx -1.0045*u*u_x,1,1,0.011834
+120,PRIMARY,burgers,0.01,46,fixed,3,IDENTIFIED,u_t = +0.0489*u_xx -1.0052*u*u_x,1,1,0.02298
+121,PRIMARY,burgers,0.05,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+122,PRIMARY,burgers,0.05,42,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+123,PRIMARY,burgers,0.05,42,random,2,IDENTIFIED,u_t = +4.2977*(u^3)_xx,6,0,1.0
+124,PRIMARY,burgers,0.05,42,fixed,2,IDENTIFIED,u_t = -0.1752*u_xx -0.7773*u*u_x -0.3056*u^3,6,0,4.50409
+125,PRIMARY,burgers,0.05,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.6116*u -0.9287*u*u_x -0.5215*u^2 -0.8213*u^3,6,0,1.0
+126,PRIMARY,burgers,0.05,43,cost_normalized,2,IDENTIFIED,u_t = +0.6116*u -0.9287*u*u_x -0.5215*u^2 -0.8213*u^3,6,0,1.0
+127,PRIMARY,burgers,0.05,43,random,3,IDENTIFIED,u_t = +0.8797*u -0.9326*u*u_x -0.7329*u^2 -1.1641*u^3,6,0,1.0
+128,PRIMARY,burgers,0.05,43,fixed,2,IDENTIFIED,u_t = -0.8007*u*u_x,6,0,1.0
+129,PRIMARY,burgers,0.05,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,0,1.0
+130,PRIMARY,burgers,0.05,44,cost_normalized,2,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,0,1.0
+131,PRIMARY,burgers,0.05,44,random,2,IDENTIFIED,u_t = +0.8888*u -0.9416*u*u_x -0.7130*u^2 -1.1627*u^3,6,0,1.0
+132,PRIMARY,burgers,0.05,44,fixed,2,IDENTIFIED,u_t = -0.7834*u*u_x,6,0,1.0
+133,PRIMARY,burgers,0.05,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.5752*u -0.9588*u*u_x -0.4689*u^2 -0.7521*u^3,6,0,1.0
+134,PRIMARY,burgers,0.05,45,cost_normalized,2,IDENTIFIED,u_t = +0.5752*u -0.9588*u*u_x -0.4689*u^2 -0.7521*u^3,6,0,1.0
+135,PRIMARY,burgers,0.05,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+136,PRIMARY,burgers,0.05,45,fixed,3,IDENTIFIED,u_t = -1.0155*u*u_x,6,0,1.0
+137,PRIMARY,burgers,0.05,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,1,0.05991
+138,PRIMARY,burgers,0.05,46,cost_normalized,2,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,1,0.05991
+139,PRIMARY,burgers,0.05,46,random,2,IDENTIFIED,u_t = +0.0530*u_xx -1.0224*u*u_x,1,1,0.05991
+140,PRIMARY,burgers,0.05,46,fixed,3,IDENTIFIED,u_t = -1.0221*u*u_x,6,0,1.0
+141,PRIMARY,burgers,0.1,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+142,PRIMARY,burgers,0.1,42,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+143,PRIMARY,burgers,0.1,42,random,2,IDENTIFIED,u_t = +1.7834*u^2,6,0,1.0
+144,PRIMARY,burgers,0.1,42,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+145,PRIMARY,burgers,0.1,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+146,PRIMARY,burgers,0.1,43,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+147,PRIMARY,burgers,0.1,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+148,PRIMARY,burgers,0.1,43,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+149,PRIMARY,burgers,0.1,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+150,PRIMARY,burgers,0.1,44,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+151,PRIMARY,burgers,0.1,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+152,PRIMARY,burgers,0.1,44,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+153,PRIMARY,burgers,0.1,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+154,PRIMARY,burgers,0.1,45,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+155,PRIMARY,burgers,0.1,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+156,PRIMARY,burgers,0.1,45,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+157,PRIMARY,burgers,0.1,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+158,PRIMARY,burgers,0.1,46,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+159,PRIMARY,burgers,0.1,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+160,PRIMARY,burgers,0.1,46,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+161,PRIMARY,gray_scott,0.0,42,greedy_disagreement,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,1,0.09777
+162,PRIMARY,gray_scott,0.0,42,cost_normalized,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,1,0.09777
+163,PRIMARY,gray_scott,0.0,42,random,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,1,0.09777
+164,PRIMARY,gray_scott,0.0,42,fixed,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9022*u*v^2 -0.0864*v,1,1,0.09777
+165,PRIMARY,gray_scott,0.0,43,greedy_disagreement,2,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,0,0.107213
+166,PRIMARY,gray_scott,0.0,43,cost_normalized,2,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,0,0.107213
+167,PRIMARY,gray_scott,0.0,43,random,2,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,0,0.107213
+168,PRIMARY,gray_scott,0.0,43,fixed,2,IDENTIFIED,v_t = +0.0797*lap_v +0.8928*u*v^2 -0.0860*v,2,0,0.107213
+169,PRIMARY,gray_scott,0.0,44,greedy_disagreement,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,1,0.060733
+170,PRIMARY,gray_scott,0.0,44,cost_normalized,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,1,0.060733
+171,PRIMARY,gray_scott,0.0,44,random,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,1,0.060733
+172,PRIMARY,gray_scott,0.0,44,fixed,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9393*u*v^2 -0.0899*v,1,1,0.060733
+173,PRIMARY,gray_scott,0.0,45,greedy_disagreement,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,1,0.072497
+174,PRIMARY,gray_scott,0.0,45,cost_normalized,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,1,0.072497
+175,PRIMARY,gray_scott,0.0,45,random,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,1,0.072497
+176,PRIMARY,gray_scott,0.0,45,fixed,2,IDENTIFIED,v_t = +0.0798*lap_v +0.9275*u*v^2 -0.0893*v,1,1,0.072497
+177,PRIMARY,gray_scott,0.0,46,greedy_disagreement,2,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,1,0.095716
+178,PRIMARY,gray_scott,0.0,46,cost_normalized,2,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,1,0.095716
+179,PRIMARY,gray_scott,0.0,46,random,2,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,1,0.095716
+180,PRIMARY,gray_scott,0.0,46,fixed,2,IDENTIFIED,v_t = +0.0797*lap_v +0.9043*u*v^2 -0.0875*v,1,1,0.095716
+181,PRIMARY,gray_scott,0.01,42,greedy_disagreement,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+182,PRIMARY,gray_scott,0.01,42,cost_normalized,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+183,PRIMARY,gray_scott,0.01,42,random,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+184,PRIMARY,gray_scott,0.01,42,fixed,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+185,PRIMARY,gray_scott,0.01,43,greedy_disagreement,2,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+186,PRIMARY,gray_scott,0.01,43,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+187,PRIMARY,gray_scott,0.01,43,random,3,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+188,PRIMARY,gray_scott,0.01,43,fixed,3,IDENTIFIED,v_t = +0.0787*lap_v +0.5301*u*v^2 -0.0563*v,6,0,0.469853
+189,PRIMARY,gray_scott,0.01,44,greedy_disagreement,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+190,PRIMARY,gray_scott,0.01,44,cost_normalized,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+191,PRIMARY,gray_scott,0.01,44,random,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+192,PRIMARY,gray_scott,0.01,44,fixed,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+193,PRIMARY,gray_scott,0.01,45,greedy_disagreement,2,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+194,PRIMARY,gray_scott,0.01,45,cost_normalized,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+195,PRIMARY,gray_scott,0.01,45,random,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+196,PRIMARY,gray_scott,0.01,45,fixed,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+197,PRIMARY,gray_scott,0.01,46,greedy_disagreement,3,IDENTIFIED,v_t = +0.0795*lap_v +0.8750*u*v^2 -0.0870*v,2,0,0.124987
+198,PRIMARY,gray_scott,0.01,46,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+199,PRIMARY,gray_scott,0.01,46,random,3,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+200,PRIMARY,gray_scott,0.01,46,fixed,3,IDENTIFIED,v_t = +0.0795*lap_v +0.8750*u*v^2 -0.0870*v,2,0,0.124987
+201,PRIMARY,gray_scott,0.05,42,greedy_disagreement,2,IDENTIFIED,v_t = +0.0804*lap_v,6,0,1.0
+202,PRIMARY,gray_scott,0.05,42,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+203,PRIMARY,gray_scott,0.05,42,random,2,IDENTIFIED,v_t = +8.8028*u*v^2 -0.5775*v,6,0,7.802796
+204,PRIMARY,gray_scott,0.05,42,fixed,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+205,PRIMARY,gray_scott,0.05,43,greedy_disagreement,2,IDENTIFIED,v_t = +0.0806*lap_v,6,0,1.0
+206,PRIMARY,gray_scott,0.05,43,cost_normalized,2,IDENTIFIED,v_t = +0.0780*lap_v,6,0,1.0
+207,PRIMARY,gray_scott,0.05,43,random,3,IDENTIFIED,v_t = +0.0805*lap_v,6,0,1.0
+208,PRIMARY,gray_scott,0.05,43,fixed,2,IDENTIFIED,v_t = +0.0780*lap_v,6,0,1.0
+209,PRIMARY,gray_scott,0.05,44,greedy_disagreement,4,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+210,PRIMARY,gray_scott,0.05,44,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+211,PRIMARY,gray_scott,0.05,44,random,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+212,PRIMARY,gray_scott,0.05,44,fixed,4,IDENTIFIED,v_t = +0.0809*lap_v,6,0,1.0
+213,PRIMARY,gray_scott,0.05,45,greedy_disagreement,2,IDENTIFIED,v_t = +0.0809*lap_v,6,0,1.0
+214,PRIMARY,gray_scott,0.05,45,cost_normalized,3,IDENTIFIED,v_t = +0.0782*lap_v,6,0,1.0
+215,PRIMARY,gray_scott,0.05,45,random,3,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+216,PRIMARY,gray_scott,0.05,45,fixed,3,IDENTIFIED,v_t = +0.0808*lap_v,6,0,1.0
+217,PRIMARY,gray_scott,0.05,46,greedy_disagreement,2,IDENTIFIED,v_t = +0.0782*lap_v,6,0,1.0
+218,PRIMARY,gray_scott,0.05,46,cost_normalized,2,IDENTIFIED,v_t = +0.0782*lap_v,6,0,1.0
+219,PRIMARY,gray_scott,0.05,46,random,2,IDENTIFIED,v_t = +0.0810*lap_v,6,0,1.0
+220,PRIMARY,gray_scott,0.05,46,fixed,2,IDENTIFIED,v_t = +0.0782*lap_v,6,0,1.0
+221,PRIMARY,gray_scott,0.1,42,greedy_disagreement,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+222,PRIMARY,gray_scott,0.1,42,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+223,PRIMARY,gray_scott,0.1,42,random,2,IDENTIFIED,v_t = +7.4671*u*v^2 -0.9662*v,6,0,9.170463
+224,PRIMARY,gray_scott,0.1,42,fixed,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+225,PRIMARY,gray_scott,0.1,43,greedy_disagreement,2,IDENTIFIED,v_t = +0.0804*lap_v,6,0,1.0
+226,PRIMARY,gray_scott,0.1,43,cost_normalized,2,IDENTIFIED,v_t = +0.0777*lap_v,6,0,1.0
+227,PRIMARY,gray_scott,0.1,43,random,3,IDENTIFIED,v_t = +0.0801*lap_v,6,0,1.0
+228,PRIMARY,gray_scott,0.1,43,fixed,2,IDENTIFIED,v_t = +0.0777*lap_v,6,0,1.0
+229,PRIMARY,gray_scott,0.1,44,greedy_disagreement,2,IDENTIFIED,v_t = +0.0797*lap_v,6,0,1.0
+230,PRIMARY,gray_scott,0.1,44,cost_normalized,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+231,PRIMARY,gray_scott,0.1,44,random,2,IDENTIFIED,v_t = +0.0797*lap_v,6,0,1.0
+232,PRIMARY,gray_scott,0.1,44,fixed,2,IDENTIFIED,v_t = +0.0784*lap_v,6,0,1.0
+233,PRIMARY,gray_scott,0.1,45,greedy_disagreement,2,IDENTIFIED,v_t = +0.0810*lap_v,6,0,1.0
+234,PRIMARY,gray_scott,0.1,45,cost_normalized,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+235,PRIMARY,gray_scott,0.1,45,random,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+236,PRIMARY,gray_scott,0.1,45,fixed,2,IDENTIFIED,v_t = +0.0783*lap_v,6,0,1.0
+237,PRIMARY,gray_scott,0.1,46,greedy_disagreement,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+238,PRIMARY,gray_scott,0.1,46,cost_normalized,4,BUDGET_EXHAUSTED,NONE,6,0,-1.0
+239,PRIMARY,gray_scott,0.1,46,random,2,IDENTIFIED,v_t = +0.0811*lap_v,6,0,1.0
+240,PRIMARY,gray_scott,0.1,46,fixed,4,IDENTIFIED,v_t = +0.0813*lap_v,6,0,1.0
+241,PRIMARY,fitzhugh,0.0,42,greedy_disagreement,2,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,1,0.002866
+242,PRIMARY,fitzhugh,0.0,42,cost_normalized,2,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,1,0.002866
+243,PRIMARY,fitzhugh,0.0,42,random,2,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,1,0.002866
+244,PRIMARY,fitzhugh,0.0,42,fixed,2,IDENTIFIED,u_t = +1.0000*lap_u +1.0028*u -1.0029*u^3 -1.0009*v,1,1,0.002866
+245,PRIMARY,fitzhugh,0.0,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,1,0.003677
+246,PRIMARY,fitzhugh,0.0,43,cost_normalized,2,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,1,0.003677
+247,PRIMARY,fitzhugh,0.0,43,random,2,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,1,0.003677
+248,PRIMARY,fitzhugh,0.0,43,fixed,2,IDENTIFIED,u_t = +0.9988*lap_u +1.0033*u -1.0037*u^3 -1.0010*v,1,1,0.003677
+249,PRIMARY,fitzhugh,0.0,44,greedy_disagreement,2,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,1,0.001333
+250,PRIMARY,fitzhugh,0.0,44,cost_normalized,2,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,1,0.001333
+251,PRIMARY,fitzhugh,0.0,44,random,2,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,1,0.001333
+252,PRIMARY,fitzhugh,0.0,44,fixed,2,IDENTIFIED,u_t = +1.0013*lap_u +1.0005*u -1.0004*u^3 -0.9996*v,1,1,0.001333
+253,PRIMARY,fitzhugh,0.0,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,1,0.002695
+254,PRIMARY,fitzhugh,0.0,45,cost_normalized,2,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,1,0.002695
+255,PRIMARY,fitzhugh,0.0,45,random,2,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,1,0.002695
+256,PRIMARY,fitzhugh,0.0,45,fixed,2,IDENTIFIED,u_t = +0.9999*lap_u +0.9974*u -0.9973*u^3 -0.9988*v,1,1,0.002695
+257,PRIMARY,fitzhugh,0.0,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,1,0.004139
+258,PRIMARY,fitzhugh,0.0,46,cost_normalized,2,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,1,0.004139
+259,PRIMARY,fitzhugh,0.0,46,random,2,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,1,0.004139
+260,PRIMARY,fitzhugh,0.0,46,fixed,2,IDENTIFIED,u_t = +0.9998*lap_u +1.0037*u -1.0041*u^3 -1.0003*v,1,1,0.004139
+261,PRIMARY,fitzhugh,0.01,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,1,0.00748
+262,PRIMARY,fitzhugh,0.01,42,cost_normalized,2,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,1,0.00748
+263,PRIMARY,fitzhugh,0.01,42,random,2,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,1,0.00748
+264,PRIMARY,fitzhugh,0.01,42,fixed,2,IDENTIFIED,u_t = +0.9986*lap_u +0.9925*u -0.9926*u^3 -0.9997*v,1,1,0.00748
+265,PRIMARY,fitzhugh,0.01,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,1,0.010182
+266,PRIMARY,fitzhugh,0.01,43,cost_normalized,2,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,1,0.010182
+267,PRIMARY,fitzhugh,0.01,43,random,2,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,1,0.010182
+268,PRIMARY,fitzhugh,0.01,43,fixed,2,IDENTIFIED,u_t = +0.9906*lap_u +0.9898*u -0.9911*u^3 -0.9997*v,1,1,0.010182
+269,PRIMARY,fitzhugh,0.01,44,greedy_disagreement,2,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,0,0.026894
+270,PRIMARY,fitzhugh,0.01,44,cost_normalized,2,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,0,0.026894
+271,PRIMARY,fitzhugh,0.01,44,random,2,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,0,0.026894
+272,PRIMARY,fitzhugh,0.01,44,fixed,2,IDENTIFIED,u_t = +1.0118*lap_u +1.0269*u -1.0217*u^3 -1.0107*v +0.0036*1 -0.0241*lap_v,6,0,0.026894
+273,PRIMARY,fitzhugh,0.01,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+274,PRIMARY,fitzhugh,0.01,45,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+275,PRIMARY,fitzhugh,0.01,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+276,PRIMARY,fitzhugh,0.01,45,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+277,PRIMARY,fitzhugh,0.01,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+278,PRIMARY,fitzhugh,0.01,46,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+279,PRIMARY,fitzhugh,0.01,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+280,PRIMARY,fitzhugh,0.01,46,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+281,PRIMARY,fitzhugh,0.05,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+282,PRIMARY,fitzhugh,0.05,42,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+283,PRIMARY,fitzhugh,0.05,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+284,PRIMARY,fitzhugh,0.05,42,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+285,PRIMARY,fitzhugh,0.05,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+286,PRIMARY,fitzhugh,0.05,43,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+287,PRIMARY,fitzhugh,0.05,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+288,PRIMARY,fitzhugh,0.05,43,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+289,PRIMARY,fitzhugh,0.05,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+290,PRIMARY,fitzhugh,0.05,44,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+291,PRIMARY,fitzhugh,0.05,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+292,PRIMARY,fitzhugh,0.05,44,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+293,PRIMARY,fitzhugh,0.05,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+294,PRIMARY,fitzhugh,0.05,45,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+295,PRIMARY,fitzhugh,0.05,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+296,PRIMARY,fitzhugh,0.05,45,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+297,PRIMARY,fitzhugh,0.05,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+298,PRIMARY,fitzhugh,0.05,46,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+299,PRIMARY,fitzhugh,0.05,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+300,PRIMARY,fitzhugh,0.05,46,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+301,PRIMARY,fitzhugh,0.1,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+302,PRIMARY,fitzhugh,0.1,42,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+303,PRIMARY,fitzhugh,0.1,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+304,PRIMARY,fitzhugh,0.1,42,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+305,PRIMARY,fitzhugh,0.1,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+306,PRIMARY,fitzhugh,0.1,43,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+307,PRIMARY,fitzhugh,0.1,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+308,PRIMARY,fitzhugh,0.1,43,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+309,PRIMARY,fitzhugh,0.1,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+310,PRIMARY,fitzhugh,0.1,44,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+311,PRIMARY,fitzhugh,0.1,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+312,PRIMARY,fitzhugh,0.1,44,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+313,PRIMARY,fitzhugh,0.1,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+314,PRIMARY,fitzhugh,0.1,45,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+315,PRIMARY,fitzhugh,0.1,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+316,PRIMARY,fitzhugh,0.1,45,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+317,PRIMARY,fitzhugh,0.1,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+318,PRIMARY,fitzhugh,0.1,46,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+319,PRIMARY,fitzhugh,0.1,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+320,PRIMARY,fitzhugh,0.1,46,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+321,PRIMARY,navier_stokes,0.0,42,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,1,0.00093
+322,PRIMARY,navier_stokes,0.0,42,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,1,0.00093
+323,PRIMARY,navier_stokes,0.0,42,random,4,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0009*advection_omega,1,1,0.00093
+324,PRIMARY,navier_stokes,0.0,42,fixed,2,IDENTIFIED,omega_t = +0.0201*lap_omega -1.0010*advection_omega,1,1,0.002944
+325,PRIMARY,navier_stokes,0.0,43,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,1,0.001301
+326,PRIMARY,navier_stokes,0.0,43,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,1,0.001301
+327,PRIMARY,navier_stokes,0.0,43,random,3,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0013*advection_omega,1,1,0.001301
+328,PRIMARY,navier_stokes,0.0,43,fixed,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9975*advection_omega,1,1,0.002533
+329,PRIMARY,navier_stokes,0.0,44,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,1,0.003755
+330,PRIMARY,navier_stokes,0.0,44,cost_normalized,2,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,1,0.003755
+331,PRIMARY,navier_stokes,0.0,44,random,2,IDENTIFIED,omega_t = +0.0199*lap_omega -0.9991*advection_omega,1,1,0.003755
+332,PRIMARY,navier_stokes,0.0,44,fixed,2,IDENTIFIED,omega_t = +0.0199*lap_omega -1.0003*advection_omega,1,1,0.006828
+333,PRIMARY,navier_stokes,0.0,45,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9996*advection_omega,1,1,0.001685
+334,PRIMARY,navier_stokes,0.0,45,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9996*advection_omega,1,1,0.001685
+335,PRIMARY,navier_stokes,0.0,45,random,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9988*advection_omega,1,1,0.002288
+336,PRIMARY,navier_stokes,0.0,45,fixed,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9988*advection_omega,1,1,0.002288
+337,PRIMARY,navier_stokes,0.0,46,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,1,0.001421
+338,PRIMARY,navier_stokes,0.0,46,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,1,0.001421
+339,PRIMARY,navier_stokes,0.0,46,random,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9986*advection_omega,1,1,0.001421
+340,PRIMARY,navier_stokes,0.0,46,fixed,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9981*advection_omega,1,1,0.00191
+341,PRIMARY,navier_stokes,0.01,42,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9961*advection_omega,1,1,0.003852
+342,PRIMARY,navier_stokes,0.01,42,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9961*advection_omega,1,1,0.003852
+343,PRIMARY,navier_stokes,0.01,42,random,4,IDENTIFIED,omega_t = +0.0205*lap_omega -1.0087*advection_omega,1,1,0.023841
+344,PRIMARY,navier_stokes,0.01,42,fixed,2,IDENTIFIED,omega_t = +0.0201*lap_omega -1.0052*advection_omega,1,1,0.005152
+345,PRIMARY,navier_stokes,0.01,43,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0120*advection_omega,1,1,0.011971
+346,PRIMARY,navier_stokes,0.01,43,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0120*advection_omega,1,1,0.011971
+347,PRIMARY,navier_stokes,0.01,43,random,3,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0095*advection_omega,1,1,0.010213
+348,PRIMARY,navier_stokes,0.01,43,fixed,2,IDENTIFIED,omega_t = +0.0193*lap_omega -0.9900*advection_omega,1,1,0.037003
+349,PRIMARY,navier_stokes,0.01,44,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,1,0.011956
+350,PRIMARY,navier_stokes,0.01,44,cost_normalized,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,1,0.011956
+351,PRIMARY,navier_stokes,0.01,44,random,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0067*advection_omega,1,1,0.011956
+352,PRIMARY,navier_stokes,0.01,44,fixed,2,IDENTIFIED,omega_t = +0.0201*lap_omega -0.9954*advection_omega,1,1,0.006119
+353,PRIMARY,navier_stokes,0.01,45,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0195*lap_omega -0.9965*advection_omega,1,1,0.024466
+354,PRIMARY,navier_stokes,0.01,45,cost_normalized,2,IDENTIFIED,omega_t = +0.0195*lap_omega -0.9965*advection_omega,1,1,0.024466
+355,PRIMARY,navier_stokes,0.01,45,random,2,IDENTIFIED,omega_t = +0.0194*lap_omega -1.0005*advection_omega,1,1,0.029858
+356,PRIMARY,navier_stokes,0.01,45,fixed,2,IDENTIFIED,omega_t = +0.0194*lap_omega -1.0005*advection_omega,1,1,0.029858
+357,PRIMARY,navier_stokes,0.01,46,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,1,0.007652
+358,PRIMARY,navier_stokes,0.01,46,cost_normalized,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,1,0.007652
+359,PRIMARY,navier_stokes,0.01,46,random,2,IDENTIFIED,omega_t = +0.0202*lap_omega -1.0048*advection_omega,1,1,0.007652
+360,PRIMARY,navier_stokes,0.01,46,fixed,2,IDENTIFIED,omega_t = +0.0205*lap_omega -0.9939*advection_omega,1,1,0.023417
+361,PRIMARY,navier_stokes,0.05,42,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9770*advection_omega,1,1,0.022994
+362,PRIMARY,navier_stokes,0.05,42,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -0.9770*advection_omega,1,1,0.022994
+363,PRIMARY,navier_stokes,0.05,42,random,4,IDENTIFIED,omega_t = +0.0223*lap_omega -1.0397*advection_omega,2,0,0.116972
+364,PRIMARY,navier_stokes,0.05,42,fixed,2,IDENTIFIED,omega_t = +0.0203*lap_omega -1.0219*advection_omega,1,1,0.021873
+365,PRIMARY,navier_stokes,0.05,43,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0551*advection_omega,1,1,0.055135
+366,PRIMARY,navier_stokes,0.05,43,cost_normalized,2,IDENTIFIED,omega_t = +0.0200*lap_omega -1.0551*advection_omega,1,1,0.055135
+367,PRIMARY,navier_stokes,0.05,43,random,3,IDENTIFIED,omega_t = +0.0170*lap_omega,6,0,1.0
+368,PRIMARY,navier_stokes,0.05,43,fixed,2,IDENTIFIED,omega_t = +0.0165*lap_omega -0.9599*advection_omega,3,0,0.175036
+369,PRIMARY,navier_stokes,0.05,44,greedy_disagreement,3,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,1,0.07482
+370,PRIMARY,navier_stokes,0.05,44,cost_normalized,3,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,1,0.07482
+371,PRIMARY,navier_stokes,0.05,44,random,3,IDENTIFIED,omega_t = +0.0215*lap_omega -1.0372*advection_omega,1,1,0.07482
+372,PRIMARY,navier_stokes,0.05,44,fixed,2,IDENTIFIED,omega_t = -0.8090*advection_omega,6,0,1.0
+373,PRIMARY,navier_stokes,0.05,45,greedy_disagreement,3,IDENTIFIED,omega_t = +0.0214*lap_omega -1.0089*advection_omega,1,1,0.069682
+374,PRIMARY,navier_stokes,0.05,45,cost_normalized,3,IDENTIFIED,omega_t = +0.0214*lap_omega -1.0089*advection_omega,1,1,0.069682
+375,PRIMARY,navier_stokes,0.05,45,random,2,IDENTIFIED,omega_t = +0.0172*lap_omega -1.0069*advection_omega,2,0,0.140069
+376,PRIMARY,navier_stokes,0.05,45,fixed,2,IDENTIFIED,omega_t = +0.0172*lap_omega -1.0069*advection_omega,2,0,0.140069
+377,PRIMARY,navier_stokes,0.05,46,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,1,0.04368
+378,PRIMARY,navier_stokes,0.05,46,cost_normalized,2,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,1,0.04368
+379,PRIMARY,navier_stokes,0.05,46,random,2,IDENTIFIED,omega_t = +0.0209*lap_omega -1.0296*advection_omega,1,1,0.04368
+380,PRIMARY,navier_stokes,0.05,46,fixed,2,IDENTIFIED,omega_t = +0.0224*lap_omega -0.9765*advection_omega,2,0,0.118917
+381,PRIMARY,navier_stokes,0.1,42,greedy_disagreement,2,IDENTIFIED,omega_t = +0.0156*lap_omega -0.9581*advection_omega -0.0199*omega,3,0,0.219345
+382,PRIMARY,navier_stokes,0.1,42,cost_normalized,2,IDENTIFIED,omega_t = +0.0156*lap_omega -0.9581*advection_omega -0.0199*omega,3,0,0.219345
+383,PRIMARY,navier_stokes,0.1,42,random,4,IDENTIFIED,omega_t = +0.0247*lap_omega,6,0,1.0
+384,PRIMARY,navier_stokes,0.1,42,fixed,3,IDENTIFIED,omega_t = +0.0205*lap_omega -1.0428*advection_omega,1,1,0.042775
+385,PRIMARY,navier_stokes,0.1,43,greedy_disagreement,3,IDENTIFIED,omega_t = +0.0199*lap_omega -1.1101*advection_omega,2,0,0.110143
+386,PRIMARY,navier_stokes,0.1,43,cost_normalized,3,IDENTIFIED,omega_t = +0.0199*lap_omega -1.1101*advection_omega,2,0,0.110143
+387,PRIMARY,navier_stokes,0.1,43,random,2,IDENTIFIED,omega_t = +0.1031*lap_omega -2.9860*advection_omega -0.0248*1 +0.1981*omega,6,0,4.15532
+388,PRIMARY,navier_stokes,0.1,43,fixed,2,IDENTIFIED,omega_t = +0.0170*lap_omega,6,0,1.0
+389,PRIMARY,navier_stokes,0.1,44,greedy_disagreement,2,IDENTIFIED,omega_t = -0.7730*advection_omega,6,0,1.0
+390,PRIMARY,navier_stokes,0.1,44,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+391,PRIMARY,navier_stokes,0.1,44,random,2,IDENTIFIED,omega_t = -1.0696*advection_omega,6,0,1.0
+392,PRIMARY,navier_stokes,0.1,44,fixed,2,IDENTIFIED,omega_t = -0.7730*advection_omega,6,0,1.0
+393,PRIMARY,navier_stokes,0.1,45,greedy_disagreement,3,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,0,0.140965
+394,PRIMARY,navier_stokes,0.1,45,cost_normalized,3,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,0,0.140965
+395,PRIMARY,navier_stokes,0.1,45,random,3,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,0,0.140965
+396,PRIMARY,navier_stokes,0.1,45,fixed,3,IDENTIFIED,omega_t = +0.0228*lap_omega -1.0182*advection_omega,2,0,0.140965
+397,PRIMARY,navier_stokes,0.1,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+398,PRIMARY,navier_stokes,0.1,46,cost_normalized,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+399,PRIMARY,navier_stokes,0.1,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+400,PRIMARY,navier_stokes,0.1,46,fixed,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+401,HELD_OUT,brusselator,0.0,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0681*lap_u -1.6849*1 -1.8584*u +0.6801*u^2*v +0.5010*v -0.0248*lap_v,6,0,2.684853
+402,HELD_OUT,brusselator,0.0,42,random,2,IDENTIFIED,u_t = +0.0681*lap_u -1.6849*1 -1.8584*u +0.6801*u^2*v +0.5010*v -0.0248*lap_v,6,0,2.684853
+403,HELD_OUT,brusselator,0.0,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0670*lap_u -1.0732*1 -2.2435*u +0.7272*u^2*v +0.3786*v -0.0237*lap_v,6,0,2.073196
+404,HELD_OUT,brusselator,0.0,43,random,2,IDENTIFIED,u_t = +0.0670*lap_u -1.0732*1 -2.2435*u +0.7272*u^2*v +0.3786*v -0.0237*lap_v,6,0,2.073196
+405,HELD_OUT,brusselator,0.0,44,greedy_disagreement,2,IDENTIFIED,u_t = -4.0148*1 +0.3912*u^2*v +0.9490*v -0.0647*lap_v,6,0,5.014842
+406,HELD_OUT,brusselator,0.0,44,random,2,IDENTIFIED,u_t = -4.0148*1 +0.3912*u^2*v +0.9490*v -0.0647*lap_v,6,0,5.014842
+407,HELD_OUT,brusselator,0.0,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0696*lap_u -3.8913*1 -0.3092*u +0.4670*u^2*v +0.9331*v -0.0226*lap_v,6,0,4.891332
+408,HELD_OUT,brusselator,0.0,45,random,2,IDENTIFIED,u_t = +0.0696*lap_u -3.8913*1 -0.3092*u +0.4670*u^2*v +0.9331*v -0.0226*lap_v,6,0,4.891332
+409,HELD_OUT,brusselator,0.0,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0728*lap_u -1.9196*1 -1.6678*u +0.6522*u^2*v +0.5434*v -0.0219*lap_v,6,0,2.919602
+410,HELD_OUT,brusselator,0.0,46,random,2,IDENTIFIED,u_t = +0.0728*lap_u -1.9196*1 -1.6678*u +0.6522*u^2*v +0.5434*v -0.0219*lap_v,6,0,2.919602
+411,HELD_OUT,brusselator,0.01,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0693*lap_u -1.5090*1 -1.9632*u +0.6919*u^2*v +0.4655*v -0.0235*lap_v,6,0,2.508992
+412,HELD_OUT,brusselator,0.01,42,random,2,IDENTIFIED,u_t = +0.0693*lap_u -1.5090*1 -1.9632*u +0.6919*u^2*v +0.4655*v -0.0235*lap_v,6,0,2.508992
+413,HELD_OUT,brusselator,0.01,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0696*lap_u +0.0759*1 -3.1334*u +0.8581*u^2*v +0.1612*v -0.0221*lap_v,6,0,0.924113
+414,HELD_OUT,brusselator,0.01,43,random,2,IDENTIFIED,u_t = +0.0696*lap_u +0.0759*1 -3.1334*u +0.8581*u^2*v +0.1612*v -0.0221*lap_v,6,0,0.924113
+415,HELD_OUT,brusselator,0.01,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.0728*lap_u -4.1930*1 +0.4148*u^2*v +0.9829*v -0.0197*lap_v,6,0,5.193029
+416,HELD_OUT,brusselator,0.01,44,random,2,IDENTIFIED,u_t = +0.0728*lap_u -4.1930*1 +0.4148*u^2*v +0.9829*v -0.0197*lap_v,6,0,5.193029
+417,HELD_OUT,brusselator,0.01,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0693*lap_u -2.3513*1 -1.3614*u +0.6080*u^2*v +0.6297*v -0.0225*lap_v,6,0,3.351348
+418,HELD_OUT,brusselator,0.01,45,random,2,IDENTIFIED,u_t = +0.0693*lap_u -2.3513*1 -1.3614*u +0.6080*u^2*v +0.6297*v -0.0225*lap_v,6,0,3.351348
+419,HELD_OUT,brusselator,0.01,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0721*lap_u -1.5650*1 -1.8959*u +0.6812*u^2*v +0.4725*v -0.0220*lap_v,6,0,2.565031
+420,HELD_OUT,brusselator,0.01,46,random,2,IDENTIFIED,u_t = +0.0721*lap_u -1.5650*1 -1.8959*u +0.6812*u^2*v +0.4725*v -0.0220*lap_v,6,0,2.565031
+421,HELD_OUT,brusselator,0.05,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0738*lap_u +0.6709*1 -3.4854*u +0.8970*u^2*v +0.0415*v -0.0182*lap_v,6,0,0.329071
+422,HELD_OUT,brusselator,0.05,42,random,2,IDENTIFIED,u_t = +0.0738*lap_u +0.6709*1 -3.4854*u +0.8970*u^2*v +0.0415*v -0.0182*lap_v,6,0,0.329071
+423,HELD_OUT,brusselator,0.05,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0800*lap_u +4.2127*1 -6.3501*u +1.3329*u^2*v -0.6204*v -0.0156*lap_v,6,0,3.212732
+424,HELD_OUT,brusselator,0.05,43,random,2,IDENTIFIED,u_t = +0.0800*lap_u +4.2127*1 -6.3501*u +1.3329*u^2*v -0.6204*v -0.0156*lap_v,6,0,3.212732
+425,HELD_OUT,brusselator,0.05,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.0780*lap_u -3.9868*1 +0.3977*u^2*v +0.9317*v -0.0116*lap_v,6,0,4.986787
+426,HELD_OUT,brusselator,0.05,44,random,2,IDENTIFIED,u_t = +0.0780*lap_u -3.9868*1 +0.3977*u^2*v +0.9317*v -0.0116*lap_v,6,0,4.986787
+427,HELD_OUT,brusselator,0.05,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0675*lap_u +6.3309*1 -7.4415*u +1.4380*u^2*v -1.0671*v -0.0217*lap_v,6,0,5.330905
+428,HELD_OUT,brusselator,0.05,45,random,2,IDENTIFIED,u_t = +0.0675*lap_u +6.3309*1 -7.4415*u +1.4380*u^2*v -1.0671*v -0.0217*lap_v,6,0,5.330905
+429,HELD_OUT,brusselator,0.05,46,greedy_disagreement,2,IDENTIFIED,u_t = +0.0689*lap_u -1.1095*1 -2.0867*u +0.6933*u^2*v +0.3724*v -0.0226*lap_v,6,0,2.109495
+430,HELD_OUT,brusselator,0.05,46,random,2,IDENTIFIED,u_t = +0.0689*lap_u -1.1095*1 -2.0867*u +0.6933*u^2*v +0.3724*v -0.0226*lap_v,6,0,2.109495
+431,HELD_OUT,brusselator,0.1,42,greedy_disagreement,2,IDENTIFIED,u_t = +0.0958*lap_u -3.8761*1 +0.3869*u^2*v +0.9053*v,6,0,4.876132
+432,HELD_OUT,brusselator,0.1,42,random,2,IDENTIFIED,u_t = +0.0958*lap_u -3.8761*1 +0.3869*u^2*v +0.9053*v,6,0,4.876132
+433,HELD_OUT,brusselator,0.1,43,greedy_disagreement,2,IDENTIFIED,u_t = +0.0933*lap_u +7.7774*1 -9.1700*u +1.7545*u^2*v -1.2906*v -0.0077*lap_v,6,0,6.777374
+434,HELD_OUT,brusselator,0.1,43,random,2,IDENTIFIED,u_t = +0.0933*lap_u +7.7774*1 -9.1700*u +1.7545*u^2*v -1.2906*v -0.0077*lap_v,6,0,6.777374
+435,HELD_OUT,brusselator,0.1,44,greedy_disagreement,2,IDENTIFIED,u_t = +0.0850*lap_u -3.7115*1 +0.3752*u^2*v +0.8629*v -0.0013*lap_v,6,0,4.711452
+436,HELD_OUT,brusselator,0.1,44,random,2,IDENTIFIED,u_t = +0.0850*lap_u -3.7115*1 +0.3752*u^2*v +0.8629*v -0.0013*lap_v,6,0,4.711452
+437,HELD_OUT,brusselator,0.1,45,greedy_disagreement,2,IDENTIFIED,u_t = +0.0631*lap_u +19.2664*1 -16.5936*u +2.6969*u^2*v -3.5863*v -0.0217*lap_v,6,0,18.266443
+438,HELD_OUT,brusselator,0.1,45,random,2,IDENTIFIED,u_t = +0.0631*lap_u +19.2664*1 -16.5936*u +2.6969*u^2*v -3.5863*v -0.0217*lap_v,6,0,18.266443
+439,HELD_OUT,brusselator,0.1,46,greedy_disagreement,4,IDENTIFIED,u_t = +0.1001*lap_u -3.2837*1 +0.3682*u^2*v +0.7276*v -0.0132*lap_v,6,0,4.283702
+440,HELD_OUT,brusselator,0.1,46,random,3,IDENTIFIED,u_t = +0.0648*lap_u -2.4088*1 -0.9233*u +0.5075*u^2*v +0.6038*v -0.0239*lap_v,6,0,3.408821
+441,HELD_OUT,cahn_hilliard,0.0,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+442,HELD_OUT,cahn_hilliard,0.0,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+443,HELD_OUT,cahn_hilliard,0.0,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+444,HELD_OUT,cahn_hilliard,0.0,43,random,2,IDENTIFIED,u_t = +0.1197*u -9.9240*u_xx -0.2300*u_xxxx -0.0722*u^3 +9.9888*(u^3)_xx,6,0,22.004918
+445,HELD_OUT,cahn_hilliard,0.0,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+446,HELD_OUT,cahn_hilliard,0.0,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+447,HELD_OUT,cahn_hilliard,0.0,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+448,HELD_OUT,cahn_hilliard,0.0,45,random,2,IDENTIFIED,u_t = +0.2221*u -9.8088*u_xx -0.2316*u_xxxx +10.0012*(u^3)_xx,6,0,22.156515
+449,HELD_OUT,cahn_hilliard,0.0,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+450,HELD_OUT,cahn_hilliard,0.0,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+451,HELD_OUT,cahn_hilliard,0.01,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+452,HELD_OUT,cahn_hilliard,0.01,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+453,HELD_OUT,cahn_hilliard,0.01,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+454,HELD_OUT,cahn_hilliard,0.01,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+455,HELD_OUT,cahn_hilliard,0.01,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+456,HELD_OUT,cahn_hilliard,0.01,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+457,HELD_OUT,cahn_hilliard,0.01,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+458,HELD_OUT,cahn_hilliard,0.01,45,random,2,IDENTIFIED,u_t = +0.4397*u -10.3483*u_xx -0.2221*u_xxxx +0.4916*u*u_x +0.4460*u^3 +11.2551*(u^3)_xx,6,0,21.210152
+459,HELD_OUT,cahn_hilliard,0.01,46,greedy_disagreement,2,IDENTIFIED,u_t = -9.7293*u_xx -0.1877*u_xxxx +9.7445*(u^3)_xx,6,0,17.772282
+460,HELD_OUT,cahn_hilliard,0.01,46,random,2,IDENTIFIED,u_t = -9.7293*u_xx -0.1877*u_xxxx +9.7445*(u^3)_xx,6,0,17.772282
+461,HELD_OUT,cahn_hilliard,0.05,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+462,HELD_OUT,cahn_hilliard,0.05,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+463,HELD_OUT,cahn_hilliard,0.05,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+464,HELD_OUT,cahn_hilliard,0.05,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+465,HELD_OUT,cahn_hilliard,0.05,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+466,HELD_OUT,cahn_hilliard,0.05,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+467,HELD_OUT,cahn_hilliard,0.05,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+468,HELD_OUT,cahn_hilliard,0.05,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+469,HELD_OUT,cahn_hilliard,0.05,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+470,HELD_OUT,cahn_hilliard,0.05,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+471,HELD_OUT,cahn_hilliard,0.1,42,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+472,HELD_OUT,cahn_hilliard,0.1,42,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+473,HELD_OUT,cahn_hilliard,0.1,43,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+474,HELD_OUT,cahn_hilliard,0.1,43,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+475,HELD_OUT,cahn_hilliard,0.1,44,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+476,HELD_OUT,cahn_hilliard,0.1,44,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+477,HELD_OUT,cahn_hilliard,0.1,45,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+478,HELD_OUT,cahn_hilliard,0.1,45,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+479,HELD_OUT,cahn_hilliard,0.1,46,greedy_disagreement,4,NONIDENTIFIABLE,NONE,6,0,-1.0
+480,HELD_OUT,cahn_hilliard,0.1,46,random,4,NONIDENTIFIABLE,NONE,6,0,-1.0

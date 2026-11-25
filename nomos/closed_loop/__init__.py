@@ -4,7 +4,13 @@ Milestone M5: Closed-Loop Physical Law Discovery & Falsifiable Experimentation
 """
 
 from nomos.closed_loop.portfolio import ScientificHypothesis, HypothesisPortfolio
-from nomos.closed_loop.oracle import SimulationOracle, ExperimentRequest, ExperimentResponse
+from nomos.closed_loop.oracle import (
+    SimulationOracle,
+    ExperimentRequest,
+    ExperimentResponse,
+    ExperimentCost,
+    BudgetExceededError,
+)
 from nomos.closed_loop.acquisition import ExperimentAcquisitionEngine, AcquisitionStrategy
 from nomos.closed_loop.diagnostics import IdentifiabilityStatus, IdentifiabilityAuditor
 from nomos.closed_loop.controller import ClosedLoopController, InvestigationEpisode
@@ -15,6 +21,8 @@ __all__ = [
     "SimulationOracle",
     "ExperimentRequest",
     "ExperimentResponse",
+    "ExperimentCost",
+    "BudgetExceededError",
     "ExperimentAcquisitionEngine",
     "AcquisitionStrategy",
     "IdentifiabilityStatus",

@@ -1,6 +1,7 @@
 """
 NOMOS Simulation Oracle & Sandboxed Experimentation Boundary
 Guarantees strict physical isolation between the discovery agent and ground truth physics.
+Enforces hard query-budget rejection at the quarantine boundary.
 """
 
 from dataclasses import dataclass, field
@@ -10,6 +11,11 @@ import numpy as np
 
 from nomos.pde.schema import Grid1D, Grid2D, TimeGrid, SpatiotemporalField
 from nomos.pde.isolation import create_learner_field_observation
+
+
+class BudgetExceededError(RuntimeError):
+    """Raised when an experiment query is attempted beyond the allocated budget."""
+    pass
 
 
 @dataclass
@@ -57,11 +63,13 @@ class SimulationOracle:
     Quarantined Physical Simulation Oracle.
     Executes the true simulator internally but strictly purges all ground-truth
     equations, true derivatives, and exact parameters before returning data to the agent.
+    Enforces a strict, hard rejection if query budget is exceeded.
     """
 
-    def __init__(self, simulator: Any, grid: Any):
+    def __init__(self, simulator: Any, grid: Any, max_budget: Optional[int] = None):
         self._simulator = simulator
         self._grid = grid
+        self._max_budget = int(max_budget) if max_budget is not None else None
         self._query_count = 0
         self._cumulative_cost = ExperimentCost(trajectory_queries=0)
 
@@ -70,11 +78,28 @@ class SimulationOracle:
         return self._query_count
 
     @property
+    def max_budget(self) -> Optional[int]:
+        return self._max_budget
+
+    @max_budget.setter
+    def max_budget(self, budget: Optional[int]) -> None:
+        self._max_budget = int(budget) if budget is not None else None
+
+    @property
     def cumulative_cost(self) -> ExperimentCost:
         return self._cumulative_cost
 
     def execute_experiment(self, request: ExperimentRequest) -> ExperimentResponse:
-        """Execute simulation experiment and return sanitized observations."""
+        """
+        Execute simulation experiment and return sanitized observations.
+        Raises BudgetExceededError if query budget is exceeded.
+        """
+        if self._max_budget is not None and self._query_count >= self._max_budget:
+            raise BudgetExceededError(
+                f"Simulation oracle query budget exhausted: maximum {self._max_budget} queries allowed, "
+                f"attempted query {self._query_count + 1}."
+            )
+
         t0 = time.time()
         self._query_count += 1
 
